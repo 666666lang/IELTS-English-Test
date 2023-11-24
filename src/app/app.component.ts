@@ -34,7 +34,7 @@ export class AppComponent {
     this.step++;
     this.failFlag = false;
     this.inputWord = '';
-    if(this.step == 10){
+    if(this.step == 100){
       alert("你的成绩为" + this.score + '分')
     }
     let k = Object.keys(this.utily.data[0])
