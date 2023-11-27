@@ -1,28 +1,32 @@
-import { Component } from '@angular/core';
-import { Router} from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-kword-detail',
+  templateUrl: './kword-detail.component.html',
+  styleUrls: ['./kword-detail.component.css']
 })
-export class AppComponent {
+export class KwordDetailComponent implements OnInit {
   title = 'kword';
-  utily = require('./kword')
+  utily = require('../../kword')
   description = ''
   value = ''
   inputWord = ''
   failFlag = false;
   score = 0;
   step = 0;
+  constructor(
+    public router: Router,
+    private route: ActivatedRoute
+  ) { }
 
   ngOnInit(): void {
     this.new();
+    // this.route.queryParams.subscribe((data)=>{
+    //   debugger
+    //   console.log(data)
+    // })
   }
-
-  constructor(
-    public router: Router,
-  ) { }
 
   submit(){
     if(this.value == this.inputWord){
@@ -47,10 +51,6 @@ export class AppComponent {
     let n = Math.floor(Math.random()*Object.keys(this.utily.data[0]).length)
     this.description = String(v[n]);
     this.value = String(k[n])
-  }
-
-  kword(e:any){
-    this.router.navigate(['/kword'], {queryParams: {value : 'e'}})
   }
 
 }
