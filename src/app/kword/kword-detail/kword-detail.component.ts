@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { AppServiseService } from 'src/app/app-servise.service';
 
 @Component({
   selector: 'app-kword-detail',
@@ -15,17 +16,21 @@ export class KwordDetailComponent implements OnInit {
   failFlag = false;
   score = 0;
   step = 0;
+  level = 0;
+  tempWord = {};
   constructor(
     public router: Router,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    public appservise: AppServiseService
   ) { }
 
   ngOnInit(): void {
+    this.level = this.appservise.level;
+    for(let i = 0;i<this.level;i++){
+      this.tempWord = Object.assign(this.tempWord, this.utily.data[i]);
+    }
     this.new();
-    // this.route.queryParams.subscribe((data)=>{
-    //   debugger
-    //   console.log(data)
-    // })
+    debugger
   }
 
   submit(){
@@ -46,9 +51,9 @@ export class KwordDetailComponent implements OnInit {
     if(this.step == 100){
       alert("你的成绩为" + this.score + '分')
     }
-    let k = Object.keys(this.utily.data[0])
-    let v = Object.values(this.utily.data[0])
-    let n = Math.floor(Math.random()*Object.keys(this.utily.data[0]).length)
+    let k = Object.keys(this.tempWord)
+    let v = Object.values(this.tempWord)
+    let n = Math.floor(Math.random()*Object.keys(this.tempWord).length)
     this.description = String(v[n]);
     this.value = String(k[n])
   }

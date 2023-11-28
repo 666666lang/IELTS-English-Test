@@ -5,9 +5,8 @@ import { KwordDetailComponent } from './kword/kword-detail/kword-detail.componen
 import { HomeComponent } from './kword/home/home.component';
 
 const routes:Routes = [
-  {path: 'home', component: HomeComponent},
+  {path: '', component: HomeComponent},
   {path: 'kword', component: KwordDetailComponent},
-  {path: '', redirectTo: 'home', pathMatch: 'full'}
 ];
 
 

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { AppServiseService } from 'src/app/app-servise.service';
 
 @Component({
   selector: 'app-home',
@@ -10,6 +11,7 @@ export class HomeComponent implements OnInit {
 
   constructor(
     public router: Router,
+    public appservise: AppServiseService
   ) { 
     
   }
@@ -18,7 +20,8 @@ export class HomeComponent implements OnInit {
   }
 
   kword(e:any){
-    // this.router.navigate(['/kword',{queryParams: {key : e}}])
+    this.router.navigate(['/kword'])
+    this.appservise.level = e;
   }
 
 }
