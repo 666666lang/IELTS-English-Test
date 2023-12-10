@@ -2353,6 +2353,24 @@ export let data = [
       Germany:'n.德国'
     },
     {
+      //Chapter 16
+      economy:'n.经济；节约',
+      trade:'n.贸易；v.交换',
+      market:'n.市场；市场需求',
+      industry:'n.工业；产业；勤劳',
+      merchant:'n.商人；adj.商业的',
+      financial:'adj.财政的；金融的',
+      fund:'v.资助；n.基金',
+      donate:'v.捐献，捐赠',
+      endow:'v.捐赠；赋予',
+      commercial:'adj.商业的；n.商业广告',
+      advertise:'v.做广告',
+      slogan:'n.标语，口号',
+      purchase:'n./v. 购买',
+      lease:'n.租约；v.出租；租用',
+      afford:'v.负担得起；提供，给予',
+      retail:'n.零售；v.零售；以......价格零售',
+      chain:'n.连锁店；一连串（人或事物）',
       
     }
   ]
