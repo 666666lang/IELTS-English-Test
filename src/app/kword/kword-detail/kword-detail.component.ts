@@ -30,7 +30,6 @@ export class KwordDetailComponent implements OnInit {
       this.tempWord = Object.assign(this.tempWord, this.utily.data[i]);
     }
     this.new();
-    debugger
   }
 
   submit(){
