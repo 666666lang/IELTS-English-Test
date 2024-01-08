@@ -21,7 +21,6 @@ export let data = [
       calamity: "n.灾难，不幸的事",
       endanger: "v.使遭受危险，危及",
       jeopardise:'v.危害，危及',
-      destructive:'adj.破坏性的，有害的',
       greenhouse:'n.温室，暖房',
       phenomenon: 'n.现象',
       pebble: 'n.鹅卵石',
@@ -240,7 +239,6 @@ export let data = [
     },
     {
       //Chapter 2
-      photosynthesis:'n.光合作用',
       respire:'v.呼吸',
       dioxide:'n.二氧化物',
       vegetation:'n.草木，植物',
