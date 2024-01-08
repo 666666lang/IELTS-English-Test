@@ -76,7 +76,6 @@ export let data = [
       degrade:'v.降解；降低......的身份；使恶化，使退化',
       upgrade:'v.使升级；提高，改善',
       erode:'v.腐蚀，侵蚀',
-      Mediterranean: 'adj.地中海的；地中海地区的；n.地中海；地中海地区',
       Atlantic:'adj.大西洋；n.【the~】大西洋',
       pacific:'adj.平静的，和平的；太平洋的；n.【the~】太平洋',
       ocean:'n.海洋；（五大洋之一的）洋',
