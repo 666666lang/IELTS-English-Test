@@ -2,7 +2,6 @@ export let data = [
     {
     //Chapter 1
       atmosphere:"n.大气层，大气圈；气氛",
-      hydrosphere:"n.水圈；大气中的水汽",
       lithosphere:"n.岩石圈",
       oxygen:"n.氧气",
       oxide:"n.氧化物",
@@ -354,7 +353,6 @@ export let data = [
       considerable:'adj.相当多的',
       massive:'adj.巨大的，大规模的；庞大的',
       immense:'adj.巨大的',
-      maximal:'adj.最大的',
       optimal:'adj.最佳的，最理想的'
     },
     {
@@ -381,7 +379,6 @@ export let data = [
       beast:'n.兽，野兽；凶残的人，畜生',
       brute:'n.粗野的人，残忍的人',
       cruel:'adj.残酷的，残忍的，残暴的',
-      originate:'v.发源，来自；创始',
       stem:'v.起源于，来自；n.茎，梗',
       ancestor:'n.祖宗，祖先',
       descendant:'n.后裔，后代；adj.下降的',
@@ -554,7 +551,6 @@ export let data = [
       observatory:'n.天文台',
       telescope:'n.望远镜',
       orbit:'n.轨道',
-      ecliptic:'n.黄道',
       diameter:'n.直径',
       radius:'n.半径',
       substance:'n.物质；实质，要旨',
@@ -690,7 +686,6 @@ export let data = [
       senior:'n.【美】(大学或高中)毕业班学生；较年长者；adj.成人的；级别（或地位）高的',
       alumni:'n.毕业生，校友',
       campus:'n.(大专院校的)校园',
-      orientation:'n.(学前，岗前等的)情况介绍；迎新会；方向',
       platform:'n.平台；讲台',
       coed:'adj.男女同校的;n.（男女同学的大学中的）女生',
       register:'v.登记，注册；n.登记表，注册薄',
@@ -998,7 +993,6 @@ export let data = [
       //Chapter 6
       technology:'n.技术',
       technique:'n.技巧；技术',
-      polytechnic:'adj.有关多种工艺的；n.理工学院',
       engineer:'n.工程师，技师',
       mechanic:'n.技工，机械师，机修工',
       advance:'n./v.发展；前进',
@@ -1184,7 +1178,6 @@ export let data = [
        guardian:'n.保卫者；监护人；adj.守护的',
        nostalgia:'n.思乡之情；怀旧之情',
        homesick:'adj.思乡之情',
-       celebrity:'n.名人；名誉',
        status:'n.地位，身份',
        background:'n.背景；（个人出生，受教育）经历',
        experience:'n.经验；（一次）经历，体验',
@@ -1234,7 +1227,6 @@ export let data = [
       root:'n.词根，字根；根源',
       prefix:'n.词首，前缀；前置代号',
       suffix:'n.后缀，词尾；尾标',
-      abbreviation:'n.缩写形式',
       synonym:'n.同义词',
       antonym:'n.反义词',
       noun:'n.名词',
@@ -1380,7 +1372,6 @@ export let data = [
       exercise:'n.锻炼，运动；习题，练习；v.锻炼',
       indoor:'adj.室内的',
       outdoor:'adj.户外的，室外的',
-      motion:'v.做动作，示意',
       mobile:'adj.可移动的；流动的',
       movement:'n.(身体部位的)活动；运动；移动',
       yoga:'n.瑜伽',
