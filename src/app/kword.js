@@ -1,6 +1,60 @@
 export let data = [
     {
-    //Chapter 1
+      //Chapter 1
+      daily:'adj.每日的；n.日报',
+      monthly:'adj.每月的；adv.每月一次；n.月刊',
+      quarterly:'adj.季度的；adv.按季度地；n.季刊',
+      annual:'adj.每年的；一年的；n.年报',
+      anniversary:'n.周年纪念日',
+      era:'n.时代，年代，纪元',
+      present:'adj.现在的；n.目前；礼物，赠送物',
+      contemporary:'adj.当代的；同时代的',
+      medieval:'adj.中世纪的；守旧的',
+      century:'n.世纪，百年',
+      millennium:'n.一千年，千年期；千禧年',
+      million:'num.百万；大量',
+      billion:'num.十亿；大量',
+      dozen:'n.一打，十二个；十来个',
+      dawn:'n.黎明；开端；v.破晓',
+      midday:'n.正午，中午',
+      midnight:'n.午夜，子夜，半夜',
+      overnight:'adv.在晚上；突然，一夜之间',
+      night:'n.夜，夜间；晚上；夜场',
+      modern:'adj.现代的；近代的',
+      recent:'adj.新近的，最近的',
+      up_to_date:'adj.直到目前的；现代的',
+      first:'adj.最初，第一',
+      secondly:'adv.第二，其次',
+      finally:'adv.最后；终于；决定性地',
+      finish:'v.完成；结束；n.结尾，最后部分',
+      immediately:'adv.立即；直接地',
+      instant:'n.瞬间;adj.立即的',
+      moment:'n.片刻；时刻',
+      minute:'n.分，分钟；一会儿；adj.细微的',
+      prior:'adj.在先的，在前的',
+      former:'adj.以前的；前者的；pron.前者',
+      preceding:'adj.在前的，在先的',
+      precedent:'n.先例；常规',
+      foremost:'adj.最前的；最重要的',
+      opening:'adj.开始的；n.开始，开端',
+      initially:'adv.最初',
+      intermediate:'adj.中间的',
+      midst:'n.中部，中间',
+      meantime:'n.其间，同时；眼下，暂时',
+      meanwhile:'adv.同时，其间',
+      simultaneous:'adj.同时发生（或进行）的',
+      ongoing:'adj.进行中的；继续存在的',
+      everlasting:'adj.永恒的',
+      permanent:'adj.永久的',
+      punctual:'adj.准时的，守时的',
+      duration:'n.持续时间；期间',
+      consecutive:'adj.连续不断的',
+      periodically:'adv.周期性地，定期地',
+      imminent:'adj.(尤指不愉快的事)即将发生的，逼近的',
+      incidentally:'adv.偶然地；顺便提一句'
+    },
+    {
+    //Chapter 2
       atmosphere:"n.大气层，大气圈；气氛",
       lithosphere:"n.岩石圈",
       oxygen:"n.氧气",
@@ -9,10 +63,8 @@ export let data = [
       hydrogen:"氢气",
       core:"n.中心，核心；地核",
       crust:"n.地壳；外壳",
-      mantle:"n.地幔，斗篷，披风；v.覆盖",
       longitude: "n.经度",
       latitude: "n.纬度",
-      horizon: "n.地平线；眼界，见识",
       altitude: "n.高度，海拔",
       disaster: "n.灾难",
       mishap:"n.小灾难",
@@ -220,7 +272,7 @@ export let data = [
       petroleum:'n.石油'
     },
     {
-      //Chapter 2
+      //Chapter 3
       respire:'v.呼吸',
       dioxide:'n.二氧化物',
       vegetation:'n.草木，植物',
@@ -252,7 +304,6 @@ export let data = [
       heap:'n.（大而杂乱的）堆',
       bunch:'n.一束（花）,一串（钥匙）',
       vase:'n.瓶，花瓶',
-      sunlight:'n.阳光',
       short_day:'adj.短日照的',
       shade_tolerant:'adj.耐阴的',
       fungus:'n.真菌',
@@ -293,7 +344,6 @@ export let data = [
       olive:'n.橄榄；橄榄树',
       pine:'n.松树；松木',
       vine:'n.葡萄藤',
-      violet:'n.堇菜',
       tulip:'n.郁金香',
       mint:'n.薄荷；薄荷糖；铸币厂；v.铸造（硬币）',
       reef:'n.(暗)礁，礁脉',
@@ -334,7 +384,7 @@ export let data = [
       optimal:'adj.最佳的，最理想的'
     },
     {
-      //Chapter 3
+      //Chapter 4
       biologist:'n.生物学家',
       zoologist:'n.动物学家',
       ecologist:'n.生态学家',
@@ -420,8 +470,6 @@ export let data = [
       hawk:'n.鹰，隼',
       eagle:'n.雕',
       owl:'n.猫头鹰',
-      swallow:'n.燕子',
-      sparrow:'n.麻雀',
       pigeon:'n.鸽子',
       crow:'n.乌鸦',
       swan:'n.天鹅',
@@ -487,7 +535,7 @@ export let data = [
       shepherd:'n.牧羊人'
     },
     {
-      //Chapter 4
+      //Chapter 5
       galaxy:'n.星系；【the ~】银行系',
       cosmos:'n.宇宙',
       universe:'n.宇宙；万物，世界',
@@ -520,7 +568,6 @@ export let data = [
       fossil:'n.化石',
       sample:'n.样品，样本',
       specimen:'n.样品，样本',
-      particle:'n.颗粒，微粒；极小量',
       molecule:'n.分子',
       atom:'n.原子',
       ion:'n.离子',
@@ -548,7 +595,7 @@ export let data = [
       hopeless:'adj.无望的；极差的'
     },
     {
-      //Chapter 5
+      //Chapter 6
       education:'n.教育；教育学',
       primary:'adj.最初的；主要的；小学教育的',
       secondary:'adj.中等教育的；次要的',
@@ -609,7 +656,6 @@ export let data = [
       skill:'n.技巧，技能',
       approach:'n.方法；v.接近',
       scheme:'n.计划，方案；阴谋；v.谋划',
-      headmaster:'n.【英】男校长',
       principal:'n.【美】（中小学）校长；【英】大学校长，学院院长；adj.首要的',
       dean:'n.（大学的）学院院长，系主任',
       professor:'n.教授',
@@ -665,7 +711,6 @@ export let data = [
       journal:'n.日报，周报；（尤指专门学科的）杂志；日志',
       coverage:'n.新闻报道；覆盖范围',
       bibliography:'n.参考书目',
-      encyclopedia:'n.百科全书',
       biography:'n.传记',
       documentary:'n.纪录片；adj.纪录的',
       series:'n.连续；一系列；系列节目',
@@ -935,7 +980,7 @@ export let data = [
       fee:'n.酬金；费用',
     },
     {
-      //Chapter 6
+      //Chapter 7
       technology:'n.技术',
       technique:'n.技巧；技术',
       engineer:'n.工程师，技师',
@@ -1041,11 +1086,9 @@ export let data = [
       mistake:'n.错误；v.误解',
       flaw:'n.缺陷；错误',
       fault:'n.缺点；故障；v.找出缺点',
-      stumble:'v.犯错误；绊脚；跌跌撞撞地走',
-      contingency:'n.意外事件，可能发生的事',
     },
     {
-       //Chapter 7
+       //Chapter 8
        culture:'n.文化，文明；教养',
        civilisation:'n.文明',
        epic:'n.史诗；adj.宏大的',
@@ -1055,7 +1098,6 @@ export let data = [
        custom:"n.习俗；（个人的）习惯",
        feudalism:'n.封建主义；封建制度',
        slavery:'n.奴隶制',
-       ethical:'adj.伦理的，道德的',
        moral:'adj.道德上的，有道德的；n.道德',
        tribe:'n.部落',
        aboriginal:'n.澳大利亚土著人；adj.本土原有的；土著的',
@@ -1064,7 +1106,6 @@ export let data = [
        exotic:'adj.外来的；异国情调的',
        foreigner:'n.外国人',
        alien:'n.外侨；外星生物；adj.外国的；陌生的',
-       humanitarian:'n.人道主义者;adj.人道主义的，博爱的',
        heritage:'n.(国家的)遗产',
        inherit:'v.继承（财产等）；经遗产获得',
        antique:'n.古董；adj.古董的',
@@ -1113,7 +1154,7 @@ export let data = [
        adversity:'n.逆境'
     },
     {
-      //Chapter 8
+      //Chapter 9
       language:'n.语言',
       symbol:'n.象征；符号，记号',
       sign:'n.符号；征兆，迹象；手势；v.签（名）',
@@ -1141,7 +1182,6 @@ export let data = [
       root:'n.词根，字根；根源',
       prefix:'n.词首，前缀；前置代号',
       suffix:'n.后缀，词尾；尾标',
-      synonym:'n.同义词',
       noun:'n.名词',
       singular:'n.单数；adj.单数的；非凡的',
       plural:'n.复数；adj.复数的;多元的',
@@ -1156,7 +1196,6 @@ export let data = [
       compile:'v.编纂',
       version:'n.译本；版本',
       translate:'v.翻译；使转变',
-      paraphrase:'v./n.意译，改述',
       interpret:'v.口译；解释，说明；领会，理解',
       narrate:'v.讲故事，叙述',
       illuminate:'v.阐释，说明；照亮',
@@ -1171,7 +1210,7 @@ export let data = [
       contention:'n.争论，争辩；观点'
     },
     {
-      //Chapter 9
+      //Chapter 10
       medium:'n.媒介；adj.中间的，中等的',
       press:'n.新闻界，记者；报刊；出版社',
       journalist:'n.记者，新闻工作者',
@@ -1255,7 +1294,6 @@ export let data = [
       violin:'n.小提琴',
       cello:'n.大提琴',
       guitar:'n.吉他',
-      harmonica:'n.口琴',
       trumpet:'n.喇叭，小号',
       drum:'n.鼓；鼓状物；大桶',
       flute:'n.长笛',
@@ -1269,7 +1307,6 @@ export let data = [
       spectator:'n.观众',
       volunteer:'n.志愿者；v.自愿做',
       famous:'adj.著名的，出名的',
-      well_known:'adj.众所周知的，出名的',
       energetic:'adj.充满活力的，精力充沛的',
       stadium:'n.体育场，运动场',
       gym:'n.体育活动；健身房，体育馆',
@@ -1338,7 +1375,7 @@ export let data = [
       bow:'v./n.鞠躬'
     },
     {
-      //Chapter 10
+      //Chapter 11
       stuff:'n.东西；原料',
       item:'n.一件物品，一件商品',
       merchandise:'n.商品',
@@ -1413,8 +1450,6 @@ export let data = [
       tag:'n.标签；称号',
       label:'n.标签，标贴',
       badge:'n.徽章；证章；标志，象征',
-      bolt:'n.螺栓；插销；v.闩上(门，窗)',
-      knob:'n.球形把手；旋钮',
       handle:'n.柄；把手；v.拿；处理',
       shutter:'n.百叶窗；（相机）快门；v.停止（营业）',
       curtain:'n.窗帘；帘；幕布；v.给......装上帘子',
@@ -1481,7 +1516,7 @@ export let data = [
       durable:'adj.耐用的，持久的'
     },
     {
-      //Chapter 11
+      //Chapter 12
       fashion:'n.时尚；v.制作，制成',
       style:'n.风格；样式；时尚',
       tendency:'n.趋势；倾向，偏好',
@@ -1509,7 +1544,6 @@ export let data = [
       perfect:'adj.完美的',
       appearence:'n.外貌；出现',
       cosmetics:'n.化妆品',
-      make_up:'n.化妆品；组成成分；性格',
       handsome:'adj.数量大的；英俊的',
       charming:'adj.迷人的',
       pretty:'adj.漂亮的；adv.相当地',
@@ -1555,7 +1589,6 @@ export let data = [
       needle:'n.针',
       pin:'n.别针，大头针；v.别住，钉住',
       string:'n.线；一串',
-      thread:'n.线；螺纹',
       strap:'n.带子；v.用带子系（或捆，扎）',
       stripe:'n.条纹',
       ribbon:'n.缎带，丝带',
@@ -1587,7 +1620,7 @@ export let data = [
       slight:'adj.纤细的；细微的'
     },
     {
-      //Chapter 12
+      //Chapter 13
       food:'n.食物',
       diet:'n.日常饮食；(医生指定的)特别饮食；节食',
       appetite:'n.食欲；强烈欲望',
@@ -1628,7 +1661,6 @@ export let data = [
       pan:'n.平底锅；【美】烤盘',
       pot:'n.锅；壶',
       stove:'n.炉子',
-      furnace:'n.熔炉',
       oven:'n.烤炉，烤箱',
       tin:'n.锡；罐头',
       lid:'n.盖子',
@@ -1666,7 +1698,6 @@ export let data = [
       grape:'n.葡萄',
       peach:'n.桃子',
       pear:'n.梨',
-      plum:'n.李子；梅子',
       orange:'n.橙子',
       melon:'n.瓜，甜瓜',
       lemon:'n.柠檬',
@@ -1753,7 +1784,7 @@ export let data = [
       slice:'v.将......切成薄片'
     },
     {
-      //Chapter 13
+      //Chapter 14
       architecture:'n.建筑风格；建筑学',
       structure:'n.建筑物；结构',
       construct:'v.建造',
@@ -1766,7 +1797,6 @@ export let data = [
       stability:'n.稳定（性）',
       venue:'n.发生地点，举行场所',
       landmark:'n.地标；里程碑',
-      situated:'adj.位于......的',
       locate:'v.放置，建立；找到',
       reside:'v.居住',
       inhabit:'v.居住于',
@@ -1843,7 +1873,6 @@ export let data = [
       carpenter:'n.木匠',
       mason:'n.石匠，泥瓦匠',
       tile:'n.瓦；瓷砖',
-      brickwork:'n.砖结构',
       suspension:'n.暂缓；暂令停职',
       hook:'n.钩，钩状物；勾拳',
       lever:'n.杠杆；操纵杆',
@@ -1882,7 +1911,7 @@ export let data = [
       internal:'adj.内部的；自身的；国内的',
     },
     {
-      //Chapter 14
+      //Chapter 15
       navigate:'v.航行；横渡',
       voyage:'n.航海，航天；航行',
       aviation:'n.航空；航空学；航空工业',
@@ -1979,7 +2008,6 @@ export let data = [
       channel:'n.航道；电视频道；海峡',
       canal:'n.运河；（人体内输送食物，空气等的）管',
       ditch:'n.沟，渠；v.抛弃',
-      railroad:'n.【美】铁路，铁路公司',
       railway:'n.【英】铁路，铁路系统',
       subway:'n.【英】地下通道；【美】地铁',
       underground:'adj.地下的；秘密的；n.【英】地铁',
@@ -2000,7 +2028,6 @@ export let data = [
       packet:'n.【英】包装盒；【英】小件包裹',
       package:'n.包裹；【美】盒，包；v.包装',
       bind:'v.捆，绑',
-      parcel:'v.打包，包；n.（土地的）一块；【英】包裹',
       load:'v.装载，装满；n.负荷；大量',
       burden:'v.使担负；n.重担，负担',
       transfer:'v.使迁移，使转移；使调动',
@@ -2012,7 +2039,7 @@ export let data = [
       swift:'adj.迅速的；敏捷的'
     },
     {
-      //Chapter 15
+      //Chapter 16
       republic:'n.共和国，共和政体',
       Marxism:'n.马克思主义',
       socialism:'n.社会主义',
@@ -2024,7 +2051,6 @@ export let data = [
       hierarchy:'n.等级制度；统治集团',
       democracy:'n.民主，民主制度；民主国家',
       bureaucracy:'n.官僚制度；官僚作风',
-      materialism:'n.唯物主义；唯物论',
       revolution:'n.革命；巨大变化',
       reform:'n.改革，改良；v.改革，改良；使改过自新',
       process:'n.过程，进程；v.处理，加工；v.列队前进',
@@ -2089,7 +2115,6 @@ export let data = [
       refuge:'n.避难，庇护；避难所',
       asylum:'n.庇护；精神病院',
       population:'n.人口，人口数量',
-      demographic:'adj.人口（学）的，人口统计（学）的',
       citizen:'n.公民；市民',
       resident:'n.居住；adj.居住的',
       ethnic:'adj.民族的，种族的',
@@ -2158,7 +2183,7 @@ export let data = [
       Germany:'n.德国'
     },
     {
-      //Chapter 16
+      //Chapter 17
       economy:'n.经济；节约',
       trade:'n.贸易；v.交换',
       market:'n.市场；市场需求',
@@ -2231,7 +2256,6 @@ export let data = [
       invest:'v.投资；投入',
       input:'n.输入信息；投入物',
       product:'n.产品；产物',
-      acquisition:'n.获得；（对公司的）并购',
       goods:'n.商品，货物',
       cargo:'n.货物',
       insure:'v.确保；给......上保险',
@@ -2272,7 +2296,6 @@ export let data = [
       worthy:'adj.有价值的；值得......的',
       valuable:'adj.很值钱的，贵重的；很重要的',
       cheap:'adj.廉价的；质劣价低的',
-      incentive:'n.刺激，激励',
       accelerate:'v.使加速',
       prompt:'v.促使；adj.迅速的',
       salary:'n.工资，（按月领的）薪水',
@@ -2327,7 +2350,7 @@ export let data = [
       cooperate:'v.合作，协作',
     },
     {
-      //Chapter 17
+      //Chapter 18
       law:'n.法律；规律；定理',
       legal:'adj.法律的；合法的',
       rule:'n.规则；v.统治',
@@ -2361,7 +2384,6 @@ export let data = [
       prejudice:'n.偏见，成见',
       discrimination:'n.歧视',
       accuse:'v.控告，指责',
-      sue:'v.控告，提起诉讼；提出请求',
       prosecute:'v.检举，起诉',
       condemn:'v.谴责，指责',
       complain:'v.抱怨；投诉',
@@ -2426,7 +2448,6 @@ export let data = [
       ownership:'n.所有权，物主身份',
       copyright:'n.版权',
       privilege:'n.特权',
-      accredit:'v.把......归于；委任',
       clue:'n.线索；提示',
       access:'n.通路，入径；查阅的机会（或权力）',
       anonymous:'adj.匿名的',
@@ -2443,7 +2464,7 @@ export let data = [
       instruct:'v.指导，讲授；通知；命令'
     },
     {
-      //Chapter 18
+      //Chapter 19
       violence:'n.暴力',
       conflict:'n.斗争，冲突；v.冲突',
       raid:'n./v. 突袭；突然搜查',
@@ -2544,7 +2565,6 @@ export let data = [
       tension:'n.紧张；拉近状态',
       turbulent:'adj.动荡的，混乱的；汹涌的',
       turmoil:'n.混乱，骚乱',
-      scenario:'n.可能发生的情况；剧情梗概，脚本',
       occasion:'n.场合；时机，机会',
       limit:'n.限度；界限；v.限制，限定',
       boundary:'n.分界线，边界；界限',
@@ -2628,7 +2648,6 @@ export let data = [
       discard:'v.丢弃，抛弃',
       rid:'adj.摆脱，丢弃',
       defend:'v.防御，保护；为......辩护',
-      safeguard:'v.保护，保卫；n.保护措施',
       defeat:'v.战胜，击败；n.失败',
       resist:'v.抵制，反对；抵御；忍住',
       capture:'n.战利品；v.捕获；夺得',
@@ -2656,7 +2675,7 @@ export let data = [
       veteran:'n.老兵；老手'
     },
     {
-      //Chapter 19
+      //Chapter 20
       pioneer:'n.先驱，开创者',
       herald:'n.使者，传令官；先驱，预兆；v.预告；宣布',
       heir:'n.后嗣；继承人',
@@ -2736,12 +2755,10 @@ export let data = [
       supervisor:'n.管理者，监督者',
       subordinate:'n.部署，下级；adj.次要的;下级的',
       partner:'n.伙伴，盟友；合伙人；搭档',
-      mate:'n.伙伴；同伴',
       colleague:'n.同事，同僚',
       comrade:'n.同志；（尤指患难与共的）同伴',
       acquaintance:'n.相识的人，泛泛之交；认识；了解',
       friendship:'n.友谊；友情，友好',
-      affection:'n.喜爱，喜欢；爱情',
       stranger:'n.陌生人；新来着',
       apprentice:'n.学徒，徒弟；v.使当......的徒弟',
       deputy:'n.代理人，副手',
@@ -2778,7 +2795,7 @@ export let data = [
       coward:'n.懦夫，胆小鬼',
     },
     {
-      //Chapter 20
+      //Chapter 21
       act:'v.行动；n.行为',
       behave:'v.表现；（机器等）运转',
       deed:'n.行为；功绩；契约',
@@ -2991,7 +3008,6 @@ export let data = [
       evacuate:'v.疏散，撤离',
       trench:'v.掘沟于；砍除；n.沟，渠，壕沟',
       saturate:'v.使饱和，使充满；浸透',
-      excuse:'v.原谅；同意免除；n.理由;接口',
       forgive:'v.原谅，宽恕，饶恕',
       contain:'v.包含，容纳；抑制（感情）',
       regard:'n.尊重；问候；v.看待',
@@ -3030,7 +3046,6 @@ export let data = [
       accord:'v.（与......）一致；给予；n.协议',
       attribute:'v.把......归因于；n.属性，特性',
       recall:'v.回忆，回想起',
-      recollect:'v.记起，想起',
       remind:'v.提醒，使想起',
       retell:'v.重新讲述，复述',
       repeat:'v.重复；adj.再次光顾的',
@@ -3048,7 +3063,7 @@ export let data = [
       sideways:'adv.向（或从，往）一侧'
     },
     {
-      //Chapter 21
+      //Chapter 22
       feel:'v.感觉到，感知；触碰',
       mood:'n.心情，情绪；气氛',
       emotion:'n.情绪，情感，感情',
@@ -3296,7 +3311,6 @@ export let data = [
       liberal:'adj.慷慨的，大方的；自由主义的',
       generous:'adj.慷慨的；宽厚的',
       gentle:'adj.温和的；柔和的；文雅的；出身名门的',
-      humble:'adj.谦虚的；卑微的',
       modest:'adj.谦虚的，谦逊的',
       humorous:'adj.富于幽默感的，诙谐的',
       polite:'adj.有礼貌的；客气的',
@@ -3355,7 +3369,6 @@ export let data = [
       strenuous:'adj.发奋的；繁重的，艰苦的',
       rigorous:'adj.严格的，严厉的；一丝不苟的',
       strict:'adj.严格的；严厉的',
-      severe:'adj.严厉的；十分严重的；艰巨的',
       mutual:'adj.相互的，彼此的；共同的',
       resemble:'v.与......相像，类似',
       similar:'adj.相似的，类似的',
@@ -3464,60 +3477,5 @@ export let data = [
       rigid:'adj.固执的；严格的；刚硬的',
       stubborn:'adj.顽固的，固执的',
       stereotype:'n.老一套，模式化观念，刻板印象'
-    },
-    {
-      //Chapter 22
-      daily:'adj.每日的；n.日报',
-      monthly:'adj.每月的；adv.每月一次；n.月刊',
-      quarterly:'adj.季度的；adv.按季度地；n.季刊',
-      annual:'adj.每年的；一年的；n.年报',
-      yearly:'adj.每年的；一年的；adv.每年地',
-      anniversary:'n.周年纪念日',
-      era:'n.时代，年代，纪元',
-      present:'adj.现在的；n.目前；礼物，赠送物',
-      contemporary:'adj.当代的；同时代的',
-      medieval:'adj.中世纪的；守旧的',
-      century:'n.世纪，百年',
-      millennium:'n.一千年，千年期；千禧年',
-      million:'num.百万；大量',
-      billion:'num.十亿；大量',
-      dozen:'n.一打，十二个；十来个',
-      dawn:'n.黎明；开端；v.破晓',
-      midday:'n.正午，中午',
-      midnight:'n.午夜，子夜，半夜',
-      overnight:'adv.在晚上；突然，一夜之间',
-      night:'n.夜，夜间；晚上；夜场',
-      modern:'adj.现代的；近代的',
-      recent:'adj.新近的，最近的',
-      up_to_date:'adj.直到目前的；现代的',
-      first:'adj.最初，第一',
-      secondly:'adv.第二，其次',
-      finally:'adv.最后；终于；决定性地',
-      finish:'v.完成；结束；n.结尾，最后部分',
-      immediately:'adv.立即；直接地',
-      instant:'n.瞬间;adj.立即的',
-      moment:'n.片刻；时刻',
-      minute:'n.分，分钟；一会儿；adj.细微的',
-      prior:'adj.在先的，在前的',
-      former:'adj.以前的；前者的；pron.前者',
-      preceding:'adj.在前的，在先的',
-      precedent:'n.先例；常规',
-      foremost:'adj.最前的；最重要的',
-      opening:'adj.开始的；n.开始，开端',
-      initially:'adv.最初',
-      intermediate:'adj.中间的',
-      midst:'n.中部，中间',
-      meantime:'n.其间，同时；眼下，暂时',
-      meanwhile:'adv.同时，其间',
-      simultaneous:'adj.同时发生（或进行）的',
-      ongoing:'adj.进行中的；继续存在的',
-      everlasting:'adj.永恒的',
-      permanent:'adj.永久的',
-      punctual:'adj.准时的，守时的',
-      duration:'n.持续时间；期间',
-      consecutive:'adj.连续不断的',
-      periodically:'adv.周期性地，定期地',
-      imminent:'adj.(尤指不愉快的事)即将发生的，逼近的',
-      incidentally:'adv.偶然地；顺便提一句'
-    },
+    }
   ]
