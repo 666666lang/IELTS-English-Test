@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { KwordDetailComponent } from './kword/kword-detail/kword-detail.component';
 import { HomeComponent } from './kword/home/home.component';
+import { KwordListComponent } from './kword/kword-list/kword-list.component';
+import { RoComponent } from './kword/ro/ro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     KwordDetailComponent,
-    HomeComponent
+    HomeComponent,
+    KwordListComponent,
+    RoComponent
   ],
   imports: [
     BrowserModule,
