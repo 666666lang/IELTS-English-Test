@@ -1,0 +1,11 @@
+.item{
+    margin: 1em 20%;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid gray;
+}
+.item:hover{
+    background: rgb(211,240,255);
+}

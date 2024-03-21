@@ -10,4 +10,15 @@
 >
   {{ title }}
 </div>
-<div></div>
+<div>
+  <div
+    *ngFor="let alias of desArr; let i = index"
+    class="item"
+    (click)="select(alias)"
+  >
+    {{ alias }}
+  </div>
+</div>
+<div style="position: absolute; right: 1em; color: red; font-size: 32px">
+  {{ score }}
+</div>
