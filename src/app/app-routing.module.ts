@@ -10,7 +10,7 @@ const routes:Routes = [
   {path: '', component: HomeComponent},
   {path: 'kword-list', component: KwordListComponent},
   {path: 'kword', component: KwordDetailComponent},
-  {path: 'ro', component: RoComponent},
+  {path: 'RO', component: RoComponent},
 ];
 
 

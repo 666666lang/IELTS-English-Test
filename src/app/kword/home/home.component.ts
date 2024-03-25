@@ -20,8 +20,8 @@ export class HomeComponent implements OnInit {
   }
 
   link(e:any){
-    if(e == 'ro'){
-      this.router.navigate(['/ro'])
+    if(e == 'RO'){
+      this.router.navigate(['/RO'])
     }
   }
 }
