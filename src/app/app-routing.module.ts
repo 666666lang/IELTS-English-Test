@@ -5,12 +5,14 @@ import { KwordDetailComponent } from './kword/kword-detail/kword-detail.componen
 import { HomeComponent } from './kword/home/home.component';
 import { KwordListComponent } from './kword/kword-list/kword-list.component';
 import { RoComponent } from './kword/ro/ro.component';
+import { SixComponent } from './kword/six/six.component';
 
 const routes:Routes = [
   {path: '', component: HomeComponent},
   {path: 'kword-list', component: KwordListComponent},
   {path: 'kword', component: KwordDetailComponent},
   {path: 'RO', component: RoComponent},
+  {path: 'SIX', component: SixComponent},
 ];
 
 

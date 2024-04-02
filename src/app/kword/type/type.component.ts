@@ -3,25 +3,24 @@ import { Router } from '@angular/router';
 import { AppServiseService } from 'src/app/app-servise.service';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-type',
+  templateUrl: './type.component.html',
+  styleUrls: ['./type.component.css']
 })
-export class HomeComponent implements OnInit {
+export class TypeComponent implements OnInit {
 
   constructor(
     public router: Router,
     public appservise: AppServiseService
-  ) { 
-    
-  }
+  ) { }
 
   ngOnInit(): void {
   }
 
   link(e:any){
-    if(e == 6){
-      this.router.navigate(['/SIX'])
+    if(e == 'RO'){
+      this.router.navigate(['/RO'])
     }
   }
+
 }

@@ -8,6 +8,8 @@ import { KwordDetailComponent } from './kword/kword-detail/kword-detail.componen
 import { HomeComponent } from './kword/home/home.component';
 import { KwordListComponent } from './kword/kword-list/kword-list.component';
 import { RoComponent } from './kword/ro/ro.component';
+import { TypeComponent } from './kword/type/type.component';
+import { SixComponent } from './kword/six/six.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { RoComponent } from './kword/ro/ro.component';
     KwordDetailComponent,
     HomeComponent,
     KwordListComponent,
-    RoComponent
+    RoComponent,
+    TypeComponent,
+    SixComponent
   ],
   imports: [
     BrowserModule,
