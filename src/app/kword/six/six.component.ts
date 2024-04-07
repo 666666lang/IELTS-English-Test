@@ -39,7 +39,7 @@ export class SixComponent implements OnInit {
     this.step++;
     this.failFlag = false;
     this.inputWord = '';
-    if(this.step == 100){
+    if(this.step > 50){
       alert("你的成绩为" + this.score + '分')
     }
     let n = Math.floor(Math.random()*Object.keys(this.utily.WFD).length)
@@ -48,7 +48,7 @@ export class SixComponent implements OnInit {
     this.inputWord = this.utily.WFD[n].content.substring(0,this.value.length/2);
     setTimeout(()=>{
       this.inputWord = '';
-    },8000);
+    },2000);
   }
 
 }
