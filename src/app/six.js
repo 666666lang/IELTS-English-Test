@@ -79,4 +79,84 @@ export let WFD= [
         content:'Daily practice can build confidence and improve skills.',
         description:'每天的练习可以建立自信，提高技能。'
     },
+    {
+        index: 57,
+        content:'Everyone must evacuate the premises during the fire drill.',
+        description:'在消防演习期间，每个人都必须撤离场地。'
+    },
+    {
+        index: 58,
+        content:'Many experts think that the world climate is constantly changing.',
+        description:'许多专家认为世界气候在不断变化。'
+    },
+    {
+        index: 61,
+        content:'Human beings compete with other living things for resources and space. ',
+        description:'人类与其他生物竞争资源和空间。'
+    },
+    {
+        index: 68,
+        content:'He landed a job in a very prestigious law firm.',
+        description:'他在一家非常著名的律师事务所找到了一份工作。'
+    },
+    {
+        index: 69,
+        content:'The lecture is about the reasons for the financial crisis.',
+        description:'这场讲座是关于金融危机的原因的。'
+    },
+    {
+        index: 70,
+        content:'I thought it was through the small meeting room.',
+        description:'我以为是穿过那个小会议室。'
+    },
+    {
+        index: 77,
+        content:'Important details from the argument are missing in the summary. ',
+        description:'摘要中缺少了论证中的重要细节。'
+    },
+    {
+        index: 86,
+        content:'It may not be possible to solve the problem easily. ',
+        description:'想要轻易解决这个问题也许是不可能的。'
+    },
+    {
+        index: 88,
+        content:'Laws protect consumer rights and help to avoid market problems.',
+        description:'法律保护消费者权利，帮助避免市场问题。'
+    },
+    {
+        index: 92,
+        content:'Listening is the key skill needed to succeed in this course.',
+        description:'听力是学好这门课的关键能力。'
+    },
+    {
+        index: 96,
+        content:'Medical researchers have focused on causes of diseases and treatments.',
+        description:'医学研究人员一直致力于研究疾病的病因和治疗方法。'
+    },
+    {
+        index: 114,
+        content:'The university theater group will be performing in the concert hall.',
+        description:'我们的大学剧团将在音乐厅演出。'
+    },
+    {
+        index: 116,
+        content:'Packaging is very important to attract the attention of a buyer.',
+        description:'包装对于吸引购买者的注意是非常重要的。'
+    },
+    {
+        index: 119,
+        content:'Plants are the living things that can grow in land or in water.',
+        description:'植物是能在陆地或水中生长的生物。'
+    },
+    {
+        index: 130,
+        content:'Radio is a popular form of entertainment throughout the world.',
+        description:'收音机是全世界流行的一种娱乐方式。'
+    },
+    {
+        index: 136,
+        content:'Remember, the prestigious election of stewardship has strict eligibility criteria.',
+        description:'记住，这场有声望的管理层选举有严格的资格标准。'
+    },
 ]
