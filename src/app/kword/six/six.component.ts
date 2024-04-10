@@ -48,7 +48,7 @@ export class SixComponent implements OnInit {
     this.inputWord = this.utily.WFD[n].content.substring(0,this.value.length/2);
     setTimeout(()=>{
       this.inputWord = '';
-    },2000);
+    },3000);
   }
 
 }
