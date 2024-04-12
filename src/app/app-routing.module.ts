@@ -9,7 +9,7 @@ import { SixComponent } from './kword/six/six.component';
 import { TypeComponent } from './kword/type/type.component';
 
 const routes:Routes = [
-  {path: '', component: HomeComponent},
+  {path: '', component: TypeComponent},
   {path: 'kword-list', component: KwordListComponent},
   {path: 'kword', component: KwordDetailComponent},
   {path: 'type', component: TypeComponent},

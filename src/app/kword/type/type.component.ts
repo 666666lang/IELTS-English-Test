@@ -18,8 +18,8 @@ export class TypeComponent implements OnInit {
   }
 
   link(e:any){
-    if(e == 'RO'){
-      this.router.navigate(['/RO'])
+    if(e == 'WFD'){
+      this.router.navigate(['/SIX'])
     }
   }
 
