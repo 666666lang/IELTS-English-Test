@@ -349,56 +349,56 @@ export let WFD= [
         content:'The shipwreck of this year ruined some artifacts which were interested by historians.',
         description:'今年的海难毁坏了一些历史学家感兴趣的文物。'
     },
-    // {
-    //     index: 465,
-    //     content:'Renovation works are currently being undertaken throughout the whole building.',
-    //     description:'整幢大楼目前正在进行翻新工程。'
-    // },
-    // {
-    //     index: 466,
-    //     content:'The bus for London will leave ten minutes later than planned.',
-    //     description:'开往伦敦的公共汽车将比原计划晚开10分钟。'
-    // },
-    // {
-    //     index: 468,
-    //     content:'A series of lectures showcasing economic research have been recorded.',
-    //     description:'一系列展示经济研究的讲座被录了下来。'
-    // },
-    // {
-    //     index: 470,
-    //     content:'Food containing ample calories provides little or no nutritional value.',
-    //     description:'含有过多热量的食物几乎没有提供营养价值。'
-    // },
-    // {
-    //     index: 476,
-    //     content:'Some vocational courses at institutions are funded by private enterprises.',
-    //     description:'一些机构的职业课程是由私营企业资助的。'
-    // },
-    // {
-    //     index: 479,
-    //     content:'Time and distance are used to calculate speed.',
-    //     description:'时间和距离被用来计算速度。'
-    // },
-    // {
-    //     index: 495,
-    //     content:'Castles were designed to intimidate both local people and enemies.',
-    //     description:'建造城堡是为了震慑当地人和敌人。'
-    // },
-    // {
-    //     index: 497,
-    //     content:'Blue whales are the largest animals that have ever lived.',
-    //     description:'蓝鲸是有史以来最大的动物。'
-    // },
-    // {
-    //     index: 498,
-    //     content:'The opening hours of the library are reduced during summer.',
-    //     description:'图书馆在夏季的开放时间减少了。'
-    // },
-    // {
-    //     index: 499,
-    //     content:'A laptop computer has been found in the biology lab.',
-    //     description:'在生物实验室里发现了一台笔记本电脑。'
-    // },
+    {
+        index: 465,
+        content:'Renovation works are currently being undertaken throughout the whole building.',
+        description:'整幢大楼目前正在进行翻新工程。'
+    },
+    {
+        index: 466,
+        content:'The bus for London will leave ten minutes later than planned.',
+        description:'开往伦敦的公共汽车将比原计划晚开10分钟。'
+    },
+    {
+        index: 468,
+        content:'A series of lectures showcasing economic research have been recorded.',
+        description:'一系列展示经济研究的讲座被录了下来。'
+    },
+    {
+        index: 470,
+        content:'Food containing ample calories provides little or no nutritional value.',
+        description:'含有过多热量的食物几乎没有提供营养价值。'
+    },
+    {
+        index: 476,
+        content:'Some vocational courses at institutions are funded by private enterprises.',
+        description:'一些机构的职业课程是由私营企业资助的。'
+    },
+    {
+        index: 479,
+        content:'Time and distance are used to calculate speed.',
+        description:'时间和距离被用来计算速度。'
+    },
+    {
+        index: 495,
+        content:'Castles were designed to intimidate both local people and enemies.',
+        description:'建造城堡是为了震慑当地人和敌人。'
+    },
+    {
+        index: 497,
+        content:'Blue whales are the largest animals that have ever lived.',
+        description:'蓝鲸是有史以来最大的动物。'
+    },
+    {
+        index: 498,
+        content:'The opening hours of the library are reduced during summer.',
+        description:'图书馆在夏季的开放时间减少了。'
+    },
+    {
+        index: 499,
+        content:'A laptop computer has been found in the biology lab.',
+        description:'在生物实验室里发现了一台笔记本电脑。'
+    },
     // {
     //     index: 500,
     //     content:'His appointment to the Minister of Culture was seen as a demotion.',

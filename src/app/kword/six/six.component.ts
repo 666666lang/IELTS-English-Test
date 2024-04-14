@@ -39,7 +39,7 @@ export class SixComponent implements OnInit {
     this.step++;
     this.failFlag = false;
     this.inputWord = '';
-    if(this.step > 35){
+    if(this.step > 40){
       alert("你的成绩为" + this.score + '分')
     }
     let n = Math.floor(Math.random()*Object.keys(this.utily.WFD).length)
