@@ -399,56 +399,56 @@ export let WFD= [
         content:'A laptop computer has been found in the biology lab.',
         description:'在生物实验室里发现了一台笔记本电脑。'
     },
-    // {
-    //     index: 500,
-    //     content:'His appointment to the Minister of Culture was seen as a demotion.',
-    //     description:'他被任命为文化部长被认为是降职。'
-    // },
-    // {
-    //     index: 503,
-    //     content:'Muscle cells bring parts of the body closer together.',
-    //     description:'肌肉细胞使身体的各个部分紧密相连。'
-    // },
-    // {
-    //     index: 508,
-    //     content:'Photography can be very useful to geographical research.',
-    //     description:'摄影对地理研究很有用。'
-    // },
-    // {
-    //     index: 509,
-    //     content:'Request for late applications will not be accepted under any circumstances.',
-    //     description:'在任何情况下，都不接受逾期递交的申请。'
-    // },
-    // {
-    //     index: 513,
-    //     content:'Salt is produced from seawater or extracted from the ground.',
-    //     description:'盐是从海水中产生的或从地下提取的。'
-    // },
-    // {
-    //     index: 516,
-    //     content:'The news will not be received until the following week.',
-    //     description:'消息要到下一周才会收到。'
-    // },
-    // {
-    //     index: 517,
-    //     content:'You do not need specialist knowledge to enjoy this book.',
-    //     description:'你不需要专业知识就能欣赏这本书。'
-    // },
-    // {
-    //     index: 519,
-    //     content:'She has been in the library for a long time.',
-    //     description:'她在图书馆呆了很长时间了。'
-    // },
-    // {
-    //     index: 523,
-    //     content:'More graduate training is often needed after university study has finished.',
-    //     description:'大学学习结束后，需要更多的研究生培训。'
-    // },
-    // {
-    //     index: 526,
-    //     content:'The area has a variety of underwater habitats and species.',
-    //     description:'该地区有各种各样的水下栖息地和物种。'
-    // },
+    {
+        index: 500,
+        content:'His appointment to the Minister of Culture was seen as a demotion.',
+        description:'他被任命为文化部长被认为是降职。'
+    },
+    {
+        index: 503,
+        content:'Muscle cells bring parts of the body closer together.',
+        description:'肌肉细胞使身体的各个部分紧密相连。'
+    },
+    {
+        index: 508,
+        content:'Photography can be very useful to geographical research.',
+        description:'摄影对地理研究很有用。'
+    },
+    {
+        index: 509,
+        content:'Request for late applications will not be accepted under any circumstances.',
+        description:'在任何情况下，都不接受逾期递交的申请。'
+    },
+    {
+        index: 513,
+        content:'Salt is produced from seawater or extracted from the ground.',
+        description:'盐是从海水中产生的或从地下提取的。'
+    },
+    {
+        index: 516,
+        content:'The news will not be received until the following week.',
+        description:'消息要到下一周才会收到。'
+    },
+    {
+        index: 517,
+        content:'You do not need specialist knowledge to enjoy this book.',
+        description:'你不需要专业知识就能欣赏这本书。'
+    },
+    {
+        index: 519,
+        content:'She has been in the library for a long time.',
+        description:'她在图书馆呆了很长时间了。'
+    },
+    {
+        index: 523,
+        content:'More graduate training is often needed after university study has finished.',
+        description:'大学学习结束后，需要更多的研究生培训。'
+    },
+    {
+        index: 526,
+        content:'The area has a variety of underwater habitats and species.',
+        description:'该地区有各种各样的水下栖息地和物种。'
+    },
     // {
     //     index: 528,
     //     content:'He was regarded as the foremost economist at his time.',
