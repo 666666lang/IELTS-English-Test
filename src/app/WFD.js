@@ -449,56 +449,56 @@ export let WFD= [
         content:'The area has a variety of underwater habitats and species.',
         description:'该地区有各种各样的水下栖息地和物种。'
     },
-    // {
-    //     index: 528,
-    //     content:'He was regarded as the foremost economist at his time.',
-    //     description:'他被认为是他那个时代最重要的经济学家。'
-    // },
-    // {
-    //     index: 530,
-    //     content:'Your ideas are discussed and debated in seminars and tutorials.',
-    //     description:'你的想法在研讨会和辅导课中被讨论和辩论。'
-    // },
-    // {
-    //     index: 532,
-    //     content:'Our study program equips students with essential skills for university.',
-    //     description:'我们的学习计划使学生具备上大学所需的基本技能。'
-    // },
-    // {
-    //     index: 534,
-    //     content:'Academic libraries across the world are steadily incorporating social media.',
-    //     description:'世界各地的学术图书馆都在逐步地使用社交媒体。'
-    // },
-    // {
-    //     index: 540,
-    //     content:'New developments in manufacturing are constantly changing the way we live.',
-    //     description:'制造业的新发展不断地改变着我们的生活方式。'
-    // },
-    // {
-    //     index: 542,
-    //     content:'Classical mechanics is sometimes considered as a branch of applied mathematics.',
-    //     description:'经典力学有时候被认为是应用数学的一个分支。'
-    // },
-    // {
-    //     index: 544,
-    //     content:'Students should leave their bags on the table by the door.',
-    //     description:'学生们应该把书包放在门边的桌子上。'
-    // },
-    // {
-    //     index: 545,
-    //     content:'This advanced course requires a basic knowledge of economic theory.',
-    //     description:'这门高阶课程要求具备基本的经济学理论知识。'
-    // },
-    // {
-    //     index: 547,
-    //     content:'New materials and techniques are changing the style of modern architecture.',
-    //     description:'新材料和新技术正在改变现代建筑的风格。'
-    // },
-    // {
-    //     index: 553,
-    //     content:'There will be a chemistry test in the class next week.',
-    //     description:'下周，班里将进行化学测试。'
-    // },
+    {
+        index: 528,
+        content:'He was regarded as the foremost economist at his time.',
+        description:'他被认为是他那个时代最重要的经济学家。'
+    },
+    {
+        index: 530,
+        content:'Your ideas are discussed and debated in seminars and tutorials.',
+        description:'你的想法在研讨会和辅导课中被讨论和辩论。'
+    },
+    {
+        index: 532,
+        content:'Our study program equips students with essential skills for university.',
+        description:'我们的学习计划使学生具备上大学所需的基本技能。'
+    },
+    {
+        index: 534,
+        content:'Academic libraries across the world are steadily incorporating social media.',
+        description:'世界各地的学术图书馆都在逐步地使用社交媒体。'
+    },
+    {
+        index: 540,
+        content:'New developments in manufacturing are constantly changing the way we live.',
+        description:'制造业的新发展不断地改变着我们的生活方式。'
+    },
+    {
+        index: 542,
+        content:'Classical mechanics is sometimes considered as a branch of applied mathematics.',
+        description:'经典力学有时候被认为是应用数学的一个分支。'
+    },
+    {
+        index: 544,
+        content:'Students should leave their bags on the table by the door.',
+        description:'学生们应该把书包放在门边的桌子上。'
+    },
+    {
+        index: 545,
+        content:'This advanced course requires a basic knowledge of economic theory.',
+        description:'这门高阶课程要求具备基本的经济学理论知识。'
+    },
+    {
+        index: 547,
+        content:'New materials and techniques are changing the style of modern architecture.',
+        description:'新材料和新技术正在改变现代建筑的风格。'
+    },
+    {
+        index: 553,
+        content:'There will be a chemistry test in the class next week.',
+        description:'下周，班里将进行化学测试。'
+    },
     // {
     //     index: 556,
     //     content:'Sea levels are expected to rise during the next century.',
