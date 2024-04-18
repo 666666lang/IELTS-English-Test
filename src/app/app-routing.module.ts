@@ -7,6 +7,7 @@ import { KwordListComponent } from './kword/kword-list/kword-list.component';
 import { RoComponent } from './kword/ro/ro.component';
 import { SixComponent } from './kword/six/six.component';
 import { TypeComponent } from './kword/type/type.component';
+import { WeComponent } from './kword/we/we.component';
 
 const routes:Routes = [
   {path: '', component: TypeComponent},
@@ -15,6 +16,7 @@ const routes:Routes = [
   {path: 'type', component: TypeComponent},
   {path: 'RO', component: RoComponent},
   {path: 'SIX', component: SixComponent},
+  {path: 'WE', component: WeComponent},
 ];
 
 

@@ -10,6 +10,7 @@ import { KwordListComponent } from './kword/kword-list/kword-list.component';
 import { RoComponent } from './kword/ro/ro.component';
 import { TypeComponent } from './kword/type/type.component';
 import { SixComponent } from './kword/six/six.component';
+import { WeComponent } from './kword/we/we.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SixComponent } from './kword/six/six.component';
     KwordListComponent,
     RoComponent,
     TypeComponent,
-    SixComponent
+    SixComponent,
+    WeComponent
   ],
   imports: [
     BrowserModule,
