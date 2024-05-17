@@ -25,9 +25,19 @@ export let WFD= [
         description:'所有论文必须附上提交表格。'
     },
     {
+        index: 12,
+        content:'All industries are a system of inputs, processes, outputs and feedback.',
+        description:'所有行业都是一个输入、处理、输出和反馈的系统。'
+    },
+    {
         index: 16,
         content:'All students are expected to attend ten lab sessions per semester.',
         description:'所有学生每学期需参加十次实验。'
+    },
+    {
+        index: 17,
+        content:'Leaving valuable possessions unattended in public place is risky.',
+        description:'把贵重物品放在公共场所无人看管是很危险的。'
     },
     {
         index: 20,
@@ -386,8 +396,8 @@ export let WFD= [
     },
     {
         index: 396,
-        content:'Some people are motivated by competition, while others prefer to collaborate.',
-        description:'有些人的动力是竞争，而另一些人更喜欢合作。'
+        content:'Some people are motivated by competition,while others prefer to collaborate.',
+        description:'有些人的动力是竞争,而另一些人更喜欢合作。'
     },
     {
         index: 397,
@@ -499,624 +509,379 @@ export let WFD= [
         content:'Distance learning allows you to develop a career around your commitments.',
         description:'远程学习能让你围绕自己的理想发展事业。'
     },
-    // {
-    //     index: 495,
-    //     content:'Castles were designed to intimidate both local people and enemies.',
-    //     description:'建造城堡是为了震慑当地人和敌人。'
-    // },
-    // {
-    //     index: 497,
-    //     content:'Blue whales are the largest animals that have ever lived.',
-    //     description:'蓝鲸是有史以来最大的动物。'
-    // },
-    // {
-    //     index: 498,
-    //     content:'The opening hours of the library are reduced during summer.',
-    //     description:'图书馆在夏季的开放时间减少了。'
-    // },
-    // {
-    //     index: 499,
-    //     content:'A laptop computer has been found in the biology lab.',
-    //     description:'在生物实验室里发现了一台笔记本电脑。'
-    // },
-    // {
-    //     index: 500,
-    //     content:'His appointment to the Minister of Culture was seen as a demotion.',
-    //     description:'他被任命为文化部长被认为是降职。'
-    // },
-    // {
-    //     index: 503,
-    //     content:'Muscle cells bring parts of the body closer together.',
-    //     description:'肌肉细胞使身体的各个部分紧密相连。'
-    // },
-    // {
-    //     index: 508,
-    //     content:'Photography can be very useful to geographical research.',
-    //     description:'摄影对地理研究很有用。'
-    // },
-    // {
-    //     index: 509,
-    //     content:'Request for late applications will not be accepted under any circumstances.',
-    //     description:'在任何情况下，都不接受逾期递交的申请。'
-    // },
-    // {
-    //     index: 513,
-    //     content:'Salt is produced from seawater or extracted from the ground.',
-    //     description:'盐是从海水中产生的或从地下提取的。'
-    // },
-    // {
-    //     index: 516,
-    //     content:'The news will not be received until the following week.',
-    //     description:'消息要到下一周才会收到。'
-    // },
-    // {
-    //     index: 517,
-    //     content:'You do not need specialist knowledge to enjoy this book.',
-    //     description:'你不需要专业知识就能欣赏这本书。'
-    // },
-    // {
-    //     index: 519,
-    //     content:'She has been in the library for a long time.',
-    //     description:'她在图书馆呆了很长时间了。'
-    // },
-    // {
-    //     index: 523,
-    //     content:'More graduate training is often needed after university study has finished.',
-    //     description:'大学学习结束后，需要更多的研究生培训。'
-    // },
-    // {
-    //     index: 526,
-    //     content:'The area has a variety of underwater habitats and species.',
-    //     description:'该地区有各种各样的水下栖息地和物种。'
-    // },
-    // {
-    //     index: 528,
-    //     content:'He was regarded as the foremost economist at his time.',
-    //     description:'他被认为是他那个时代最重要的经济学家。'
-    // },
-    // {
-    //     index: 530,
-    //     content:'Your ideas are discussed and debated in seminars and tutorials.',
-    //     description:'你的想法在研讨会和辅导课中被讨论和辩论。'
-    // },
-    // {
-    //     index: 532,
-    //     content:'Our study program equips students with essential skills for university.',
-    //     description:'我们的学习计划使学生具备上大学所需的基本技能。'
-    // },
-    // {
-    //     index: 534,
-    //     content:'Academic libraries across the world are steadily incorporating social media.',
-    //     description:'世界各地的学术图书馆都在逐步地使用社交媒体。'
-    // },
-    // {
-    //     index: 540,
-    //     content:'New developments in manufacturing are constantly changing the way we live.',
-    //     description:'制造业的新发展不断地改变着我们的生活方式。'
-    // },
-    // {
-    //     index: 542,
-    //     content:'Classical mechanics is sometimes considered as a branch of applied mathematics.',
-    //     description:'经典力学有时候被认为是应用数学的一个分支。'
-    // },
-    // {
-    //     index: 544,
-    //     content:'Students should leave their bags on the table by the door.',
-    //     description:'学生们应该把书包放在门边的桌子上。'
-    // },
-    // {
-    //     index: 545,
-    //     content:'This advanced course requires a basic knowledge of economic theory.',
-    //     description:'这门高阶课程要求具备基本的经济学理论知识。'
-    // },
-    // {
-    //     index: 547,
-    //     content:'New materials and techniques are changing the style of modern architecture.',
-    //     description:'新材料和新技术正在改变现代建筑的风格。'
-    // },
-    // {
-    //     index: 553,
-    //     content:'There will be a chemistry test in the class next week.',
-    //     description:'下周，班里将进行化学测试。'
-    // },
-    // {
-    //     index: 556,
-    //     content:'Sea levels are expected to rise during the next century.',
-    //     description:'海平面预计在下个世纪会上升。'
-    // },
-    // {
-    //     index: 575,
-    //     content:'Honey can be used as food and a health product.',
-    //     description:'蜂蜜既可以作为食品，也可以作为保健品。'
-    // },
-    // {
-    //     index: 577,
-    //     content:'Farmers need to adapt to the changes in climate.',
-    //     description:'农民需要适应气候的变化。'
-    // },
-    // {
-    //     index: 580,
-    //     content:'An effective business manager is always open to new ideas.',
-    //     description:'一个有能力的业务经理总是会接受新想法。'
-    // },
-    // {
-    //     index: 581,
-    //     content:'The department works closely with business communities.',
-    //     description:'该部门与商界紧密合作。'
-    // },
-    // {
-    //     index: 584,
-    //     content:'There is an accounting assignment for finance students.',
-    //     description:'金融专业的学生有一个会计作业。'
-    // },
-    // {
-    //     index: 585,
-    //     content:'Relying on natural ability will not get you far in science.',
-    //     description:'在科学/理科的学习上，依靠天生的能力不会使你走得很远。'
-    // },
-    // {
-    //     index: 588,
-    //     content:'We should never underestimate the power of creative design.',
-    //     description:'我们永远不能低估创意设计的力量。'
-    // },
-    // {
-    //     index: 589,
-    //     content:'Linguistics is the scientific study and analysis of language.',
-    //     description:'语言学是针对语言的科学研究和科学分析。'
-    // },
-    // {
-    //     index: 594,
-    //     content:'The orchestra will be led by a visiting conductor.',
-    //     description:'管弦乐队将由来访的指挥家来指挥。'
-    // },
-    // {
-    //     index: 596,
-    //     content:'Please return the reference book to the correct position on the library shelf.',
-    //     description:'请把参考书放回图书馆书架上正确的位置。'
-    // },
-    // {
-    //     index: 603,
-    //     content:'Marine environments have been destroyed by pollution and unsustainable development.',
-    //     description:'海洋环境已经被污染和不可持续的发展破坏了。'
-    // },
-    // {
-    //     index: 604,
-    //     content:'Designers need to keep up with the social trends.',
-    //     description:'设计师需要跟上社会潮流。'
-    // },
-    // {
-    //     index: 606,
-    //     content:'Extracurricular activities can help students develop more talents.',
-    //     description:'课外活动可以帮助学生发展更多的才能。'
-    // },
-    // {
-    //     index: 607,
-    //     content:'A new collection of articles has just been published.',
-    //     description:'一本新的文集刚刚出版。'
-    // },
-    // {
-    //     index: 609,
-    //     content:'A visit to the designed museum is of great value.',
-    //     description:'参观精心设计的博物馆是非常有价值的。'
-    // },
-    // {
-    //     index: 611,
-    //     content:'The digital camera has some advantages over traditional film.',
-    //     description:'数码相机比传统胶卷有一些优势。'
-    // },
-    // {
-    //     index: 614,
-    //     content:'Auditions for the university choir will be held next week.',
-    //     description:'大学合唱团的海选将于下周举行。'
-    // },
-    // {
-    //     index: 617,
-    //     content:'There is no fixed career path for a qualified journalist.',
-    //     description:'合格的记者没有固定的职业道路。'
-    // },
-    // {
-    //     index: 622,
-    //     content:'Trees benefit the city by soaking up the rainwater that runs off the roads.',
-    //     description:'树木通过吸收从道路上流下的雨水的方式来助益城市。'
-    // },
-    // {
-    //     index: 625,
-    //     content:'The commissioner will apportion the funds among all the authorities.',
-    //     description:'专员将把这笔资金分配给所有当局。'
-    // },
-    // {
-    //     index: 645,
-    //     content:'Teaching assistants play a vital role in the learning process.',
-    //     description:'教学助理在学习过程中起着至关重要的作用。'
-    // },
-    // {
-    //     index: 652,
-    //     content:'Rivers provide habitat and migration pathways for numerous aquatic species.',
-    //     description:'河流为许多水生物种提供了栖息地和迁徙途径。'
-    // },
-    // {
-    //     index: 653,
-    //     content:'The finding shows that chocolate can improve memory, immunity and mood.',
-    //     description:'研究结果表明，巧克力可以提高记忆力、免疫力，并改善情绪。'
-    // },
-    // {
-    //     index: 687,
-    //     content:'The extent of advertising to children is very much open to debate.',
-    //     description:'广告对儿童的影响程度是很容易引起争论的。'
-    // },
-    // {
-    //     index: 688,
-    //     content:'Rising sea temperatures are a sign of climate change.',
-    //     description:'海水温度上升是气候变化的征兆。'
-    // },
-    // {
-    //     index: 695,
-    //     content:'The key witnesses to the event have conflicting recollections.',
-    //     description:'该事件的主要目击者的回忆相互矛盾。'
-    // },
-    // {
-    //     index: 697,
-    //     content:'Students may only park their cars in authorized university parking spaces.',
-    //     description:'学生只能将车停在学校指定的停车位。'
-    // },
-    // {
-    //     index: 709,
-    //     content:'The very basic definition of computing would be counting and calculating.',
-    //     description:'计算机算法的最基本定义应该是计数和运算。'
-    // },
-    // {
-    //     index: 712,
-    //     content:'Before preparing food, please make sure to wash your hands.',
-    //     description:'在准备食物之前，请务必洗手。'
-    // },
-    // {
-    //     index: 735,
-    //     content:'The economic predictions turned out to be incorrect.',
-    //     description:'经济预测结果是不正确的。'
-    // },
-    // {
-    //     index: 746,
-    //     content:'You must call your doctor to make an appointment.',
-    //     description:'你必须打电话给你的医生预约。'
-    // },
-    // {
-    //     index: 749,
-    //     content:'Good nutrition is crucial to general health and vitality.',
-    //     description:'良好的营养对整体健康和活力至关重要。'
-    // },
-    // {
-    //     index: 755,
-    //     content:'The momentum is defined as the combination of mass and velocity.',
-    //     description:'动量被定义为质量和速度的结合。'
-    // },
-    // {
-    //     index: 781,
-    //     content:'It is important to make clear notes when you are reading.',
-    //     description:'阅读时作清楚的笔记是很重要的。'
-    // },
-    // {
-    //     index: 783,
-    //     content:'A world expert in financial management will give a guest lecture.',
-    //     description:'一位世界级的财务管理专家将带来一场客座讲座。'
-    // },
-    // {
-    //     index: 784,
-    //     content:'A world-renowned expert on economics and marketing will give a lecture.',
-    //     description:'一位世界知名的经济学和市场营销专家将进行讲座。'
-    // },
-    // {
-    //     index: 802,
-    //     content:'The north campus car park could be closed on Sunday.',
-    //     description:'北校区的停车场可能在周日关闭。'
-    // },
-    // {
-    //     index: 827,
-    //     content:'The study center in the library has all the latest technologies.',
-    //     description:'图书馆的学习中心拥有所有最新的技术。'
-    // },
-    // {
-    //     index: 843,
-    //     content:'The poster of this play is hung in the largest lecture theater.',
-    //     description:'这出戏的海报挂在最大的演讲厅里。'
-    // },
-    // {
-    //     index: 861,
-    //     content:'You will be tested by continuous assessments and examinations.',
-    //     description:'你将以持续评估和考试的方式接受测试。'
-    // },
-    // {
-    //     index: 864,
-    //     content:'The college operates a system of continuous assessments.',
-    //     description:'这所学院实行持续评估制度。'
-    // },
-    // {
-    //     index: 898,
-    //     content:'There is a pharmacy on campus near the bookstore.',
-    //     description:'校园里书店附近有个药房。'
-    // },
-    // {
-    //     index: 905,
-    //     content:'The rising temperature is changing the wildlife population.',
-    //     description:'气温上升正在改变野生动物的数量。'
-    // },
-    // {
-    //     index: 921,
-    //     content:'The director of the gallery was grateful for the anonymous donation.',
-    //     description:'美术馆馆长对匿名捐赠表示感谢。'
-    // },
-    // {
-    //     index: 922,
-    //     content:'Studies showed there is a positive correlation between the two variables.',
-    //     description:'研究表明，这两个变量之间存在正相关关系。'
-    // },
-    // {
-    //     index: 923,
-    //     content:'You should have awareness of how the business operates globally.',
-    //     description:'你应该了解公司是如何在全球范围内运作的。'
-    // },
-    // {
-    //     index: 930,
-    //     content:'An architect is required to have problem-solving skills and an eye for design.',
-    //     description:'建筑师需要有解决问题的能力和设计的眼光。'
-    // },
-    // {
-    //     index: 942,
-    //     content:'The university will cease the colossal renovation of the faint empty theater.',
-    //     description:'这所大学将停止对那座昏暗的空剧院的大规模整修。'
-    // },
-    // {
-    //     index: 949,
-    //     content:'The year when the ship of artifacts was wrecked interested historians.',
-    //     description:'历史学家们很想知道这艘船的文物是在哪一年被毁的。'
-    // },
-    // {
-    //     index: 952,
-    //     content:'The subject was complex and difficult to explain.',
-    //     description:'这个话题/主题/学科很复杂，很难解释。'
-    // },
-    // {
-    //     index: 978,
-    //     content:'The campus library will be closed during the winter break.',
-    //     description:'学校图书馆在寒假期间将关闭。'
-    // },
-    // {
-    //     index: 993,
-    //     content:'Accountancy students have to hand in their dissertations this week.',
-    //     description:'会计专业的学生必须在本周交论文。'
-    // },
-    // {
-    //     index: 996,
-    //     content:'While some people regard it as reforming zeal, others regard it as recklessness.',
-    //     description:'有人认为这是改革的热情，也有人认为这是鲁莽。'
-    // },
-    // {
-    //     index: 1010,
-    //     content:'His analysis study appears to be based on the false premise.',
-    //     description:'他的分析研究似乎是基于了错误的前提条件。'
-    // },
-    // {
-    //     index: 1015,
-    //     content:'Any gain on sales of property must be allocated promptly.',
-    //     description:'出售财产所获得的任何收益都必须及时分配。'
-    // },
-    // {
-    //     index: 1019,
-    //     content:'There is a great deal of debate on that topic.',
-    //     description:'关于那个话题有很多争论。'
-    // },
-    // {
-    //     index: 1027,
-    //     content:'We encourage students to complete their applications before the deadline.',
-    //     description:'我们鼓励学生在截止日期前完成申请。'
-    // },
-    // {
-    //     index: 1032,
-    //     content:'The curriculum should be adjusted to the current development.',
-    //     description:'课程设置应适应当前的发展。'
-    // },
-    // {
-    //     index: 1033,
-    //     content:'Lectures are the oldest and the most formal teaching method at university.',
-    //     description:'讲座是大学里最古老、最正式的教学方法。'
-    // },
-    // {
-    //     index: 1034,
-    //     content:'Research shows that exercising makes us feel better.',
-    //     description:'研究表明，锻炼让我们感觉更好。'
-    // },
-    // {
-    //     index: 1044,
-    //     content:'Before you choose your university courses, you should consider your future career.',
-    //     description:'在你选择大学课程之前，你应该考虑一下你未来的职业。'
-    // },
-    // {
-    //     index: 1047,
-    //     content:'Graduates from this course typically pursue careers in financial sector.',
-    //     description:'这门课程的毕业生通常会在金融部门工作。'
-    // },
-    // {
-    //     index: 1050,
-    //     content:'It is a debate about the value of knowledge.',
-    //     description:'这是一场关于知识价值的辩论。'
-    // },
-    // {
-    //     index: 1053,
-    //     content:'Tutors should set clear goals at the start of the class.',
-    //     description:'导师应该在课程开始时设定明确的目标。'
-    // },
-    // {
-    //     index: 1056,
-    //     content:'Students who study overseas can significantly improve their work chances.',
-    //     description:'出国留学的学生可以显著提高他们的工作机会。'
-    // },
-    // {
-    //     index: 1059,
-    //     content:'Vocabulary that is peculiar in a special field is called jargon.',
-    //     description:'在某一特定领域特有的词汇被称为“行话”。'
-    // },
-    // {
-    //     index: 1063,
-    //     content:'You must answer security questions when you reset your password.',
-    //     description:'当你重设密码时，你必须回答安全问题。'
-    // },
-    // {
-    //     index: 1064,
-    //     content:'Astronomers use light years to measure distance in space.',
-    //     description:'天文学家用“光年”来测量太空中的距离。'
-    // },
-    // {
-    //     index: 1065,
-    //     content:'Currently the growth of the economy is unpredictable.',
-    //     description:'目前的经济增长是不可预测的。'
-    // },
-    // {
-    //     index: 1066,
-    //     content:'The collapse of the housing market has caused recessions.',
-    //     description:'房地产市场的崩溃引发了经济衰退。'
-    // },
-    // {
-    //     index: 1067,
-    //     content:'When the root system of a plant fails, foliage suffers.',
-    //     description:'当植物的根系衰竭时，叶子也会受损。'
-    // },
-    // {
-    //     index: 1068,
-    //     content:'The course involves a combination of pure and applied mathematics.',
-    //     description:'这门课程涉及纯数学和应用数学的结合。'
-    // },
-    // {
-    //     index: 1070,
-    //     content:'Calculators allow us to add numbers without making mistakes.',
-    //     description:'计算器使我们加数字时不犯错误。'
-    // },
-    // {
-    //     index: 1072,
-    //     content:'Most of the lectures begin promptly, so do not be late.',
-    //     description:'大多数的讲座都会准时开始，所以不要迟到。'
-    // },
-    // {
-    //     index: 1075,
-    //     content:'Students must wear protective clothing that is provided in the medical laboratory.',
-    //     description:'学生必须穿着医学实验室提供的防护服。'
-    // },
-    // {
-    //     index: 1077,
-    //     content:'The student union hosts a variety of social events.',
-    //     description:'学生会举办各种各样的社交活动。'
-    // },
-    // {
-    //     index: 1087,
-    //     content:'Formal conclusions could be established through rigorous experiments.',
-    //     description:'通过严格的实验可以得出正式的结论。'
-    // },
-    // {
-    //     index: 1089,
-    //     content:'Social psychology is concerned with the understanding of human behaviors.',
-    //     description:'社会心理学关注的是对人类行为的理解。'
-    // },
-    // {
-    //     index: 1090,
-    //     content:'Our faculty includes five libraries across the university.',
-    //     description:'我们学院在大学里有五间图书馆。'
-    // },
-    // {
-    //     index: 1092,
-    //     content:'It is important to plan your study time carefully.',
-    //     description:'认真规划学习时间是很重要的。'
-    // },
-    // {
-    //     index: 1093,
-    //     content:'Gravity is the force that attracts two bodies toward one another.',
-    //     description:'重力是把两个物体相互吸引的力。'
-    // },
-    // {
-    //     index: 1094,
-    //     content:'Many different conferences offer opportunities for volunteer work.',
-    //     description:'许多不同的会议提供志愿者工作的机会。'
-    // },
-    // {
-    //     index: 1095,
-    //     content:'The best student has an opportunity to require a scholarship.',
-    //     description:'最好的学生有机会需要奖学金。'
-    // },
-    // {
-    //     index: 1096,
-    //     content:'You are required to attend lectures and write weekly reports.',
-    //     description:'你被要求上课并写周报。'
-    // },
-    // {
-    //     index: 1097,
-    //     content:'A series of the observations were carried out in the classroom.',
-    //     description:'在教室里进行了一系列的观察。'
-    // },
-    // {
-    //     index: 1098,
-    //     content:'The reception staff can give advice on renting private accommodation.',
-    //     description:'接待处的工作人员可以提供租用私人住所的建议。'
-    // },
-    // {
-    //     index: 1099,
-    //     content:'The department is doing some crucial work on climate change.',
-    //     description:'该部门正在做一些关于气候变化的重要工作。'
-    // },
-    // {
-    //     index: 1100,
-    //     content:'There are many branches of medical studies.',
-    //     description:'医学有许多分支。'
-    // },
-    // {
-    //     index: 1101,
-    //     content:'There was a prize for the best student presentation.',
-    //     description:'有一个最佳学生演讲奖。'
-    // },
-    // {
-    //     index: 1102,
-    //     content:'Artists need to make their works both original and accessible.',
-    //     description:'艺术家需要使他们的作品既具有原创性又易于理解。'
-    // },
-    // {
-    //     index: 1103,
-    //     content:'Muscles bring parts of the body close together.',
-    //     description:'肌肉使身体各部分紧密相连。'
-    // },
-    // {
-    //     index: 1104,
-    //     content:'Physical strength can be enhanced through regular training.',
-    //     description:'通过定期训练可以增强体力。'
-    // },
-    // {
-    //     index: 1105,
-    //     content:'The library will be closed for staff training tomorrow morning.',
-    //     description:'图书馆将于明天上午闭馆进行员工培训。'
-    // },
-    // {
-    //     index: 1106,
-    //     content:'Too much information may have been avoided by the group research design.',
-    //     description:'小组研究设计可能避免了太多的信息。'
-    // },
-    // {
-    //     index: 1107,
-    //     content:'Plants are able to continue growing throughout their lives.',
-    //     description:'植物终其一生都能持续生长。'
-    // },
-    // {
-    //     index: 1108,
-    //     content:'You need to put those books on the table over there.',
-    //     description:'你需要把这些书放在那边的桌子上。'
-    // },
-    // {
-    //     index: 1109,
-    //     content:'The biology department is respected to research activities.',
-    //     description:'生物系以研究活动著称。'
-    // },
-    // {
-    //     index: 1110,
-    //     content:'The student service center is located on the main campus behind the library.',
-    //     description:'学生服务中心位于主校区图书馆后面。'
-    // },
-    // {
-    //     index: 1111,
-    //     content:'The integration of archeologists_ studies with community projects is widely encouraged.',
-    //     description:'考古学家的研究与社区项目的结合得到了广泛的鼓励。'
-    // }
+    {
+        index: 484,
+        content:'Growing population has posed a challenge to many governments.',
+        description:'不断增长的人口对许多政府构成了挑战。'
+    },
+    {
+        index: 498,
+        content:'The opening hours of the library are reduced during summer.',
+        description:'图书馆在夏季的开放时间减少了。'
+    },
+    {
+        index: 506,
+        content:'It takes a long time to walk to university.',
+        description:'步行到大学要花很长时间。'
+    },
+    {
+        index: 508,
+        content:'Photography can be very useful to geographical research.',
+        description:'摄影对地理研究很有用。'
+    },
+    {
+        index: 526,
+        content:'The area has a variety of underwater habitats and species.',
+        description:'该地区有各种各样的水下栖息地和物种。'
+    },
+    {
+        index: 532,
+        content:'Our study program equips students with essential skills for university.',
+        description:'我们的学习计划使学生具备上大学所需的基本技能。'
+    },
+    {
+        index: 534,
+        content:'Academic libraries across the world are steadily incorporating social media.',
+        description:'世界各地的学术图书馆都在逐步地使用社交媒体。'
+    },
+    {
+        index: 535,
+        content:'Many food crops require large amounts of water and fertilizer.',
+        description:'许多粮食作物需要大量的水和肥料。'
+    },
+    {
+        index: 540,
+        content:'New developments in manufacturing are constantly changing the way we live.',
+        description:'制造业的新发展不断地改变着我们的生活方式。'
+    },
+    {
+        index: 542,
+        content:'Classical mechanics is sometimes considered as a branch of applied mathematics.',
+        description:'经典力学有时候被认为是应用数学的一个分支。'
+    },
+    {
+        index: 547,
+        content:'New materials and techniques are changing the style of modern architecture.',
+        description:'新材料和新技术正在改变现代建筑的风格。'
+    },
+    {
+        index: 553,
+        content:'There will be a chemistry test in the class next week.',
+        description:'下周，班里将进行化学测试。'
+    },
+    {
+        index: 580,
+        content:'An effective business manager is always open to new ideas.',
+        description:'一个有能力的业务经理总是会接受新想法。'
+    },
+    {
+        index: 581,
+        content:'The department works closely with business communities.',
+        description:'该部门与商界紧密合作。'
+    },
+    {
+        index: 584,
+        content:'There is an accounting assignment for finance students.',
+        description:'金融专业的学生有一个会计作业。'
+    },
+    {
+        index: 588,
+        content:'We should never underestimate the power of creative design.',
+        description:'我们永远不能低估创意设计的力量。'
+    },
+    {
+        index: 589,
+        content:'Linguistics is the scientific study and analysis of language.',
+        description:'语言学是针对语言的科学研究和科学分析。'
+    },
+    {
+        index: 594,
+        content:'The orchestra will be led by a visiting conductor.',
+        description:'管弦乐队将由来访的指挥家来指挥。'
+    },
+    {
+        index: 599,
+        content:'Undergraduate students can select what interests them the most in the science program.',
+        description:'本科生可以选择他们最感兴趣的理科项目。'
+    },
+    {
+        index: 603,
+        content:'Marine environments have been destroyed by pollution and unsustainable development.',
+        description:'海洋环境已经被污染和不可持续的发展破坏了。'
+    },
+    {
+        index: 604,
+        content:'Designers need to keep up with the social trends.',
+        description:'设计师需要跟上社会潮流。'
+    },
+    {
+        index: 609,
+        content:'A visit to the designed museum is of great value.',
+        description:'参观精心设计的博物馆是非常有价值的。'
+    },
+    {
+        index: 619,
+        content:'Undergraduates may pursue their specific interests within certificate programs.',
+        description:'本科生可以在认证课程中追求自己的爱好。'
+    },
+    {
+        index: 622,
+        content:'Trees benefit the city by soaking up the rainwater that runs off the roads.',
+        description:'树木通过吸收从道路上流下的雨水的方式来助益城市。'
+    },
+    {
+        index: 633,
+        content:'New media journalism is an exciting area of study.',
+        description:'新媒体新闻是一个令人兴奋的研究领域。'
+    },
+    {
+        index: 688,
+        content:'Rising sea temperatures are a sign of climate change.',
+        description:'海水温度上升是气候变化的征兆。'
+    },
+    {
+        index: 695,
+        content:'The key witnesses to the event have conflicting recollections.',
+        description:'该事件的主要目击者的回忆相互矛盾。'
+    },
+    {
+        index: 743,
+        content:'Summer school programs allow some students to accelerate their studies.',
+        description:'暑期课程允许一些学生加快他们的学习进度。'
+    },
+    {
+        index: 755,
+        content:'The momentum is defined as the combination of mass and velocity.',
+        description:'动量被定义为质量和速度的结合。'
+    },
+    {
+        index: 787,
+        content:'You will study two core and three optional modules.',
+        description:'你将学习两个核心的和三个选修的课程。'
+    },
+    {
+        index: 788,
+        content:'Peer review is an essential part of scientific methods.',
+        description:'同行评议是科研方法的重要组成部分。'
+    },
+    {
+        index: 791,
+        content:'Advanced technology created growth in the economy.',
+        description:'先进科技创造了经济增长。'
+    },
+    {
+        index: 827,
+        content:'The study center in the library has all the latest technologies.',
+        description:'图书馆的学习中心拥有所有最新的技术。'
+    },
+    {
+        index: 834,
+        content:'This course places considerable emphasis on critical thinking skills.',
+        description:'本课程相当重视批判性思维技能。'
+    },
+    {
+        index: 844,
+        content:'A typical part of the course involves the study of society.',
+        description:'这门课程的一个典型部分包括了社会研究。'
+    },
+    {
+        index: 860,
+        content:'The aim of the course is to encourage students to develop their creativity.',
+        description:'这门课程的目的是鼓励学生发展他们的创造力。'
+    },
+    {
+        index: 862,
+        content:'When launching a product,researching and marketing are very crucial.',
+        description:'当推出一个产品时，研究和营销是非常重要的。'
+    },
+    {
+        index: 866,
+        content:'Scientists have founded all parts of society today.',
+        description:'科学家们建立了当今社会的各个部分。'
+    },
+    {
+        index: 867,
+        content:'Climate change is not a pure reason for this scientific research.',
+        description:'这项科学研究并不单纯是因为气候变化。'
+    },
+    {
+        index: 879,
+        content:'Physics is the key subject to understanding the world and the universe.',
+        description:'物理学是理解世界和宇宙的关键学科。'
+    },
+    {
+        index: 896,
+        content:'This new camera can identify your eyes and focus on them.',
+        description:'这个新相机可以识别你的眼睛并对其进行聚焦。'
+    },
+    {
+        index: 898,
+        content:'There is a pharmacy on campus near the bookstore.',
+        description:'校园里书店附近有个药房。'
+    },
+    {
+        index: 904,
+        content:'The lecture today will cover all the main reasons for global warming.',
+        description:'今天的讲座将涵盖全球变暖的所有主要原因。'
+    },
+    {
+        index: 921,
+        content:'The director of the gallery was grateful for the anonymous donation.',
+        description:'美术馆馆长对匿名捐赠表示感谢。'
+    },
+    {
+        index: 922,
+        content:'Studies showed there is a positive correlation between the two variables.',
+        description:'研究表明，这两个变量之间存在正相关关系。'
+    },
+    {
+        index: 923,
+        content:'You should have awareness of how the business operates globally.',
+        description:'你应该了解公司是如何在全球范围内运作的。'
+    },
+    {
+        index: 929,
+        content:'The dance department stages elaborated performances each semester.',
+        description:'舞蹈系每学期都有精心设计的表演。'
+    },
+    {
+        index: 930,
+        content:'An architect is required to have problem-solving skills and an eye for design.',
+        description:'建筑师需要有解决问题的能力和设计的眼光。'
+    },
+    {
+        index: 934,
+        content:'The article considers the leisure habits of teenagers in rural areas.',
+        description:'本文展现了农村青少年的休闲习惯。'
+    },
+    {
+        index: 936,
+        content:'Read the first section before the next meeting.',
+        description:'在下次会议之前阅读第一节。'
+    },
+    {
+        index: 946,
+        content:'We learned through observations and the analysis of human behaviors.',
+        description:'我们通过观察和分析人类行为来学习。'
+    },
+    {
+        index: 953,
+        content:'In his lifetime,he composed a large number of works.',
+        description:'他一生创作了大量的作品。'
+    },
+    {
+        index: 967,
+        content:'Newspapers across the country have been reporting stories of the president.',
+        description:'全国各地的报纸都在报道总统的故事。'
+    },
+    {
+        index: 982,
+        content:'In addition to class requirements,students must pass all the qualifying examinations.',
+        description:'除了课堂要求之外，学生还必须通过所有资格考试。'
+    },
+    {
+        index: 984,
+        content:'Our aim is to reduce the risks that people take.',
+        description:'我们的目标是降低人们承担的风险。'
+    },
+    {
+        index: 990,
+        content:'One student representative will be selected from each class.',
+        description:'每个班将选出一名学生代表。'
+    },
+    {
+        index: 992,
+        content:'All answers must be thoroughly researched and supported by relevant theories.',
+        description:'所有答案必须经过充分的研究，并有相关的理论支持。'
+    },
+    {
+        index: 996,
+        content:'While some people regard it as reforming zeal,others regard it as recklessness.',
+        description:'有人认为这是改革的热情，也有人认为这是鲁莽。'
+    },
+    {
+        index: 1015,
+        content:'Any gain on sales of property must be allocated promptly.',
+        description:'出售财产所获得的任何收益都必须及时分配。'
+    },
+    {
+        index: 1017,
+        content:'Efforts are being made to reduce harmful emissions.',
+        description:'人们正在努力减少有害排放。'
+    },
+    {
+        index: 1025,
+        content:'Visual aid can be really helpful when you are revising.',
+        description:'当你复习的时候，视觉辅助真的很有帮助。'
+    },
+    {
+        index: 1027,
+        content:'We encourage students to complete their applications before the deadline.',
+        description:'我们鼓励学生在截止日期前完成申请。'
+    },
+    {
+        index: 1033,
+        content:'Lectures are the oldest and the most formal teaching method at university.',
+        description:'讲座是大学里最古老、最正式的教学方法。'
+    },
+    {
+        index: 1044,
+        content:'Before you choose your university courses,you should consider your future career.',
+        description:'在你选择大学课程之前，你应该考虑一下你未来的职业。'
+    },
+    {
+        index: 1049,
+        content:'Digital scans of archive materials are provided for a small fee.',
+        description:'存档材料的数字扫描件只需要少量费用即可提供。'
+    },
+    {
+        index: 1054,
+        content:'She began by giving an outline of the previous lecture.',
+        description:'她首先针对上一讲的内容进行了概述。'
+    },
+    {
+        index: 1063,
+        content:'You must answer security questions when you reset your password.',
+        description:'当你重设密码时，你必须回答安全问题。'
+    },
+    {
+        index: 1064,
+        content:'Astronomers use light years to measure distance in space.',
+        description:'天文学家用“光年”来测量太空中的距离。'
+    },
+    {
+        index: 1065,
+        content:'Currently the growth of the economy is unpredictable.',
+        description:'目前的经济增长是不可预测的。'
+    },
+    {
+        index: 1068,
+        content:'The course involves a combination of pure and applied mathematics.',
+        description:'这门课程涉及纯数学和应用数学的结合。'
+    },
+    {
+        index: 1089,
+        content:'Social psychology is concerned with the understanding of human behaviors.',
+        description:'社会心理学关注的是对人类行为的理解。'
+    },
+    {
+        index: 1097,
+        content:'A series of the observations were carried out in the classroom.',
+        description:'在教室里进行了一系列的观察。'
+    },
+    {
+        index: 1099,
+        content:'The department is doing some crucial work on climate change.',
+        description:'该部门正在做一些关于气候变化的重要工作。'
+    },
+    {
+        index: 1104,
+        content:'Physical strength can be enhanced through regular training.',
+        description:'通过定期训练可以增强体力。'
+    },
+    {
+        index: 1107,
+        content:'Plants are able to continue growing throughout their lives.',
+        description:'植物终其一生都能持续生长。'
+    },
 ]
