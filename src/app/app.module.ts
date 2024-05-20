@@ -11,6 +11,8 @@ import { RoComponent } from './kword/ro/ro.component';
 import { TypeComponent } from './kword/type/type.component';
 import { SixComponent } from './kword/six/six.component';
 import { WeComponent } from './kword/we/we.component';
+import { RsComponent } from './kword/rs/rs.component';
+import { SstComponent } from './kword/sst/sst.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { WeComponent } from './kword/we/we.component';
     RoComponent,
     TypeComponent,
     SixComponent,
-    WeComponent
+    WeComponent,
+    RsComponent,
+    SstComponent
   ],
   imports: [
     BrowserModule,

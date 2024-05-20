@@ -8,6 +8,8 @@ import { RoComponent } from './kword/ro/ro.component';
 import { SixComponent } from './kword/six/six.component';
 import { TypeComponent } from './kword/type/type.component';
 import { WeComponent } from './kword/we/we.component';
+import { RsComponent } from './kword/rs/rs.component';
+import { SstComponent } from './kword/sst/sst.component';
 
 const routes:Routes = [
   {path: '', component: TypeComponent},
@@ -16,7 +18,9 @@ const routes:Routes = [
   {path: 'type', component: TypeComponent},
   {path: 'RO', component: RoComponent},
   {path: 'SIX', component: SixComponent},
+  {path: 'SST', component: SstComponent},
   {path: 'WE', component: WeComponent},
+  {path: 'RS', component: RsComponent},
 ];
 
 
