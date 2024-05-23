@@ -13,6 +13,7 @@ import { SixComponent } from './kword/six/six.component';
 import { WeComponent } from './kword/we/we.component';
 import { RsComponent } from './kword/rs/rs.component';
 import { SstComponent } from './kword/sst/sst.component';
+import { FibLComponent } from './kword/fib-l/fib-l.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SstComponent } from './kword/sst/sst.component';
     SixComponent,
     WeComponent,
     RsComponent,
-    SstComponent
+    SstComponent,
+    FibLComponent
   ],
   imports: [
     BrowserModule,

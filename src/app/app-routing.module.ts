@@ -10,6 +10,7 @@ import { TypeComponent } from './kword/type/type.component';
 import { WeComponent } from './kword/we/we.component';
 import { RsComponent } from './kword/rs/rs.component';
 import { SstComponent } from './kword/sst/sst.component';
+import { FibLComponent } from './kword/fib-l/fib-l.component';
 
 const routes:Routes = [
   {path: '', component: TypeComponent},
@@ -21,6 +22,7 @@ const routes:Routes = [
   {path: 'SST', component: SstComponent},
   {path: 'WE', component: WeComponent},
   {path: 'RS', component: RsComponent},
+  {path: 'L', component: FibLComponent},
 ];
 
 

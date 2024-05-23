@@ -1,3 +1,6 @@
+<div style="position: absolute; right: 1em; color: red; font-size: 32px">
+  {{ score }}
+</div>
 <div style="width: 100%">
   <div class="title">{{ title }}</div>
   <div class="title">
@@ -8,7 +11,7 @@
   <div>
     <div
       style="
-        height: 10vh;
+        height: 6vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -17,29 +20,28 @@
     >
       {{ item.china }}
     </div>
-    <div>
-      <span class="input input--haruki">
-        <input
-          class="input__field input__field--haruki"
-          type="text"
-          id="input-1"
-          [(ngModel)]="item.inputWord"
-          (keyup.enter)="submit(item)"
-        />
-      </span>
-    </div>
-    <div
-      *ngIf="failFlag"
-      style="
-        height: 5vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 18px;
-        color: red;
-      "
-    >
-      {{ item.english }}
-    </div>
   </div>
+</div>
+<textarea
+  style="width: 100%; height: 150px"
+  #html
+  [(ngModel)]="inputWord"
+  [style.font-family]="'Arial'"
+  [style.font-size]="'18px'"
+></textarea>
+<div style="width: 100%; margin-bottom: 2em">
+  <button (click)="submit()">Answer</button>
+</div>
+<div
+  *ngIf="failFlag"
+  style="
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: red;
+  "
+>
+  {{ english }}
 </div>

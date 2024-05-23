@@ -1,0 +1,25 @@
+<div style="position: absolute; right: 1em; color: red; font-size: 32px">
+  {{ score }}
+</div>
+<div style="width: 100%; margin-bottom: 3em">
+  <div class="title">{{ title }}</div>
+  <div class="title">
+    {{ titleDescription }}
+  </div>
+</div>
+<div *ngFor="let item of Array; let i = index" style="margin-bottom: 2em">
+  <div>{{ i + 1 }}.{{ item.english }}</div>
+  <div style="margin-bottom: 1em">{{ item.china }}</div>
+  <span class="input input--haruki">
+    <input
+      class="input__field input__field--haruki"
+      type="text"
+      id="input-1"
+      [(ngModel)]="item.inputWord"
+      (keyup.enter)="submit()"
+    />
+  </span>
+  <div *ngIf="failFlag" style="font-size: 20px; color: red">
+    {{ item.answer }}
+  </div>
+</div>

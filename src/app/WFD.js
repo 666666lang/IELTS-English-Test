@@ -271,7 +271,7 @@ export let WFD= [
     },
     {
         index: 303,
-        content:'Parents_ talk to children tends to be simplified.',
+        content:"Parents’ talk to children tends to be simplified.",
         description:'父母对孩子的谈话往往被简化。'
     },
     {
@@ -371,7 +371,7 @@ export let WFD= [
     },
     {
         index: 384,
-        content:'Geography is generally divided into two main branches, human and physical.',
+        content:'Geography is generally divided into two main branches,human and physical.',
         description:'地理学通常分为两个主要的分支：人文地理和自然地理。'
     },
     {

@@ -26,6 +26,8 @@ export class TypeComponent implements OnInit {
       this.router.navigate(['/WE'])
     }else if(e == 'RS'){
       this.router.navigate(['/RS'])
+    }else if (e == 'L'){
+      this.router.navigate(['/L'])
     }
   }
 

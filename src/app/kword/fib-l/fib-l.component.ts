@@ -1,23 +1,21 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-sst',
-  templateUrl: './sst.component.html',
-  styleUrls: ['./sst.component.css']
+  selector: 'app-fib-l',
+  templateUrl: './fib-l.component.html',
+  styleUrls: ['./fib-l.component.css']
 })
-export class SstComponent implements OnInit {
+export class FibLComponent implements OnInit {
 
   constructor() { }
   step = 0;
   score = 0;
   title = ''
   titleDescription = ''
-  inputWord = ''
-  english = ''
   failFlag = false;
   tempWord = {};
-  Array = [{china:'',english:'',inputWord:''}];
-  utily = require('../../SST.js')
+  Array = [{china:'',english:'',inputWord:'',answer:''}];
+  utily = require('../../FIB-L.js')
 
   ngOnInit(): void {
     for(let i = 0;i<this.utily.data.length;i++){
@@ -30,8 +28,7 @@ export class SstComponent implements OnInit {
   new(){
     this.step++;
     this.failFlag = false;
-    this.inputWord = '';
-    this.Array = [{china:'',english:'',inputWord:''}];
+    this.Array = [{china:'',english:'',inputWord:'',answer:''}];
     if(this.step > 5){
       alert("你的成绩为" + this.score + '分')
     }
@@ -39,17 +36,22 @@ export class SstComponent implements OnInit {
     this.title = this.utily.data[n].title
     this.titleDescription = this.utily.data[n].titleDescription
     this.Array = this.utily.data[n].array;
-    this.english =  this.utily.data[n].english; 
+    for(let i of this.Array){
+      i.inputWord = ""
+    }
   }
 
   submit(){
-    if(this.english == this.inputWord){
-      if(this.failFlag == false){
-        this.score++;
+    let tempFlag = false;
+    for(let i of this.Array){
+      if(i.answer != i.inputWord){
+        this.failFlag = true;
+        tempFlag = true;
       }
-      this.new();
-    }else {
-      this.failFlag = true;
+    }
+    if(!tempFlag) this.new();
+    if(this.failFlag == false){
+      this.score++;
     }
   }
 
