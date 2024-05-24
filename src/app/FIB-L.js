@@ -678,4 +678,684 @@ export let data= [
             }
         ]
     },
+    {
+        index: 23,
+        title:'Music',
+        titleDescription:'音乐',
+        array:[
+            {
+                english:"have a specialized ______ of the intricacies of counterpoint",
+                china:"对复杂的对位法有专门的知识",
+                answer:"knowledge"
+            },
+            {
+                english:"its emotional and dramatic ______",
+                china:"其情感和戏剧性的影响",
+                answer:"impact"
+            },
+            {
+                english:"become more ______ with it",
+                china:"变得更加熟悉它",
+                answer:"familiar"
+            },
+            {
+                english:"prolonged study of music and its ______",
+                china:"音乐及其创作的长期研究",
+                answer:"composition"
+            },
+            {
+                english:"alien to you on a first ______",
+                china:"第一次听你就觉得陌生",
+                answer:"hearing"
+            }
+        ]
+    },
+    {
+        index: 24,
+        title:'Life in Scotland before Farming',
+        titleDescription:'耕作前的苏格兰生活',
+        array:[
+            {
+                english:"gathering wild foodstuffs",
+                china:"采集野生食品",
+                answer:"gathering"
+            },
+            {
+                english:"they usually didn't settle ______ in one place",
+                china:"他们通常不会在一个地方永久定居",
+                answer:"permanently"
+            },
+            {
+                english:"a few flint ______ have been found to verify this",
+                china:"已经发现了一些燧石工具来验证这一点",
+                answer:"tools"
+            },
+            {
+                english:"coastal ______ has destroyed many ancient sites",
+                china:"海岸侵蚀破坏了许多古代遗址",
+                answer:"erosion"
+            },
+            {
+                english:"earliest pioneering ______",
+                china:"最早的开拓性殖民者",
+                answer:"colonists"
+            }
+        ]
+    },
+    {
+        index: 25,
+        title:'Paper Manufacture',
+        titleDescription:'造纸',
+        array:[
+            {
+                english:"it had been ______ since the 10th century",
+                china:"它从10世纪开始进口",
+                answer:"imported"
+            },
+            {
+                english:"a ______ was established at Fabriano in Italy",
+                china:"在意大利的法布里亚诺建立了一家工厂",
+                answer:"mill"
+            },
+            {
+                english:"throughout the 14th century _______ most of Europe",
+                china:"整个14世纪提供了欧洲大部分地区",
+                answer:"provided"
+            },
+            {
+                english:"With the increasing _______ of paper in Europe",
+                china:"随着欧洲纸张供应量的增加",
+                answer:"availability"
+            },
+            {
+                english:"the _______ of identical printed pictures",
+                china:"制作相同的印刷图片",
+                answer:"production"
+            }
+        ]
+    },
+    {
+        index: 26,
+        title:'Spinal Cord',
+        titleDescription:'脊髓',
+        array:[
+            {
+                english:"the body - is a band of ______ tissue",
+                china:"身体是一条神经组织",
+                answer:"nervous"
+            },
+            {
+                english:"motor neurons ______ electric impulses",
+                china:"运动神经元传递电脉冲",
+                answer:"convey"
+            },
+            {
+                english:"______ neurons transmit messages",
+                china:"感觉神经元传递信息",
+                answer:"sensory"
+            },
+            {
+                english:"the spinal cord also _______ without the brain having to intervene",
+                china:"脊髓也可以在不需要大脑干预的情况下发挥作用",
+                answer:"functions"
+            },
+            {
+                english:"it alone controls those actions called spinal ______",
+                china:"它单独控制那些称为脊髓反射的动作",
+                answer:"reflexes"
+            }
+        ]
+    },
+    {
+        index: 27,
+        title:'Growth of the Modern state',
+        titleDescription:'现代国家的成长',
+        array:[
+            {
+                english:"The growth of the modern ______",
+                china:"现代国家的成长",
+                answer:"state"
+            },
+            {
+                english:"A man whose occupation is the ______ for political power",
+                china:"一个以争夺政治权力为职业的人",
+                answer:"struggle"
+            },
+            {
+                english:"supply their main ______ of income",
+                china:"提供他们的主要收入来源",
+                answer:"source"
+            },
+            {
+                english:"a person who ______ in full-time political activities",
+                china:"全职从事政治活动的人",
+                answer:"engages"
+            },
+            {
+                english:"a political system in which ______ to positions of power is filled",
+                china:"一种填补权力职位空缺的政治制度",
+                answer:"recruitment"
+            },
+            {
+                english:"pursue policies which are wholly ______",
+                china:"推行完全有偏见的政策",
+                answer:"biased"
+            },
+            {
+                english:"towards the interests of the class they ______ from",
+                china:"为了他们出身的阶层的利益",
+                answer:"originate"
+            }
+        ]
+    },
+    {
+        index: 28,
+        title:'University Lecturers and Professors',
+        titleDescription:'大学讲师和教授',
+        array:[
+            {
+                english:"the ______ and behavior of university lecturers and professors",
+                china:"大学讲师和教授的观点与行为",
+                answer:"opinions"
+            },
+            {
+                english:"who are not ______ to a university or other",
+                china:"未附属于大学或其他",
+                answer:"attached"
+            },
+            {
+                english:"those of their ______",
+                china:"colleagues",
+                answer:"他们同事的那些"
+            },
+            {
+                english:"have less of a ______",
+                china:"名声不大",
+                answer:"reputation"
+            },
+            {
+                english:"by the prestige of its ______",
+                china:"依靠员工的声望",
+                answer:"staff"
+            }
+        ]
+    },
+    {
+        index: 29,
+        title:'Chain of Events',
+        titleDescription:'事件链',
+        array:[
+            {
+                english:"reveals a train of ______ relationships",
+                china:"揭示了一系列因果关系",
+                answer:"causal"
+            },
+            {
+                english:"they are seen to be ______ in some way",
+                china:"人们认为它们在某种程度上是相互联系的",
+                answer:"linked"
+            },
+            {
+                english:"provide a solid background for useful ______",
+                china:"generalizations",
+                answer:"为有用的概括提供坚实的背景"
+            },
+            {
+                english:"if any particular ______ emerge",
+                china:"如果出现任何特定的模式",
+                answer:"patterns"
+            },
+            {
+                english:"a useful basis for ______ and prediction",
+                china:"分析和预测的有用基础",
+                answer:"analysis"
+            },
+            {
+                english:"you have to ______ the theory",
+                china:"你必须修改理论",
+                answer:"modify"
+            },
+            {
+                english:"either disprove or ______ a theory",
+                china:"否定或支持一个理论",
+                answer:"support"
+            }
+        ]
+    },
+    {
+        index: 30,
+        title:'Montesquieu',
+        titleDescription:'孟德斯鸠',
+        array:[
+            {
+                english:"who likes to _______",
+                china:"谁喜欢分类",
+                answer:"categorize"
+            },
+            {
+                english:"Historian, political philosopher,_______",
+                china:"历史学家、政治哲学家、社会学家",
+                answer:"sociologist"
+            },
+            {
+                english:"the man of ______",
+                china:"文人",
+                answer:"letters"
+            },
+            {
+                english:"had the most ______ on later thinkers",
+                china:"对后来的思想家影响最大",
+                answer:"influence"
+            },
+            {
+                english:"______, ideas, laws and institutions",
+                china:"习俗、思想、法律和制度",
+                answer:"customs"
+            },
+            {
+                english:"_______ for the apparent madness of things",
+                china:"解释事物表面上的疯狂",
+                answer:"account"
+            },
+        ]
+    },
+    {
+        index: 31,
+        title:'Privacy',
+        titleDescription:'隐私',
+        array:[
+            {
+                english:"becoming hot ______ in the media",
+                china:"成为媒体的热门话题",
+                answer:"topics"
+            },
+            {
+                english:"which is a touch ______",
+                china:"这有点讽刺",
+                answer:"ironic"
+            },
+            {
+                english:"has been ______ for some crime",
+                china:"因某些罪行被监禁",
+                answer:"imprisoned"
+            },
+            {
+                english:"_______ or wrongfully",
+                china:"正确地或错误地",
+                answer:"rightfully"
+            },
+            {
+                english:"they are the ______ of some natural disaster",
+                china:"他们是一些自然灾害的受害者",
+                answer:"victims"
+            },
+            {
+                english:"teams of public _______ people",
+                china:"公关团队",
+                answer:"relations"
+            },
+        ]
+    },
+    {
+        index: 32,
+        title:'Information Overload',
+        titleDescription:'信息过载',
+        array:[
+            {
+                english:"There is such a thing as information ______",
+                china:"信息过载是存在的",
+                answer:"overload"
+            },
+            {
+                english:"we can't ______ with it or fully absorb it",
+                china:"我们无法应对或完全吸收它",
+                answer:"cope"
+            },
+            {
+                english:"we want to keep in our minds, or which to ______.",
+                china:"我们想保留在脑海中，或者丢弃哪一个",
+                answer:"discard"
+            },
+            {
+                english:"the range of choices we have as ______",
+                china:"我们作为消费者的选择范围",
+                answer:"consumers"
+            },
+            {
+                english:"this situation is making us _______",
+                china:"这种情况让我们很痛苦",
+                answer:"miserable"
+            },
+            {
+                english:"is part of a larger ______",
+                china:"是更大趋势的一部分",
+                answer:"trend"
+            },
+            {
+                english:"as society grows more ______",
+                china:"随着社会越来越富裕",
+                answer:"affluent"
+            },
+        ]
+    },
+    {
+        index: 33,
+        title:'Post-modernism',
+        titleDescription:'后现代主义',
+        array:[
+            {
+                english:"Post-modernism is broadly speaking a ______",
+                china:"广义上讲，后现代主义是一种反应",
+                answer:"reaction"
+            },
+            {
+                english:" tend to define it in ______ terms by telling us what it isn't",
+                china:"倾向于用负面的术语来定义它，告诉我们它不是什么",
+                answer:"negative"
+            },
+            {
+                english:"_______ the term had a fairly limited application",
+                china:"最初，这个词的适用范围相当有限",
+                answer:"Initially"
+            },
+            {
+                english:"all aspects of ______ culture",
+                china:"当代文化的方方面面",
+                answer:"contemporary"
+            },
+            {
+                english:"truth and reality are human-centered and _______",
+                china:"真理和现实是以人为中心和内在的",
+                answer:"internal"
+            },
+            {
+                english:"the primary _______ of truth in the present age is the self",
+                china:"当代真理的主要来源是自我",
+                answer:"source"
+            }
+        ]
+    },
+    {
+        index: 34,
+        title:'Learning a Language',
+        titleDescription:'学习一门语言',
+        array:[
+            {
+                english:"quite _______",
+                china:"坦率地说",
+                answer:"frankly"
+            },
+            {
+                english:" they had other _______",
+                china:"他们还有其他选择",
+                answer:"options"
+            },
+            {
+                english:"require a ______ knowledge of a second language",
+                china:"需要第二语言的基本知识",
+                answer:"basic"
+            },
+            {
+                english:"When you talk to young _______ in top companies",
+                china:"当你与顶级公司的年轻员工交谈时",
+                answer:"employees"
+            },
+            {
+                english:"but _______ extras",
+                china:"但重要的额外费用",
+                answer:"significant"
+            }
+        ]
+    },
+    {
+        index: 35,
+        title:'Assignment for the Holiday Period',
+        titleDescription:'假期分配',
+        array:[
+            {
+                english:"It's quite ______",
+                china:"很实用",
+                answer:"practical"
+            },
+            {
+                english:"It does have a written ______",
+                china:"它确实有一个书面元素",
+                answer:"element"
+            },
+            {
+                english:"how you ______ the data",
+                china:"如何收集数据",
+                answer:"collect"
+            },
+            {
+                english:"it's critical that you ______ this",
+                china:"你复习一下这一点至关重要",
+                answer:"review"
+            },
+            {
+                english:"its diagrammatic form and also its ______",
+                china:"它的图解形式及其描述",
+                answer:"description"
+            }
+        ]
+    },
+    {
+        index: 36,
+        title:'Barred Owls',
+        titleDescription:'被禁止的猫头鹰',
+        array:[
+            {
+                english:"They feed on small ______, fish, birds and small reptiles",
+                china:"它们以小型哺乳动物、鱼类、鸟类和小型爬行动物为食",
+                answer:"mammals"
+            },
+            {
+                english:"a very ______ nocturnal predator",
+                china:"一种适应性很强的夜间捕食者",
+                answer:"adaptable"
+            },
+            {
+                english:"building up quite an ______ population",
+                china:"建立了相当多的城市人口",
+                answer:"urban"
+            },
+            {
+                english:"on other ______ species",
+                china:"关于其他本土物种",
+                answer:"native"
+            }
+        ]
+    },
+    {
+        index: 37,
+        title:'Obtain Pearls',
+        titleDescription:'获取珍珠',
+        array:[
+            {
+                english:"were brought to the surface, opened, and ______",
+                china:"被带到水面，打开并搜查",
+                answer:"searched"
+            },
+            {
+                english:"this exposed them to ______ creatures and dangerous waves",
+                china:"这使他们暴露在敌对生物和危险的海浪中",
+                answer:"hostile"
+            },
+            {
+                english:"they held a large ______, like a rock",
+                china:"他们拿着一个像石头一样的大物体",
+                answer:"object"
+            },
+            {
+                english:"cultured pearl ______",
+                china:"养殖珍珠养殖场",
+                answer:"farms"
+            },
+            {
+                english:"so mainly for the ______ industry",
+                china:"所以主要是为了旅游业",
+                answer:"tourist"
+            }
+        ]
+    },
+    {
+        index: 38,
+        title:'Problem for Undergraduate students',
+        titleDescription:'本科生的问题',
+        array:[
+            {
+                english:"is not only adapting to a far more ______ and formal style",
+                china:"不仅适应了更结构化、更正式的风格",
+                answer:"structured"
+            },
+            {
+                english:"______ information and unnecessary",
+                china:"有效信息和不必要信息",
+                answer:"valid"
+            },
+            {
+                english:"irrelevant ______",
+                china:"无关材料",
+                answer:"material"
+            },
+            {
+                english:"if not longer, to ______ what is required",
+                china:"如果不是更长的话，了解需要什么",
+                answer:"appreciate"
+            },
+            {
+                english:"if they are struggling with written _______",
+                china:"如果他们正在为书面作业而挣扎",
+                answer:"assignments"
+            },
+            {
+                english:"seek help from the ______ support services",
+                china:"向优秀的支持服务寻求帮助",
+                answer:"excellent"
+            }
+        ]
+    },
+    {
+        index: 39,
+        title:'Question about Education',
+        titleDescription:'关于教育的问题',
+        array:[
+            {
+                english:"there is a ______ reason",
+                china:"有一个基因原因",
+                answer:"genetic"
+            },
+            {
+                english:"measurable level of ______",
+                china:"可测量的智力水平",
+                answer:"intelligence"
+            },
+            {
+                english:"the teaching and learning _______",
+                china:"教学过程",
+                answer:"process"
+            },
+            {
+                english:" organized, administered and ______",
+                china:"组织、管理和评估",
+                answer:"assessed"
+            },
+        ]
+    },
+    {
+        index: 40,
+        title:'Overview of the English Module',
+        titleDescription:'英语模块概述',
+        array:[
+            {
+                english:"as this provides an excellent ______ of the topics",
+                china:"因为这提供了对主题的极好概述",
+                answer:"overview"
+            },
+            {
+                english:"It's really our ______ text",
+                china:"这真的是我们的主要文本",
+                answer:"primary"
+            },
+            {
+                english:"how the language has ______ in these countries",
+                china:"语言在这些国家是如何发展的",
+                answer:"developed"
+            },
+            {
+                english:"The sections on phonology and on vocabulary will be ______",
+                china:"关于音韵学和词汇的章节将是非常宝贵的",
+                answer:"invaluable"
+            },
+            {
+                english:"the ______ of a couple of other essential references.",
+                china:"其他一些重要参考文献的细节",
+                answer:"details"
+            },
+        ]
+    },
+    {
+        index: 41,
+        title:'Women in Society',
+        titleDescription:'社会中的妇女',
+        array:[
+            {
+                english:"a number of ______ relating to women in education",
+                china:"与妇女受教育有关的一些问题",
+                answer:"issues"
+            },
+            {
+                english:"be considering the ______ that women play",
+                china:"正在考虑女性所扮演的角色",
+                answer:"roles"
+            },
+            {
+                english:"many of the same ______ that impacted on women",
+                china:"许多影响女性的事件",
+                answer:"events"
+            },
+            {
+                english:"I'll concentrate on the situation in ______ today",
+                china:"我今天将集中讨论欧洲局势",
+                answer:"Europe"
+            },
+            {
+                english:"develop over the next ______",
+                china:"在未来十年发展",
+                answer:"decade"
+            },
+        ]
+    },
+    {
+        index: 42,
+        title:'Laurence Stephen lowy',
+        titleDescription:'劳伦斯·斯蒂芬·洛伊',
+        array:[
+            {
+                english:"Lowry is famous for painting scenes of life in the ______ districts",
+                china:"洛瑞以描绘工业区的生活场景而闻名",
+                answer:"industrial"
+            },
+            {
+                english:"He developed a ______ style of painting",
+                china:"他形成了一种独特的绘画风格",
+                answer:"distinctive"
+            },
+            {
+                english:"is best known for his city ______ peopled with human figures",
+                china:"最著名的是他的城市景观中人物众多",
+                answer:"landscapes"
+            },
+            {
+                english:"often referred to as ______ men",
+                china:"通常被称为火柴棍人",
+                answer:"matchstick"
+            },
+            {
+                english:"mysterious unpopulated landscapes, brooding ______",
+                china:"神秘的无人居住的风景、沉思的肖像",
+                answer:"portraits"
+            },
+        ]
+    },
 ]
