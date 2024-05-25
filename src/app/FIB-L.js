@@ -1358,4 +1358,309 @@ export let data= [
             },
         ]
     },
+    {
+        index: 43,
+        title:'South Australia',
+        titleDescription:'南澳大利亚',
+        array:[
+            {
+                english:"flushed out other remarks from water ______",
+                china:"淹没了水利学者的其他言论",
+                answer:"academics"
+            },
+            {
+                english:"had been ______",
+                china:"已经埋下伏笔",
+                answer:"foreshadowed"
+            },
+            {
+                english:"let alone some whole ______ of South Australia",
+                china:"更不用说南澳大利亚的一些地区了",
+                answer:"regions"
+            },
+            {
+                english:"drinking water comes from the ______ Murray",
+                china:"饮用水来自陷入困境的默里",
+                answer:"beleaguered"
+            },
+            {
+                english:"Is their ______ something we have",
+                china:"他们的困境是我们所面临的吗",
+                answer:"predicament"
+            },
+        ]
+    },
+    {
+        index: 44,
+        title:'Beautiful Buildings',
+        titleDescription:'美丽的建筑',
+        array:[
+            {
+                english:"Along the way we have built ______ beautiful buildings",
+                china:"一路走来，我们建造了厚颜无耻的美丽建筑",
+                answer:"unashamedly"
+            },
+            {
+                english:"the prestigious United Nations World ______ Award",
+                china:"享有盛誉的联合国世界人居奖",
+                answer:"Habitat"
+            },
+            {
+                english:"We rely on older ______ of Australian architecture",
+                china:"我们依赖澳大利亚建筑的古老概念",
+                answer:"concepts"
+            },
+            {
+                english:"allow them to ______ outdoors",
+                china:"允许他们在户外社交",
+                answer:"socialize"
+            },
+            {
+                english:"We use a lot of ______ and soft materials",
+                china:"我们使用了很多天然和柔软的材料",
+                answer:"natural"
+            },
+        ]
+    },
+    {
+        index: 45,
+        title:'Sunflowers by Van Gogh',
+        titleDescription:'梵高的向日葵',
+        array:[
+            {
+                english:"the finest of several ______",
+                china:"几种描绘中最好的",
+                answer:"depictions"
+            },
+            {
+                english:"Van Gogh referred to this work as a ______ of the London painting.",
+                china:"梵高称这幅作品是对伦敦画作的“重复”",
+                answer:"repetition"
+            },
+            {
+                english:"art historians and curators have long been ______ to know",
+                china:"长期以来，艺术历史学家和策展人一直很想知道",
+                answer:"curious"
+            },
+            {
+                english:"An ______ research project conducted over the past three years",
+                china:"在过去三年中进行的一个广泛的研究项目",
+                answer:"extensive"
+            },
+            {
+                english:"not intended as an exact copy of the ______ example",
+                china:"并非作为原始示例的精确副本",
+                answer:"original"
+            },
+        ]
+    },
+    {
+        index: 46,
+        title:'Nanotechnology',
+        titleDescription:'纳米技术',
+        array:[
+            {
+                english:"a report that was put together by a ______ of the Royal Society",
+                china:"由英国皇家学会联合编写的一份报告",
+                answer:"combination"
+            },
+            {
+                english:"______ two topics",
+                china:"确定了两个主题",
+                answer:"identified"
+            },
+            {
+                english:"Nano-science is the study of ______ and the manipulation of materials at atomic",
+                china:"纳米科学是研究原子上的现象和材料的操纵",
+                answer:"phenomena"
+            },
+            {
+                english:"production and application of ______",
+                china:"结构的生产与应用",
+                answer:"structures"
+            },
+            {
+                english:"______ speaking people think of nanotechnologies",
+                china:"粗略地说，人们认为纳米技术",
+                answer:"loosely"
+            },
+        ]
+    },
+    {
+        index: 47,
+        title:'Carbon-rich soils',
+        titleDescription:'富含碳的土壤',
+        array:[
+            {
+                english:"the only real productive ______ solution",
+                china:"唯一真正有效的永久解决方案",
+                answer:"permanent"
+            },
+            {
+                english:"She's ______ that",
+                china:"她很沮丧",
+                answer:"frustrated"
+            },
+            {
+                english:"Australia will ______ just over 600 million tonnes of carbon",
+                china:"澳大利亚的碳排放量将略高于6亿吨",
+                answer:"emit"
+            },
+            {
+                english:"sequester 685 million tonnes of carbon by ______ soil carbon",
+                china:"通过增加土壤碳来封存6.85亿吨碳",
+                answer:"increasing"
+            },
+            {
+                english:"we could sequester the ______ world's emissions of carbon",
+                china:"我们可以封存全世界的碳排放",
+                answer:"whole"
+            },
+        ]
+    },
+    {
+        index: 48,
+        title:'Cars in America',
+        titleDescription:'美国的汽车',
+        array:[
+            {
+                english:"most of those vehicles, of course, are gas ______",
+                china:"当然，这些车辆大多是汽油动力的",
+                answer:"powered"
+            },
+            {
+                english:"the limited supplies of oil and the growing ______",
+                china:"石油供应有限和日益紧迫",
+                answer:"urgency"
+            },
+            {
+                english:"the technology to build ______, fast automobiles",
+                china:"制造时尚、快速汽车的技术",
+                answer:"sleek"
+            },
+            {
+                english:"These vehicles of tomorrow are powered by ______, electricity, bio-fuels",
+                china:"这些未来的汽车由氢、电和生物燃料提供动力",
+                answer:"hydrogen"
+            }
+        ]
+    },
+    {
+        index: 49,
+        title:'Beekeeper',
+        titleDescription:'养蜂人',
+        array:[
+            {
+                english:"If they're lying on the ______ in front of a hive",
+                china:"如果它们躺在蜂巢前的地上",
+                answer:"ground"
+            },
+            {
+                english:"the bees are ______ and wingless",
+                china:"蜜蜂变形了，没有翅膀",
+                answer:"deformed"
+            },
+            {
+                english:"it's probably ______ mites",
+                china:"可能是吸血螨",
+                answer:"vampire"
+            },
+            {
+                english:"Thousands of his bee colonies simply ______",
+                china:"他的数千个蜂群消失了",
+                answer:"disappeared"
+            },
+            {
+                english:"To his ______, they were all empty",
+                china:"令他恐怖的是，他们都是空的",
+                answer:"horror"
+            }
+        ]
+    },
+    {
+        index: 50,
+        title:'Dogs and Hygiene Hypothesis',
+        titleDescription:'狗与卫生假说',
+        array:[
+            {
+                english:"what’s called the ______ hypothesis",
+                china:"什么叫卫生假说",
+                answer:"hygiene"
+            },
+            {
+                english:"They then infected the mice with a ______ childhood infection",
+                china:"然后，他们用一种常见的儿童感染病毒感染小鼠",
+                answer:"common"
+            },
+            {
+                english:"called ______ syncytial virus",
+                china:"称为呼吸道合胞病毒",
+                answer:"respiratory"
+            }
+        ]
+    },
+    {
+        index: 51,
+        title:'Locomotion',
+        titleDescription:'移动',
+        array:[
+            {
+                english:"understand the locomotion of one of our closest living ______",
+                china:"了解我们在世的最亲密的亲属之一的运动",
+                answer:"relatives"
+            },
+            {
+                english:"we have had a big problem ______",
+                china:"传统上我们遇到了一个大问题",
+                answer:"traditionally"
+            },
+            {
+                english:"spent a year recording the ______ types of locomotion",
+                china:"花了一年时间记录不同类型的运动",
+                answer:"different"
+            },
+            {
+                english:"the ______ cost of how they move around the forest ",
+                china:"它们在森林中移动的能量成本",
+                answer:"energetic"
+            },
+            {
+                english:"a large bodied ape moving around a complex ______",
+                china:"在复杂环境中移动的大型类人猿",
+                answer:"environment"
+            }
+        ]
+    },
+    {
+        index: 52,
+        title:'Productivity in Industrial Revolution',
+        titleDescription:'工业革命中的生产力',
+        array:[
+            {
+                english:"the ______ increases in productivity",
+                china:"生产力的巨大提高",
+                answer:"tremendous"
+            },
+            {
+                english:"we ______ with the industrial revolution originate",
+                china:"我们联想到工业革命的起源",
+                answer:"associate"
+            },
+            {
+                english:"______ or new inventions",
+                china:"技术或新发明",
+                answer:"technology"
+            },
+            {
+                english:"on the _______",
+                china:"在大陆上",
+                answer:"continent"
+            },
+            {
+                english:"And ______",
+                china:"一起",
+                answer:"together"
+            }
+        ]
+    },
 ]
