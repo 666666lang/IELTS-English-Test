@@ -1663,4 +1663,309 @@ export let data= [
             }
         ]
     },
+    {
+        index: 53,
+        title:'Lead-in time',
+        titleDescription:'提前期',
+        array:[
+            {
+                english:"more stock or raw ______",
+                china:"更多库存或原材料",
+                answer:"materials"
+            },
+            {
+                english:"meet their customer orders and ______ the time",
+                china:"满足客户订单并最大限度地缩短时间",
+                answer:"minimize"
+            },
+            {
+                english:"receiving the ______ from the customer",
+                china:"从客户那里获得收入",
+                answer:"revenue"
+            },
+            {
+                english:"his may not happen due to a number of ______",
+                china:"由于多种因素，他的情况可能不会发生",
+                answer:"factors"
+            },
+            {
+                english:"_______ the stock to the business",
+                china:"将库存交付给企业",
+                answer:"delivering"
+            }
+        ]
+    },
+    {
+        index: 54,
+        title:'Malaria',
+        titleDescription:'疟疾',
+        array:[
+            {
+                english:"you're going to ______ it",
+                china:"你要消除它",
+                answer:"eliminate"
+            },
+            {
+                english:"mosquito ______",
+                china:"蚊子种群",
+                answer:"population"
+            },
+            {
+                english:"a health system across all these different ______",
+                china:"一个跨越所有这些不同层次的卫生系统",
+                answer:"levels"
+            },
+            {
+                english:"educational ______",
+                china:"教育基础设施",
+                answer:"infrastructure"
+            },
+            {
+                english:"the economic resources you need for that are quite a ______",
+                china:"你所需要的经济资源是一个相当大的挑战",
+                answer:"challenge"
+            }
+        ]
+    },
+    {
+        index: 55,
+        title:'Corporate culture',
+        titleDescription:'企业文化',
+        array:[
+            {
+                english:"accepted and ______ questioned belief",
+                china:"公认且很少受到质疑的信仰",
+                answer:"rarely"
+            },
+            {
+                english:"a recent study has ______ some doubt on this principle",
+                china:"最近的一项研究对这一原则提出了一些质疑",
+                answer:"cast"
+            },
+            {
+                english:"the ______ of the report argue for culture",
+                china:"报告的作者主张文化",
+                answer:"authors"
+            },
+            {
+                english:"There is little point in every ______ marching",
+                china:"每个员工游行都没有什么意义",
+                answer:"employee"
+            }
+        ]
+    },
+    {
+        index: 56,
+        title:'Library Catalog',
+        titleDescription:'库目录',
+        array:[
+            {
+                english:"The university ______ to over 18,000 journals across a variety of subjects",
+                china:"该大学订阅了18000多种学科的期刊",
+                answer:"subscribes"
+            },
+            {
+                english:"most of which are available _______",
+                china:"其中大部分以电子方式提供",
+                answer:"electronically"
+            },
+            {
+                english:"We need to ______ by the journal",
+                china:"我们需要按期刊搜索",
+                answer:"search"
+            },
+            {
+                english:"article titles are not ______ in the catalog",
+                china:"目录中没有列出文章标题",
+                answer:"listed"
+            }
+        ]
+    },
+    {
+        index: 57,
+        title:'Belief',
+        titleDescription:'相信',
+        array:[
+            {
+                english:"The university ______ to over 18,000 journals across a variety of subjects",
+                china:"该大学订阅了18000多种学科的期刊",
+                answer:"subscribes"
+            },
+            {
+                english:"to ______ the world with meanings",
+                china:"给世界注入意义",
+                answer:"infuse"
+            },
+            {
+                english:"cast our _______ far and wide",
+                china:"把我们的志向广泛地投射出去",
+                answer:"aspirations"
+            },
+            {
+                english:"Believing is a _______",
+                china:"相信是一种承诺",
+                answer:"commitment"
+            },
+            {
+                english:"Beliefs _______ neurobiologies, bodies and ecologies acting",
+                china:"信仰渗透到神经生物学、身体和生态学中",
+                answer:"permeate"
+            },
+            {
+                english:"The human capacity for belief, the ______ of belief",
+                china:"人的信仰能力，信仰的细节",
+                answer:"specifics"
+            },
+        ]
+    },
+    {
+        index: 58,
+        title:'Life on Mars',
+        titleDescription:'火星上的生命',
+        array:[
+            {
+                english:"we use Earth as a ______",
+                china:"我们以地球为参考",
+                answer:"reference"
+            },
+            {
+                english:"exploring for _______ environments",
+                china:"探索宜居环境",
+                answer:"habitable"
+            },
+            {
+                english:"a ______ of energy",
+                china:"能量的来源",
+                answer:"source"
+            },
+            {
+                english:"chemical energy, and then ______ carbon",
+                china:"化学能，然后是有机碳",
+                answer:"organic"
+            }
+        ]
+    },
+    {
+        index: 59,
+        title:'Green chemistry',
+        titleDescription:'绿色化学',
+        array:[
+            {
+                english:"a concept designed to develop _______",
+                china:"设计用于开发技术的概念",
+                answer:"technologies"
+            },
+            {
+                english:"an environmentally ______ way",
+                china:"一种与环境兼容的方式",
+                answer:"compatible"
+            },
+            {
+                english:"chemical ______",
+                china:"化工产品",
+                answer:"products"
+            },
+            {
+                english:"covered ______ research work",
+                china:"涵盖基础研究工作",
+                answer:"fundamental"
+            },
+            {
+                english:"we work with schools and on public ______ projects",
+                china:"我们与学校和公众了解项目合作",
+                answer:"understanding"
+            }
+        ]
+    },
+    {
+        index: 60,
+        title:'Dr Google vs ChatGPT',
+        titleDescription:'谷歌博士与ChatGPT',
+        array:[
+            {
+                english:"which is really frustrating to a lot of ______",
+                china:"这对很多医生来说真的很沮丧",
+                answer:"physicians"
+            },
+            {
+                english:"having the actual ______ or context",
+                china:"具有实际的专业知识或背景",
+                answer:"expertise"
+            },
+            {
+                english:"being accurate in ______ what patients have",
+                china:"准确地确定患者的病情",
+                answer:"determining"
+            },
+            {
+                english:"______ research",
+                china:"初步研究",
+                answer:"preliminary"
+            },
+            {
+                english:"some _______ humans",
+                china:"一些未经训练的人",
+                answer:"untrained"
+            }
+        ]
+    },
+    {
+        index: 61,
+        title:'Marie Curie',
+        titleDescription:'玛丽·居里',
+        array:[
+            {
+                english:"she did ______ pioneering research on radioactivity",
+                china:"她确实对放射性进行了开创性的研究",
+                answer:"conduct"
+            },
+            {
+                english:"she showed a lot of ______",
+                china:"她表现出了很大的决心",
+                answer:"determination"
+            },
+            {
+                english:"her career path and her ______",
+                china:"她的职业道路和激情",
+                answer:"passions"
+            },
+            {
+                english:"She also showed a lot of ______ in working",
+                china:"她在工作中也表现出了很大的耐心",
+                answer:"patience"
+            },
+            {
+                english:"built the first ______ X-Ray machines",
+                china:"制造了第一台移动式X光机",
+                answer:"mobile"
+            }
+        ]
+    },
+    {
+        index: 62,
+        title:'Entrepreneurs',
+        titleDescription:'企业家',
+        array:[
+            {
+                english:"who play by the rules are in fact critical to our ______ as a nation",
+                china:"事实上，遵守规则的人对我们国家的成功至关重要",
+                answer:"success"
+            },
+            {
+                english:"end this ______",
+                china:"结束这场衰退",
+                answer:"recession"
+            },
+            {
+                english:"______ monetary policy",
+                china:"稳健的货币政策",
+                answer:"sound"
+            },
+            {
+                english:"push us to ______ of innovation",
+                china:"将我们推向创新的前沿",
+                answer:"frontiers"
+            }
+        ]
+    },
 ]
