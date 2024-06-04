@@ -9,10 +9,10 @@
     }
     .input__field--haruki {
     padding: 0em 0.25em;
-    width: 10%;
+    width: 80%;
     background: transparent;
     color: #AFB5BB;
-    font-size: 1.2em;
+    font-size: 1.5em;
     border: none;
     border-bottom: 2px solid;
     }
@@ -54,3 +54,6 @@
     .input--filled .input__label--haruki::after {
     transform: translate3d(0, 0.5em, 0);
     }
+.input__field--haruki:focus-visible{
+    border: 0;
+}

@@ -14,6 +14,10 @@ export class FibLComponent implements OnInit {
   titleDescription = ''
   failFlag = false;
   tempWord = {};
+  china='';
+  english='';
+  tempAnswer:Array<string> = [];
+  temp = '';
   Array = [{china:'',english:'',inputWord:'',answer:''}];
   utily = require('../../FIB-L.js')
 
@@ -29,6 +33,7 @@ export class FibLComponent implements OnInit {
     this.step++;
     this.failFlag = false;
     this.Array = [{china:'',english:'',inputWord:'',answer:''}];
+    this.tempAnswer = [];
     if(this.step > 5){
       alert("你的成绩为" + this.score + '分')
     }
@@ -36,22 +41,21 @@ export class FibLComponent implements OnInit {
     this.title = this.utily.data[n].title
     this.titleDescription = this.utily.data[n].titleDescription
     this.Array = this.utily.data[n].array;
-    for(let i of this.Array){
-      i.inputWord = ""
+    for(let i = 0;i<this.Array.length;i++){
+      this.tempAnswer.push('');
     }
+    this.english = this.utily.data[n].english;
+    this.china = this.utily.data[n].china;
   }
 
   submit(){
-    let tempFlag = false;
-    for(let i of this.Array){
-      if(i.answer != i.inputWord){
-        this.failFlag = true;
-        tempFlag = true;
+    if(JSON.stringify(this.tempAnswer) == JSON.stringify(this.Array)){
+      if(!this.failFlag){
+        this.score++;
       }
-    }
-    if(!tempFlag) this.new();
-    if(this.failFlag == false){
-      this.score++;
+      this.new();
+    }else{
+      this.failFlag = true;
     }
   }
 

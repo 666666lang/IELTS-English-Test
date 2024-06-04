@@ -49,7 +49,7 @@ export class RsComponent implements OnInit {
     setTimeout(()=>{
       let t = this.findNthOccurrenceIndex(this.inputWord,' ',3);
       this.inputWord = this.utily.RS[n].content.substring(0,t+1);
-    },5000);
+    },6000);
   }
 
   findNthOccurrenceIndex(str:string, charToFind:string, n:number) {
