@@ -95,617 +95,150 @@ export let data= [
         english:'Labor believes that there can be benefits from change. But if we_re going to have change, it needs to be on the basis that the ______ has addressed the cost benefit issues and has addressed the _______ privacy concerns of Australians. So far, it_s failed to address either in relation to cost benefit. It claims there will be a saving of the order of three billion dollars over 10 years, but it refuses to release the _______ on which that claim is based. So it simply _______ Australians to take it on trust.',
         array:['government','legitimate','assumptions','expects']
     },
-    // {
-    //     index: 13,
-    //     title:'Prof. Smith and Angelina',
-    //     titleDescription:'Smith教授和Angelina',
-    //     array:[
-    //         {
-    //             english:"discuss about your ______ in the course",
-    //             china:"讨论你在课程中的进步",
-    //             answer:"progress"
-    //         },
-    //         {
-    //             english:"make sure everyone ______",
-    //             china:"确保每个人都注册了",
-    //             answer:"enrolled"
-    //         },
-    //         {
-    //             english:"your grades were ______ fine",
-    //             china:"你一开始的成绩还不错",
-    //             answer:"initially"
-    //         },
-    //         {
-    //             english:"I missed in those two lab ______",
-    //             china:"我错过了那两次实验",
-    //             answer:"sessions"
-    //         },
-    //         {
-    //             english:"think about putting some ______ in place",
-    //             china:"考虑制定一些策略",
-    //             answer:"strategies"
-    //         },
-    //         {
-    //             english:"I’m at the point ______ I don’t really know",
-    //             china:"我现在还不知道",
-    //             answer:"where"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 14,
-    //     title:'Brad and Lisa',
-    //     titleDescription:'Brad和Lisa',
-    //     array:[
-    //         {
-    //             english:"get my head around the choice of ______",
-    //             china:"弄清楚选修课的选择",
-    //             answer:"electives"
-    //         },
-    //         {
-    //             english:"but I'm a bit ______",
-    //             china:"但我有点担心",
-    //             answer:"concerned"
-    //         },
-    //         {
-    //             english:"there are going to be ______ for summer clerkships coming up",
-    //             china:"夏季书记员的面试即将到来",
-    //             answer:"interviews"
-    //         },
-    //         {
-    //             english:"crim, legal institutions, ______, property law,",
-    //             china:"犯罪，法律制度，证据，财产法，",
-    //             answer:"evidence"
-    //         },
-    //         {
-    //             english:"I'm ______ to pursue",
-    //             china:"我有动力追求",
-    //             answer:"motivated"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 15,
-    //     title:'Largest Ocean',
-    //     titleDescription:'最大的海洋',
-    //     array:[
-    //         {
-    //             english:"his largest ocean in the world could be further ______",
-    //             china:"他世界上最大的海洋还有待进一步探索",
-    //             answer:"explored"
-    //         },
-    //         {
-    //             english:"how many ______ lands did it hold",
-    //             china:"它有多少未被发现的土地",
-    //             answer:"undiscovered"
-    //         },
-    //         {
-    //             english:"did there lie a ______ continent",
-    //             china:"有一块神秘的大陆吗",
-    //             answer:"mysterious"
-    //         },
-    //         {
-    //             english:"perhaps ______ inhabited",
-    //             china:"也许是人口稠密",
-    //             answer:"densely"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 16,
-    //     title:'Multi-million-selling Internet Book',
-    //     titleDescription:'百万销量的网络图书',
-    //     array:[
-    //         {
-    //             english:"the ultimate handbook for ______",
-    //             china:"新手终极手册",
-    //             answer:"novices"
-    //         },
-    //         {
-    //             english:"it covers ______ from getting online",
-    //             china:"它涵盖了从上网到上网的所有内容",
-    //             answer:"everything"
-    //         },
-    //         {
-    //             english:"This fully _____ guide",
-    //             china:"这份经过全面修订的指南",
-    //             answer:"revised"
-    //         },
-    //         {
-    //             english:"all the latest sites and ______",
-    //             china:"所有最新的网站和狂热",
-    //             answer:"crazes"
-    //         },
-    //         {
-    //             english:"keep up with the latest ______",
-    //             china:"跟上最新发展",
-    //             answer:"developments"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 17,
-    //     title:'Giorgio Vasari',
-    //     titleDescription:'瓦萨里',
-    //     array:[
-    //         {
-    //             english:"his illuminating biographies that he is best ______",
-    //             china:"他最为人所铭记的富有启发性的传记",
-    //             answer:"remembered"
-    //         },
-    //         {
-    //             english:"he traces the development of Italian art across three ______",
-    //             china:"他追溯了意大利艺术跨越三个世纪的发展历程",
-    //             answer:"centuries"
-    //         },
-    //         {
-    //             english:"are brought ______ to life",
-    //             china:"栩栩如生",
-    //             answer:"vividly"
-    //         },
-    //         {
-    //             english:"Michelangelo's ______ work",
-    //             china:"米开朗基罗的辛勤工作",
-    //             answer:"painstaking"
-    //         },
-    //         {
-    //             english:"harassed by the ______ Pope Julius II",
-    //             china:"被不耐烦的教皇朱利叶斯二世骚扰",
-    //             answer:"impatient"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 18,
-    //     title:'Takeaway Science',
-    //     titleDescription:'外卖科学',
-    //     array:[
-    //         {
-    //             english:"Now be ______",
-    //             china:"现在请注意",
-    //             answer:"warned"
-    //         },
-    //         {
-    //             english:"Chemistry ______",
-    //             china:"化学教授",
-    //             answer:"Professor"
-    //         },
-    //         {
-    //             english:"his involvement with OU science ______",
-    //             china:"他参与了OU科学广播",
-    //             answer:"broadcasting"
-    //         },
-    //         {
-    //             english:"talk with another OU chemistry ______",
-    //             china:"与另一位OU化学学者交谈",
-    //             answer:"academic"
-    //         },
-    //         {
-    //             english:"what his research _____",
-    //             china:"他的研究涉及什么",
-    //             answer:"involved"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 19,
-    //     title:'Genre',
-    //     titleDescription:'体裁',
-    //     array:[
-    //         {
-    //             english:"I like ______ within it",
-    //             china:"我喜欢在里面工作",
-    //             answer:"working"
-    //         },
-    //         {
-    //             english:"all sorts of things you can ______",
-    //             china:"你可以颠覆的各种东西",
-    //             answer:"subvert"
-    //         },
-    //         {
-    //             english:"it can provide you with a ______",
-    //             china:"它可以为您提供一个结构",
-    //             answer:"structure"
-    //         },
-    //         {
-    //             english:"other people have done a lot before and probably more ______ than you're doing",
-    //             china:"其他人以前做过很多事情，可能比你更成功",
-    //             answer:"successfully"
-    //         },
-    //         {
-    //             english:"keep yourself ______ and interested",
-    //             china:"保持自己的积极性和兴趣",
-    //             answer:"motivated"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 20,
-    //     title:'Difference in Policy',
-    //     titleDescription:'政策差异',
-    //     array:[
-    //         {
-    //             english:"the coalition has not ______",
-    //             china:"联盟没有匹配",
-    //             answer:"matched"
-    //         },
-    //         {
-    //             english:"Innovation responsibilities ______ lie",
-    //             china:"目前的创新责任在于",
-    //             answer:"currently"
-    //         },
-    //         {
-    //             english:"there is a ______ industry department",
-    //             china:"有一个单独的工业部门",
-    //             answer:"separate"
-    //         },
-    //         {
-    //             english:"This has ______ policy development",
-    //             china:"这阻碍了政策的制定",
-    //             answer:"hampered"
-    //         },
-    //         {
-    //             english:"a distinct science and research ______",
-    //             china:"明显的科学和研究偏见",
-    //             answer:"bias"
-    //         },
-    //         {
-    //             english:"______ government-funded research",
-    //             china:"推动政府资助的研究",
-    //             answer:"boosting"
-    //         },
-    //         {
-    //             english:"later ______ their results",
-    //             china:"后来将他们的结果商业化",
-    //             answer:"commercializing"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 21,
-    //     title:'Biological Theme',
-    //     titleDescription:'生物学主题',
-    //     array:[
-    //         {
-    //             english:"a ______ theme",
-    //             china:"生物学主题",
-    //             answer:"biological"
-    //         },
-    //         {
-    //             english:"______ between chemistry and biology",
-    //             china:"化学与生物学之间的联系",
-    //             answer:"connections"
-    //         },
-    //         {
-    //             english:"We want you to think about the ______",
-    //             china:"我们希望你思考分子",
-    //             answer:"molecules"
-    //         },
-    //         {
-    //             english:"how ______ plays a role",
-    //             china:"能量如何发挥作用",
-    //             answer:"energy"
-    //         },
-    //         {
-    //             english:"The first one is about ______",
-    //             china:"第一个是关于物质的",
-    //             answer:"matter"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 22,
-    //     title:'London Metal and Commodity Exchanges',
-    //     titleDescription:'伦敦金属和商品交易所',
-    //     array:[
-    //         {
-    //             english:"but ______ few know anything ",
-    //             china:"但相对而言，很少有人知道任何事情",
-    //             answer:"relatively"
-    //         },
-    //         {
-    //             english:"these markets have a greater ______ on world economies",
-    //             china:"这些市场对世界经济的影响更大",
-    //             answer:"influence"
-    //         },
-    //         {
-    //             english:"industry and food ______",
-    //             china:"工业和食品制造",
-    //             answer:"manufacture"
-    //         },
-    //         {
-    //             english:"large or small ______ of metal of a guaranteed minimum standard",
-    //             china:"保证最低标准的大量或少量金属",
-    //             answer:"quantities"
-    //         },
-    //         {
-    //             english:"political or ______ reasons",
-    //             china:"政治或经济原因",
-    //             answer:"financial"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 23,
-    //     title:'Music',
-    //     titleDescription:'音乐',
-    //     array:[
-    //         {
-    //             english:"have a specialized ______ of the intricacies of counterpoint",
-    //             china:"对复杂的对位法有专门的知识",
-    //             answer:"knowledge"
-    //         },
-    //         {
-    //             english:"its emotional and dramatic ______",
-    //             china:"其情感和戏剧性的影响",
-    //             answer:"impact"
-    //         },
-    //         {
-    //             english:"become more ______ with it",
-    //             china:"变得更加熟悉它",
-    //             answer:"familiar"
-    //         },
-    //         {
-    //             english:"prolonged study of music and its ______",
-    //             china:"音乐及其创作的长期研究",
-    //             answer:"composition"
-    //         },
-    //         {
-    //             english:"alien to you on a first ______",
-    //             china:"第一次听你就觉得陌生",
-    //             answer:"hearing"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 24,
-    //     title:'Life in Scotland before Farming',
-    //     titleDescription:'耕作前的苏格兰生活',
-    //     array:[
-    //         {
-    //             english:"gathering wild foodstuffs",
-    //             china:"采集野生食品",
-    //             answer:"gathering"
-    //         },
-    //         {
-    //             english:"they usually didn't settle ______ in one place",
-    //             china:"他们通常不会在一个地方永久定居",
-    //             answer:"permanently"
-    //         },
-    //         {
-    //             english:"a few flint ______ have been found to verify this",
-    //             china:"已经发现了一些燧石工具来验证这一点",
-    //             answer:"tools"
-    //         },
-    //         {
-    //             english:"coastal ______ has destroyed many ancient sites",
-    //             china:"海岸侵蚀破坏了许多古代遗址",
-    //             answer:"erosion"
-    //         },
-    //         {
-    //             english:"earliest pioneering ______",
-    //             china:"最早的开拓性殖民者",
-    //             answer:"colonists"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 25,
-    //     title:'Paper Manufacture',
-    //     titleDescription:'造纸',
-    //     array:[
-    //         {
-    //             english:"it had been ______ since the 10th century",
-    //             china:"它从10世纪开始进口",
-    //             answer:"imported"
-    //         },
-    //         {
-    //             english:"a ______ was established at Fabriano in Italy",
-    //             china:"在意大利的法布里亚诺建立了一家工厂",
-    //             answer:"mill"
-    //         },
-    //         {
-    //             english:"throughout the 14th century _______ most of Europe",
-    //             china:"整个14世纪提供了欧洲大部分地区",
-    //             answer:"provided"
-    //         },
-    //         {
-    //             english:"With the increasing _______ of paper in Europe",
-    //             china:"随着欧洲纸张供应量的增加",
-    //             answer:"availability"
-    //         },
-    //         {
-    //             english:"the _______ of identical printed pictures",
-    //             china:"制作相同的印刷图片",
-    //             answer:"production"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 26,
-    //     title:'Spinal Cord',
-    //     titleDescription:'脊髓',
-    //     array:[
-    //         {
-    //             english:"the body - is a band of ______ tissue",
-    //             china:"身体是一条神经组织",
-    //             answer:"nervous"
-    //         },
-    //         {
-    //             english:"motor neurons ______ electric impulses",
-    //             china:"运动神经元传递电脉冲",
-    //             answer:"convey"
-    //         },
-    //         {
-    //             english:"______ neurons transmit messages",
-    //             china:"感觉神经元传递信息",
-    //             answer:"sensory"
-    //         },
-    //         {
-    //             english:"the spinal cord also _______ without the brain having to intervene",
-    //             china:"脊髓也可以在不需要大脑干预的情况下发挥作用",
-    //             answer:"functions"
-    //         },
-    //         {
-    //             english:"it alone controls those actions called spinal ______",
-    //             china:"它单独控制那些称为脊髓反射的动作",
-    //             answer:"reflexes"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 27,
-    //     title:'Growth of the Modern state',
-    //     titleDescription:'现代国家的成长',
-    //     array:[
-    //         {
-    //             english:"The growth of the modern ______",
-    //             china:"现代国家的成长",
-    //             answer:"state"
-    //         },
-    //         {
-    //             english:"A man whose occupation is the ______ for political power",
-    //             china:"一个以争夺政治权力为职业的人",
-    //             answer:"struggle"
-    //         },
-    //         {
-    //             english:"supply their main ______ of income",
-    //             china:"提供他们的主要收入来源",
-    //             answer:"source"
-    //         },
-    //         {
-    //             english:"a person who ______ in full-time political activities",
-    //             china:"全职从事政治活动的人",
-    //             answer:"engages"
-    //         },
-    //         {
-    //             english:"a political system in which ______ to positions of power is filled",
-    //             china:"一种填补权力职位空缺的政治制度",
-    //             answer:"recruitment"
-    //         },
-    //         {
-    //             english:"pursue policies which are wholly ______",
-    //             china:"推行完全有偏见的政策",
-    //             answer:"biased"
-    //         },
-    //         {
-    //             english:"towards the interests of the class they ______ from",
-    //             china:"为了他们出身的阶层的利益",
-    //             answer:"originate"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 28,
-    //     title:'University Lecturers and Professors',
-    //     titleDescription:'大学讲师和教授',
-    //     array:[
-    //         {
-    //             english:"the ______ and behavior of university lecturers and professors",
-    //             china:"大学讲师和教授的观点与行为",
-    //             answer:"opinions"
-    //         },
-    //         {
-    //             english:"who are not ______ to a university or other",
-    //             china:"未附属于大学或其他",
-    //             answer:"attached"
-    //         },
-    //         {
-    //             english:"those of their ______",
-    //             china:"colleagues",
-    //             answer:"他们同事的那些"
-    //         },
-    //         {
-    //             english:"have less of a ______",
-    //             china:"名声不大",
-    //             answer:"reputation"
-    //         },
-    //         {
-    //             english:"by the prestige of its ______",
-    //             china:"依靠员工的声望",
-    //             answer:"staff"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 29,
-    //     title:'Chain of Events',
-    //     titleDescription:'事件链',
-    //     array:[
-    //         {
-    //             english:"reveals a train of ______ relationships",
-    //             china:"揭示了一系列因果关系",
-    //             answer:"causal"
-    //         },
-    //         {
-    //             english:"they are seen to be ______ in some way",
-    //             china:"人们认为它们在某种程度上是相互联系的",
-    //             answer:"linked"
-    //         },
-    //         {
-    //             english:"provide a solid background for useful ______",
-    //             china:"generalizations",
-    //             answer:"为有用的概括提供坚实的背景"
-    //         },
-    //         {
-    //             english:"if any particular ______ emerge",
-    //             china:"如果出现任何特定的模式",
-    //             answer:"patterns"
-    //         },
-    //         {
-    //             english:"a useful basis for ______ and prediction",
-    //             china:"分析和预测的有用基础",
-    //             answer:"analysis"
-    //         },
-    //         {
-    //             english:"you have to ______ the theory",
-    //             china:"你必须修改理论",
-    //             answer:"modify"
-    //         },
-    //         {
-    //             english:"either disprove or ______ a theory",
-    //             china:"否定或支持一个理论",
-    //             answer:"support"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 30,
-    //     title:'Montesquieu',
-    //     titleDescription:'孟德斯鸠',
-    //     array:[
-    //         {
-    //             english:"who likes to _______",
-    //             china:"谁喜欢分类",
-    //             answer:"categorize"
-    //         },
-    //         {
-    //             english:"Historian, political philosopher,_______",
-    //             china:"历史学家、政治哲学家、社会学家",
-    //             answer:"sociologist"
-    //         },
-    //         {
-    //             english:"the man of ______",
-    //             china:"文人",
-    //             answer:"letters"
-    //         },
-    //         {
-    //             english:"had the most ______ on later thinkers",
-    //             china:"对后来的思想家影响最大",
-    //             answer:"influence"
-    //         },
-    //         {
-    //             english:"______, ideas, laws and institutions",
-    //             china:"习俗、思想、法律和制度",
-    //             answer:"customs"
-    //         },
-    //         {
-    //             english:"_______ for the apparent madness of things",
-    //             china:"解释事物表面上的疯狂",
-    //             answer:"account"
-    //         },
-    //     ]
-    // },
+    {
+        index: 13,
+        title:'Prof. Smith and Angelina',
+        titleDescription:'Smith教授和Angelina',
+        china:'史密斯教授：没问题。确保每个【报名】参加该课程的人都能尽可能多地从中受益，这确实是我工作的一部分。如果我们只看一下这份电子表格，它概述了你到目前为止的评估结果，你会发现，虽然你的成绩【最初】很好——当然是整个年级的平均水平——但在第一学期结束时，成绩开始有所下降。安吉丽娜：是的。是的，我明白了。我必须承认，就在学期中期休息后，我不得不休息两周，我真的觉得我在那两次【实验】中错过的工作让我很难理解课程其余部分所需的一些基本材料。史密斯教授好吧，谢谢你这么诚实，安吉丽娜。。。我认为我们必须制定一些，考虑制定一些【战略】，这样到年底评估时，你将有公平的机会通过。安吉丽娜：嗯，是的，谢谢史密斯教授，我非常同意，但必须承认，我真的不知道从【哪里】开始。',
+        english:'Prof. Smith: Not a problem. It’s really part of my job to make sure everyone ______ in the course is getting as much out of it as they can. If we just look at this spreadsheet which outlines your assessment results so far, you can see that while your grades were ______ fine - certainly in the average for the year group as a whole – towards the end of Semester One they’ve started to drop off bit.Angelina: Yeah. Yes I see. I must admit that I had to take a fortnight off just after mid Semester break, and I really felt that the work l missed in those two lab ______ have made it really hard for me to understand some of the underlying material required for the rest of the course.Prof. Smith Well, thanks for being so honest, Angelina... I think we’re going to have to put some, think about putting some _______ in place, so that by the end of year assessments you’re going to have a fair chance of passing.Angelina: Well, yeah, thanks Professor Smith, I couldn’t agree more but must admit I’m at the point _______ I don’t really know where to start to get on top of this.',
+        array:['enrolled','initially','sessions','strategies','where']
+    },
+    {
+        index: 14,
+        title:'Brad and Lisa',
+        titleDescription:'Brad和Lisa',
+        china:'布拉德：正如我所说，米切尔教授。。。利萨：哦，请叫我利萨。布拉德：是的，好吧，丽莎，好吧我还在想办法第三年课程选修部分的【选修课】。我本来想学习个人税法和公司税，以及关于商品和服务以及增值税类型的额外五个学分课程，但我有点【担心】我会在课程中过早地放弃自己。丽莎：是的，嗯。布拉德：正如你所知，夏季职员的【面试】即将到来，我真的不想给人留下太专注于某些领域的印象，而这些领域很多公司甚至都没有做过，你知道，也没有实践经验。莉萨：好吧，别忘了，这个阶段只有大约25%的课程是选修的，你仍然会有核心科目——犯罪、法律机构、【证据】、财产法、一般商业法和联邦欺诈法，所有这些都会引起很多公司的兴趣。所以，如果我是你，而我不是，我真的会按照我的兴趣去做，并享受在我【有动力】追求的领域从事一些工作的机会。你不觉得吗？在这个职业中，有很多时间你会在那些你并不真正感兴趣的项目上承担漫长而紧张的工作。',
+        english:'Brad: As I was saying, Professor Mitchell...Lisa: Oh, please call me Lisa.Brad: Yes, well Lisa, well l_m still trying to get my head around the choice of ______ for the optional part of the third year program. I was thinking of taking personal taxation law, and company tax, together with the extra five-credit-point course on goods and services and VAT type taxes, but I_m a bit ______ that I_m going to pigeon-hole myself too early in the course.Lisa: Yeah, hmmm.Brad: As you know there are going to be ______ for summer clerkships coming up and I really don’t want to come across as too focused on certain areas that a lot of firms don_t even do, you know, have a practice in.Lisa: Well, don_t forget, um. only about 25% of the course at this stage is elective-based and you_ll still have that core of subjects - crim, legal institutions, _______, property law, general commercial and fed-con law, all of which would be of interest to a lot of firms. So if I were you, which I’m not, I’d really just go with what my interests are, and enjoy the chance to undertake some work in an area that I_m _______ to pursue. Don_t you think? There_s an awful lot of time in this profession where you_ll be undertaking long, stressful hours on projects that don_t really interest you as much.',
+        array:['electives','concerned','interviews','evidence','motivated']
+    },
+    {
+        index: 15,
+        title:'Largest Ocean',
+        titleDescription:'最大的海洋',
+        china:'终于有了一个基地，这个世界上最大的海洋可以从这里走得更远【探索】。许多问题仍未得到解答。海洋有多大，有多少【未被发现】的陆地？在大溪地不远处的海洋中，有一块【神秘】的大陆吗？当然，如果它存在，也许会有人居住人口【稠密】。',
+        english:'Here at last was a base from which this largest ocean in the world could be further ______. Many questions were still unanswered. How large was the ocean, and how many _______ lands did it hold? Way out in the ocean, not far from Tahiti, did there lie a _______ continent? Surely if it existed, it would be inhabited, perhaps _____ inhabited.',
+        array:['explored','undiscovered','mysterious','densely']
+    },
+    {
+        index: 16,
+        title:'Multi-million-selling Internet Book',
+        titleDescription:'百万销量的网络图书',
+        china:'这本销量数百万的互联网书籍仍然是【新手】和专家的终极手册。它是用通俗的英语写的，涵盖了从第一次上网到新闻推送的【所有内容】。这本经过全面【修订】的指南涵盖了所有最新的网站和【狂热】。无论你是从未发送过电子邮件，还是只想了解最新信息【发展】，这是给你的书。',
+        english:'This multi-million-selling Internet book is still the ultimate handbook for ______ and experts alike. It’s written in plain English, it covers ______ from getting online for the first time to newsfeeds. This fully ______ guide covers all the latest sites and ______. Whether you_ve never sent an email or you just want to keep up with the latest ______, this is the book for you.',
+        array:['novices','everything','revised','crazes','developments']
+    },
+    {
+        index: 17,
+        title:'Giorgio Vasari',
+        titleDescription:'瓦萨里',
+        china:'乔治·瓦萨里是一位颇有成就的画家和建筑师，但他最【为人所铭记的】是他富有启发性的传记……他将意大利艺术跨越三个【世纪】的发展追溯到莱昂纳多和米开朗基罗的黄金时代。伟大的人物和他们不朽的作品【栩栩如生】，瓦萨里描绘了年轻的乔托在石头上抓挠他的冷杉画。多纳泰罗凝视着布鲁内莱斯基的十字架和米开朗基罗的十字架西斯廷教堂的【艰苦】工作，受到了【不耐烦的】教皇朱利叶斯二世的骚扰。',
+        english:'Giorgio Vasari was an accomplished painter and architect, but it is for his illuminating biographies that he is best ______ he traces the development of Italian art across three ______ to the golden epoch of Leonardo and Michelangelo. Great men, and their immortal works, are brought _______ to life, as Vasari depicts the young Giotto scratching his firs drawings on stone. Donatello gazing at Brunelleschi_s crucifix, and Michelangelo_s _______ work on the Sistine Chapel, harassed by the _______ Pope Julius II.',
+        array:['remembered','centuries','vividly','painstaking','impatient']
+    },
+    {
+        index: 18,
+        title:'Takeaway Science',
+        titleDescription:'外卖科学',
+        china:'欢迎收看外卖科学，这是开放大学Blast制作的一系列短播客中的另一个。现在请【注意】，在构成这个特定播客的三个序列中，有不止一点化学反应。稍后，我们将采访开放大学分子科学专业的学生Ian Baines，然后OU化学【教授】Peter Taylor将向我们讲述他参与英国【广播】公司OU科学广播的情况。但首先，我将与另一位OU化学【学者】Sotiris Missailidis博士讨论他对癌症的研究，但我首先问Sotiris他的研究【涉及】什么。',
+        english:'Welcome to takeaway science, another in the series of short podcasts produced by Blast at the Open University. Now be _______, there is more than a hint of chemistry in the three sequences that make up this particular podcast. Later on, we will catch up with Ian Baines, a student studying molecular sciences with the Open University, then OU Chemistry _________ Taylor, gets to tell us about his involvement with OU science ________ on the BBC. But first of all, I am going to talk with another OU chemistry _______, Dr Sotiris Missailidis, about his research into cancer, but I started off by asking Sotiris what his research _______.',
+        array:['warned','Professor','broadcasting','academic','involved']
+    },
+    {
+        index: 19,
+        title:'Genre',
+        titleDescription:'体裁',
+        china:'我喜欢这一类型。我喜欢看，我喜欢读，我喜欢在里面【工作】。从工作的角度来看，我认为流派是一种免费的礼物。它给了你各种可以【颠覆】的东西。如果你不确定自己要去哪里，流派会告诉你去哪里，如果没有其他东西，流派能做的就是为你提供一个【结构】。我认为你最终很可能会颠覆它，真的只是为了娱乐自己，否则你只会重复别人以前做过很多事情，而且可能比你现在做得更【成功】。但就我个人而言，我认为写作的一大诀窍是让自己不感到无聊，保持【动力】和兴趣。所以你必须离开，只是为了让自己开心，以某种方式让自己兴奋起来。',
+        english:'I love genre. I like watching it and I like reading it and I like ______ within it. From the point of view of work, I think genre_s a kind of free gift. It gives you all sorts of things you can ______. And if you_re unsure about where you_re going with something, genre will tell you where to go and if nothing else, what genre can do is it can provide you with a ______. I think that you then are likely to end up subverting it, really just to keep yourself entertained because otherwise you will just be retreading stuff that other people have done a lot before and probably more ________ than you_re doing, as well, But personally I think that one of the big tricks to writing is to keep yourself from getting bored, to keep yourself _______ and interested. So you have to move away just to keep yourself entertained, keep yourself fired up about it in some kind of way.',
+        array:['working','subvert','structure','successfully','motivated']
+    },
+    {
+        index: 20,
+        title:'Difference in Policy',
+        titleDescription:'政策差异',
+        china:'政策上的一个重大差异仍然存在；这个【联盟】并没有达到工党最重要的创新承诺。这是将创新、工业、科学和研究的责任集中在一位联邦部长的领导下。创新责任【目前】由强大的教育和科学部承担，虽然有一个【独立】的行业部门，但它在内阁中几乎没有影响力。这阻碍了政策的制定，并使澳大利亚的创新政策具有明显的科学和研究【偏见】。堪培拉的创新政策是由科学家而不是工程师来决定的，所以我们的政策都是为了【促进】政府资助的研究，并在以后将其成果【商业化】，这也就不足为奇了。',
+        english:'One seminal difference in policy remains; the _______ has not matched what is Labor_s most important innovation promise. That is to bring together responsibilities for innovation, industry, science and research under one single federal minister. Innovation responsibilities _______ lie within the powerful Department of Education and Science, and while there is a ________ industry department, it has little influence within Cabinet. This has _______ policy development and given Australia_s innovation policies a distinct science and research _______. It is the scientists rather than the engineers who call the tune-in innovation policy in Canberra, so it_s no surprise our policies are all about _______ government-funded research and later ________ their results.',
+        array:['coalition','currently','separate','hampered','bias','boosting','commercializing']
+    },
+    {
+        index: 21,
+        title:'Biological Theme',
+        titleDescription:'生物学主题',
+        china:'我们决定采用【生物学】主题，作为课程的一个松散主题，这样你就可以看到化学和生物学之间的【联系】，以及你未来可能考虑做的事情。我们希望你思考与你的身体相关的【分子】，你身体中发生的过程，正在发生的化学反应，以及【能量】是如何发挥作用的。我们把这门课分为四个部分，每个部分之后都会有一个期中考试。第一个，或者考试。第一个是关于【物质】的。',
+        english:"We've decided to adopt, just as a loose theme for the course, a _______ theme so that you can see the ________ between chemistry and biology and the things you might consider doing in the future. We want you to think about the ________ that are relevant to your body, the processes that occur in your body, the chemistry that's going on and how _______ plays a role. And we divided the course into four sections and after each section there will be a mid-term. The first one, or an exam. The first one is about _______.",
+        array:['biological','connections','molecules','energy','matter']
+    },
+    {
+        index: 22,
+        title:'London Metal and Commodity Exchanges',
+        titleDescription:'伦敦金属和商品交易所',
+        china:'几乎每个人都听说过伦敦证券交易所，但【对】伦敦金属和商品交易所知之甚少——然而，这些市场对世界经济的【影响】更大，因为它们为工业和食品【制造】的一些基本原材料制定了全球价格。LME为世界有色金属贸易提供了三项基本服务。首先，这是一个可以在特定交易日买卖大量或少【量】保证最低标准的金属的市场。其次，它是世界金属价格的晴雨表。第三，它是一种“对冲”媒介：也就是说，它可以帮助交易员从经济、政治或【金融】原因引起的价格波动中获得一些保护。',
+        english:'Almost everyone has heard of the London Stock Exchange, but _________ few know anything about the London Metal and Commodity Exchanges - yet these markets have a greater _______ on world economies because they set global prices for some of the essential raw materials for industry and food ________. The LME provides three basic services to the world_s non-ferrous metal trade. First, it is a market where large or small _______ of metal of a guaranteed minimum standard can be bought and sold on specific trading days. Second, it acts as a barometer of world metal prices. And third, it is a "hedging" medium: that is, it can help traders get some protection from price fluctuations that occur for economic, political or _______ reasons.',
+        array:['relatively','influence','manufacture','quantities','financial']
+    },
+    {
+        index: 23,
+        title:'Music',
+        titleDescription:'音乐',
+        china:'不需要对对位法的复杂性有专门的【知识】，甚至不需要能够阅读音乐来理解它。通常，了解一首音乐的要点，它的情感和戏剧性【影响】，是立竿见影的，或者只是需要你更加【熟悉】它。当然，像在任何其他领域一样，对音乐及其【构图】进行长期研究会增加你的理解，但不一定会让你感到快乐。现在，我意识到，这可能需要我们有很大的意愿来冒险获得新的感觉，而且有很多音乐在你第一次【听到】时会觉得陌生和陌生。',
+        english:'It isn_t necessary to have a specialized ________ of, say, the intricacies of counterpoint, or even to be able to read music to understand it. Usually, getting the point of a piece of music, its emotional and dramatic ________, is immediate or simply requires you to become more _______ with it. Of course, prolonged study of music and its _________, as in any other field, will increase your understanding, but not necessarily your enjoyment. Now, I realize that it can require a good deal of willingness on our part to risk new sensations, and there is a lot of music that will seem unfamiliar and alien to you on a first ________.',
+        array:['knowledge','impact','familiar','composition','hearing']
+    },
+    {
+        index: 24,
+        title:'Life in Scotland before Farming',
+        titleDescription:'耕作前的苏格兰生活',
+        china:'在农业被引入苏格兰之前，人们以狩猎、捕鱼和【采集】野生食品为生。这种生活方式意味着他们通常不会在一个地方【永久】定居，而是在一定程度上游牧，四处寻找生计，也许在一年中的某些时候会回到同一个地方。据信，这些人知道奥克尼岛，但到目前为止，只发现了一些燧石【工具】来验证这一点。这是因为海岸【侵蚀】摧毁了许多古代遗址，这些遗址可能包含了一些最早开拓殖民地的【遗迹】。',
+        english:'Before farming was introduced into Scotland, people lived by hunting, fishing, and _______ wild foodstuffs. This way of life meant that they usually didn_t settle _______ in one place, but were to an extent nomadic, moving about in search of a livelihood, perhaps returning to the same places at certain times of the year. It is believed that the islands of Orkney were known to these people, but, so far, only a few flint _______ have been found to verify this. This is because coastal _______ has destroyed many ancient sites and these may have contained relics of some of these earliest pioneering _______.',
+        array:['gathering','permanently','tools','erosion','colonists']
+    },
+    {
+        index: 25,
+        title:'Paper Manufacture',
+        titleDescription:'造纸',
+        china:'纸张最早由西班牙人于12世纪在欧洲制造，尽管从10世纪开始【进口】。1276年左右，在意大利的法布里亚诺建立了一家【工厂】。该镇成为主要的造纸中心，在整个14世纪为欧洲大部分地区【提供】了优质纸张，此后一直在生产。到了15世纪，德国和法国也开始生产纸张，不久之后，这两个国家几乎完全独立于海外购买的材料。随着欧洲【可用】纸张供应的增加，【生产】相同的印刷图片几乎是不可避免的。',
+        english:'Paper was first manufactured in Europe by the Spanish in the 12th century, although it had been _______ since the 10th century. Around the year 1276, a ______ was established at Fabriano in Italy. The town became a major center for paper making and throughout the 14th century _______ most of Europe with fine quality paper, which it has continued to produce ever since. By the 15th century, paper was also being manufactured in Germany and France, and it was not long before both countries became almost completely independent of material bought overseas. With the increasing ________ of paper in Europe, the ________ of identical printed pictures became almost inevitable.',
+        array:['imported','mill','provided','availability','production']
+    },
+    {
+        index: 26,
+        title:'Spinal Cord',
+        titleDescription:'脊髓',
+        china:'脊髓是大脑和身体之间的纽带，是一条【神经】组织带，大约有你的小指那么厚，穿过脊椎。被称为运动神经元的神经细胞将电脉冲从大脑【传递】到脊髓，在适当的点分支并传递到身体的各个部位。类似地，【感觉】神经元通过脊髓将信息从器官和组织传递到大脑。但脊髓也可以在不需要大脑干预的情况下【发挥作用】；它单独控制着那些被称为脊柱【反射】的动作，这些动作需要对危险做出非常快速的反应。',
+        english:'The spinal cord - the link between the brain and the body - is a band of _______ tissue about the thickness of your little finger that runs through the backbone. Nerve cells called motor neurons _______ electric impulses that travel from the brain to the spinal cord, branching off at the appropriate point and passing to the various parts of the body. Similarly, _______ neurons transmit messages from organs and tissues via the spinal cord to the brain. But the spinal cord also ________ without the brain having to intervene; it alone controls those actions called spinal _______ that need to be carried out very fast in response to danger.',
+        array:['nervous','convey','sensory','functions','reflexes']
+    },
+    {
+        index: 27,
+        title:'Growth of the Modern state',
+        titleDescription:'现代国家的成长',
+        china:'现代【国家】的发展带来了大众政党的发展和职业政治家的出现。一个人的职业是【争夺】政治权力，他可以通过两种方式来实现。首先，一个依靠政治活动提供主要收入【来源】的人被称为靠政治生活，而一个全职【从事】政治活动但没有从中获得收入的人则被称为为为政治生活。现在，一个由那些为政治而生的人来【填补】权力职位空缺的政治体系必然来自拥有房地产的精英，而这些精英通常不是企业家。然而，这并不意味着这些政客必然会推行完全【偏向】其【所属】阶层利益的政策。',
+        english:'The growth of the modern ______ brought with it the development of mass political parties and the emergence of professional politicians. A man whose occupation is the _______ for political power may go about it in two ways. First, a person who relies on their political activities to supply their main ______ of income is said to Live off politics, while a person who _______ in full-time political activities, but who doesn_t receive an income from it, is said to live for politics. Now, a political system in which ________ to positions of power is filled by those who live for politics is necessarily drawn from a property-owning elite, who are not usually entrepreneurs. However, this is not to imply that such politicians will necessarily pursue policies which are wholly _______ towards the interests of the class they _______ from.',
+        array:['state','struggle','source','engages','recruitment','biased','originate']
+    },
+    {
+        index: 28,
+        title:'University Lecturers and Professors',
+        titleDescription:'大学讲师和教授',
+        china:'在美国，有许多关于大学讲师和教授的【观点】和行为的研究，以及对不【隶属】于大学或其他大学的著名“自由”或公共思想家的研究，这些研究表明，那些在本领域被公认为更成功或更有成效的学者，或在最好的大学里的学者，更有可能发表批评意见。也就是说，他们更有可能持有自由主义观点——用美国人的话说——而不是那些创造力较低或【声誉】较低的【同事】。从学生的测试结果或【教职员工】的声望来看，一所大学越好，就越有可能出现学生骚乱和相对偏左的教师队伍。',
+        english:'There have been many studies in America of the _______ and behavior of university lecturers and professors, and of well-known "free " or public thinkers who are not _______ to a university or other , which show that those who are recognized as being more successful or productive as scholars in their field, or are at the best universities, are much more likely to have critical opinions. That is to say that they are more likely to hold liberal views - in the American use of that word -than those of their _______ who are less creative or who have less of a _______. The better a university is, as measured by the test results of its students or by the prestige of its _______, the more likely it has been that there will be student unrest and a relatively left-of-center faculty.',
+        array:['opinions','attached','colleagues','reputation','staff']
+    },
+    {
+        index: 29,
+        title:'Chain of Events',
+        titleDescription:'事件链',
+        china:'在任何给定的情况下，无论事件链多么简单或复杂，当我们仔细观察时，通常都会发现一系列【因果】关系——它们被认为是以某种方式【联系】在一起的。分析方法旨在建立这些关系，并为基于最初看起来是单独事件的有用概括提供坚实的背景。这个过程的第一步是收集事实，然后看看是否出现了任何特定【概况】的模式。如果出现了，就有可能形成与事实相关的理论，而这种经验理论形成了【分析】和预测的有用基础。然而，仅凭这一理论是不够的；关键的第二步是通过收集更多的事实和根据事件检查预测来测试它。这些新的事实可能意味着你必须【修改】理论，记住新的事实只能反驳或【支持】一个理论，而不能证明它是正确的。',
+        english:'However simple or complex the chain of events in any given situation, when looked into it usually reveals a train of _______ relationships - they are seen to be _______ in some way. The methods of analysis aim to establish these relationships and provide a solid background for useful _______ based on what at first appear to be separate events. The first step in this process is to collect facts and then see if any particular _______ emerge. If they do, it then becomes possible to form theories related to the facts, and this type of empirical theory forms a useful basis for _______ and prediction. However, on its own this theory is not enough; the essential second step is to test it by collecting more facts and by checking predictions against events. These new facts may mean you have to _______ the theory, bearing in mind that new facts can only either disprove or ________ a theory - they cannot prove it to be right.',
+        array:['causal','linked','generalizations','patterns','analysis','modify','support']
+    },
+    {
+        index: 30,
+        title:'Montesquieu',
+        titleDescription:'孟德斯鸠',
+        china:'如果你是那种喜欢【分类】的人，很难知道如何放置孟德斯鸠。历史学家、政治哲学家、【社会学家】、法学家，或者，如果你认为《波斯书信》是一部小说，一位小说家——他就是所有这些东西。也许，正如一些人所说，他可以被归入几乎灭绝的物种之列，即【文】人。构成《法律的精神》的书对后来的思想家【影响】最大，在这些书中，正如他在《关于罗马人伟大和颓废的原因的思考》中一样，他明确了自己的根本目的。这是为了让随机的、显然毫无意义的各种事件变得可以理解；他想弄清楚历史真相是什么。当时，他的出发点是这种几乎无穷无尽的道德、【习俗】、思想、法律和制度，并从中获得一些意义。他认为，统治世界的不是偶然，除了事故的混乱之外，一定有潜在的原因【导致】了事情的明显疯狂。',
+        english:"It is difficult to know how to place Montesquieu - if you're the kind of person who likes to _______. Historian, political philosopher, _______, jurist or, if you think the Persian Letters a novel, a novelist - he was all these things. Perhaps, as some have, he could be placed among that almost extinct species, the man of _______. The books that make up The Spirit of the Laws have had the most _______ on later thinkers, and in them, as in his equally great Considerations on the Causes of the Grandeur and Decadence of the Romans, he makes his underlying purpose clear. It is to make the random, apparently meaningless variety of events understandable; he wanted to find out what the historical truth was. His starting point then was this almost endless variety of morals, _______, ideas, laws and institutions and to make some sense out of them. He believed it was not chance that ruled the world, and that, beyond the chaos of accidents, there must be underlying causes that _______ for the apparent madness of things.",
+        array:['categorize','sociologist','letters','influence','customs','account']
+    },
     // {
     //     index: 31,
     //     title:'Privacy',
