@@ -239,501 +239,126 @@ export let data= [
         english:"It is difficult to know how to place Montesquieu - if you're the kind of person who likes to _______. Historian, political philosopher, _______, jurist or, if you think the Persian Letters a novel, a novelist - he was all these things. Perhaps, as some have, he could be placed among that almost extinct species, the man of _______. The books that make up The Spirit of the Laws have had the most _______ on later thinkers, and in them, as in his equally great Considerations on the Causes of the Grandeur and Decadence of the Romans, he makes his underlying purpose clear. It is to make the random, apparently meaningless variety of events understandable; he wanted to find out what the historical truth was. His starting point then was this almost endless variety of morals, _______, ideas, laws and institutions and to make some sense out of them. He believed it was not chance that ruled the world, and that, beyond the chaos of accidents, there must be underlying causes that _______ for the apparent madness of things.",
         array:['categorize','sociologist','letters','influence','customs','account']
     },
-    // {
-    //     index: 31,
-    //     title:'Privacy',
-    //     titleDescription:'隐私',
-    //     array:[
-    //         {
-    //             english:"becoming hot ______ in the media",
-    //             china:"成为媒体的热门话题",
-    //             answer:"topics"
-    //         },
-    //         {
-    //             english:"which is a touch ______",
-    //             china:"这有点讽刺",
-    //             answer:"ironic"
-    //         },
-    //         {
-    //             english:"has been ______ for some crime",
-    //             china:"因某些罪行被监禁",
-    //             answer:"imprisoned"
-    //         },
-    //         {
-    //             english:"_______ or wrongfully",
-    //             china:"正确地或错误地",
-    //             answer:"rightfully"
-    //         },
-    //         {
-    //             english:"they are the ______ of some natural disaster",
-    //             china:"他们是一些自然灾害的受害者",
-    //             answer:"victims"
-    //         },
-    //         {
-    //             english:"teams of public _______ people",
-    //             china:"公关团队",
-    //             answer:"relations"
-    //         },
-    //     ]
-    // },
-    // {
-    //     index: 32,
-    //     title:'Information Overload',
-    //     titleDescription:'信息过载',
-    //     array:[
-    //         {
-    //             english:"There is such a thing as information ______",
-    //             china:"信息过载是存在的",
-    //             answer:"overload"
-    //         },
-    //         {
-    //             english:"we can't ______ with it or fully absorb it",
-    //             china:"我们无法应对或完全吸收它",
-    //             answer:"cope"
-    //         },
-    //         {
-    //             english:"we want to keep in our minds, or which to ______.",
-    //             china:"我们想保留在脑海中，或者丢弃哪一个",
-    //             answer:"discard"
-    //         },
-    //         {
-    //             english:"the range of choices we have as ______",
-    //             china:"我们作为消费者的选择范围",
-    //             answer:"consumers"
-    //         },
-    //         {
-    //             english:"this situation is making us _______",
-    //             china:"这种情况让我们很痛苦",
-    //             answer:"miserable"
-    //         },
-    //         {
-    //             english:"is part of a larger ______",
-    //             china:"是更大趋势的一部分",
-    //             answer:"trend"
-    //         },
-    //         {
-    //             english:"as society grows more ______",
-    //             china:"随着社会越来越富裕",
-    //             answer:"affluent"
-    //         },
-    //     ]
-    // },
-    // {
-    //     index: 33,
-    //     title:'Post-modernism',
-    //     titleDescription:'后现代主义',
-    //     array:[
-    //         {
-    //             english:"Post-modernism is broadly speaking a ______",
-    //             china:"广义上讲，后现代主义是一种反应",
-    //             answer:"reaction"
-    //         },
-    //         {
-    //             english:" tend to define it in ______ terms by telling us what it isn't",
-    //             china:"倾向于用负面的术语来定义它，告诉我们它不是什么",
-    //             answer:"negative"
-    //         },
-    //         {
-    //             english:"_______ the term had a fairly limited application",
-    //             china:"最初，这个词的适用范围相当有限",
-    //             answer:"Initially"
-    //         },
-    //         {
-    //             english:"all aspects of ______ culture",
-    //             china:"当代文化的方方面面",
-    //             answer:"contemporary"
-    //         },
-    //         {
-    //             english:"truth and reality are human-centered and _______",
-    //             china:"真理和现实是以人为中心和内在的",
-    //             answer:"internal"
-    //         },
-    //         {
-    //             english:"the primary _______ of truth in the present age is the self",
-    //             china:"当代真理的主要来源是自我",
-    //             answer:"source"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 34,
-    //     title:'Learning a Language',
-    //     titleDescription:'学习一门语言',
-    //     array:[
-    //         {
-    //             english:"quite _______",
-    //             china:"坦率地说",
-    //             answer:"frankly"
-    //         },
-    //         {
-    //             english:" they had other _______",
-    //             china:"他们还有其他选择",
-    //             answer:"options"
-    //         },
-    //         {
-    //             english:"require a ______ knowledge of a second language",
-    //             china:"需要第二语言的基本知识",
-    //             answer:"basic"
-    //         },
-    //         {
-    //             english:"When you talk to young _______ in top companies",
-    //             china:"当你与顶级公司的年轻员工交谈时",
-    //             answer:"employees"
-    //         },
-    //         {
-    //             english:"but _______ extras",
-    //             china:"但重要的额外费用",
-    //             answer:"significant"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 35,
-    //     title:'Assignment for the Holiday Period',
-    //     titleDescription:'假期分配',
-    //     array:[
-    //         {
-    //             english:"It's quite ______",
-    //             china:"很实用",
-    //             answer:"practical"
-    //         },
-    //         {
-    //             english:"It does have a written ______",
-    //             china:"它确实有一个书面元素",
-    //             answer:"element"
-    //         },
-    //         {
-    //             english:"how you ______ the data",
-    //             china:"如何收集数据",
-    //             answer:"collect"
-    //         },
-    //         {
-    //             english:"it's critical that you ______ this",
-    //             china:"你复习一下这一点至关重要",
-    //             answer:"review"
-    //         },
-    //         {
-    //             english:"its diagrammatic form and also its ______",
-    //             china:"它的图解形式及其描述",
-    //             answer:"description"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 36,
-    //     title:'Barred Owls',
-    //     titleDescription:'被禁止的猫头鹰',
-    //     array:[
-    //         {
-    //             english:"They feed on small ______, fish, birds and small reptiles",
-    //             china:"它们以小型哺乳动物、鱼类、鸟类和小型爬行动物为食",
-    //             answer:"mammals"
-    //         },
-    //         {
-    //             english:"a very ______ nocturnal predator",
-    //             china:"一种适应性很强的夜间捕食者",
-    //             answer:"adaptable"
-    //         },
-    //         {
-    //             english:"building up quite an ______ population",
-    //             china:"建立了相当多的城市人口",
-    //             answer:"urban"
-    //         },
-    //         {
-    //             english:"on other ______ species",
-    //             china:"关于其他本土物种",
-    //             answer:"native"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 37,
-    //     title:'Obtain Pearls',
-    //     titleDescription:'获取珍珠',
-    //     array:[
-    //         {
-    //             english:"were brought to the surface, opened, and ______",
-    //             china:"被带到水面，打开并搜查",
-    //             answer:"searched"
-    //         },
-    //         {
-    //             english:"this exposed them to ______ creatures and dangerous waves",
-    //             china:"这使他们暴露在敌对生物和危险的海浪中",
-    //             answer:"hostile"
-    //         },
-    //         {
-    //             english:"they held a large ______, like a rock",
-    //             china:"他们拿着一个像石头一样的大物体",
-    //             answer:"object"
-    //         },
-    //         {
-    //             english:"cultured pearl ______",
-    //             china:"养殖珍珠养殖场",
-    //             answer:"farms"
-    //         },
-    //         {
-    //             english:"so mainly for the ______ industry",
-    //             china:"所以主要是为了旅游业",
-    //             answer:"tourist"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 38,
-    //     title:'Problem for Undergraduate students',
-    //     titleDescription:'本科生的问题',
-    //     array:[
-    //         {
-    //             english:"is not only adapting to a far more ______ and formal style",
-    //             china:"不仅适应了更结构化、更正式的风格",
-    //             answer:"structured"
-    //         },
-    //         {
-    //             english:"______ information and unnecessary",
-    //             china:"有效信息和不必要信息",
-    //             answer:"valid"
-    //         },
-    //         {
-    //             english:"irrelevant ______",
-    //             china:"无关材料",
-    //             answer:"material"
-    //         },
-    //         {
-    //             english:"if not longer, to ______ what is required",
-    //             china:"如果不是更长的话，了解需要什么",
-    //             answer:"appreciate"
-    //         },
-    //         {
-    //             english:"if they are struggling with written _______",
-    //             china:"如果他们正在为书面作业而挣扎",
-    //             answer:"assignments"
-    //         },
-    //         {
-    //             english:"seek help from the ______ support services",
-    //             china:"向优秀的支持服务寻求帮助",
-    //             answer:"excellent"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 39,
-    //     title:'Question about Education',
-    //     titleDescription:'关于教育的问题',
-    //     array:[
-    //         {
-    //             english:"there is a ______ reason",
-    //             china:"有一个基因原因",
-    //             answer:"genetic"
-    //         },
-    //         {
-    //             english:"measurable level of ______",
-    //             china:"可测量的智力水平",
-    //             answer:"intelligence"
-    //         },
-    //         {
-    //             english:"the teaching and learning _______",
-    //             china:"教学过程",
-    //             answer:"process"
-    //         },
-    //         {
-    //             english:" organized, administered and ______",
-    //             china:"组织、管理和评估",
-    //             answer:"assessed"
-    //         },
-    //     ]
-    // },
-    // {
-    //     index: 40,
-    //     title:'Overview of the English Module',
-    //     titleDescription:'英语模块概述',
-    //     array:[
-    //         {
-    //             english:"as this provides an excellent ______ of the topics",
-    //             china:"因为这提供了对主题的极好概述",
-    //             answer:"overview"
-    //         },
-    //         {
-    //             english:"It's really our ______ text",
-    //             china:"这真的是我们的主要文本",
-    //             answer:"primary"
-    //         },
-    //         {
-    //             english:"how the language has ______ in these countries",
-    //             china:"语言在这些国家是如何发展的",
-    //             answer:"developed"
-    //         },
-    //         {
-    //             english:"The sections on phonology and on vocabulary will be ______",
-    //             china:"关于音韵学和词汇的章节将是非常宝贵的",
-    //             answer:"invaluable"
-    //         },
-    //         {
-    //             english:"the ______ of a couple of other essential references.",
-    //             china:"其他一些重要参考文献的细节",
-    //             answer:"details"
-    //         },
-    //     ]
-    // },
-    // {
-    //     index: 41,
-    //     title:'Women in Society',
-    //     titleDescription:'社会中的妇女',
-    //     array:[
-    //         {
-    //             english:"a number of ______ relating to women in education",
-    //             china:"与妇女受教育有关的一些问题",
-    //             answer:"issues"
-    //         },
-    //         {
-    //             english:"be considering the ______ that women play",
-    //             china:"正在考虑女性所扮演的角色",
-    //             answer:"roles"
-    //         },
-    //         {
-    //             english:"many of the same ______ that impacted on women",
-    //             china:"许多影响女性的事件",
-    //             answer:"events"
-    //         },
-    //         {
-    //             english:"I'll concentrate on the situation in ______ today",
-    //             china:"我今天将集中讨论欧洲局势",
-    //             answer:"Europe"
-    //         },
-    //         {
-    //             english:"develop over the next ______",
-    //             china:"在未来十年发展",
-    //             answer:"decade"
-    //         },
-    //     ]
-    // },
-    // {
-    //     index: 42,
-    //     title:'Laurence Stephen lowy',
-    //     titleDescription:'劳伦斯·斯蒂芬·洛伊',
-    //     array:[
-    //         {
-    //             english:"Lowry is famous for painting scenes of life in the ______ districts",
-    //             china:"洛瑞以描绘工业区的生活场景而闻名",
-    //             answer:"industrial"
-    //         },
-    //         {
-    //             english:"He developed a ______ style of painting",
-    //             china:"他形成了一种独特的绘画风格",
-    //             answer:"distinctive"
-    //         },
-    //         {
-    //             english:"is best known for his city ______ peopled with human figures",
-    //             china:"最著名的是他的城市景观中人物众多",
-    //             answer:"landscapes"
-    //         },
-    //         {
-    //             english:"often referred to as ______ men",
-    //             china:"通常被称为火柴棍人",
-    //             answer:"matchstick"
-    //         },
-    //         {
-    //             english:"mysterious unpopulated landscapes, brooding ______",
-    //             china:"神秘的无人居住的风景、沉思的肖像",
-    //             answer:"portraits"
-    //         },
-    //     ]
-    // },
-    // {
-    //     index: 43,
-    //     title:'South Australia',
-    //     titleDescription:'南澳大利亚',
-    //     array:[
-    //         {
-    //             english:"flushed out other remarks from water ______",
-    //             china:"淹没了水利学者的其他言论",
-    //             answer:"academics"
-    //         },
-    //         {
-    //             english:"had been ______",
-    //             china:"已经埋下伏笔",
-    //             answer:"foreshadowed"
-    //         },
-    //         {
-    //             english:"let alone some whole ______ of South Australia",
-    //             china:"更不用说南澳大利亚的一些地区了",
-    //             answer:"regions"
-    //         },
-    //         {
-    //             english:"drinking water comes from the ______ Murray",
-    //             china:"饮用水来自陷入困境的默里",
-    //             answer:"beleaguered"
-    //         },
-    //         {
-    //             english:"Is their ______ something we have",
-    //             china:"他们的困境是我们所面临的吗",
-    //             answer:"predicament"
-    //         },
-    //     ]
-    // },
-    // {
-    //     index: 44,
-    //     title:'Beautiful Buildings',
-    //     titleDescription:'美丽的建筑',
-    //     array:[
-    //         {
-    //             english:"Along the way we have built ______ beautiful buildings",
-    //             china:"一路走来，我们建造了厚颜无耻的美丽建筑",
-    //             answer:"unashamedly"
-    //         },
-    //         {
-    //             english:"the prestigious United Nations World ______ Award",
-    //             china:"享有盛誉的联合国世界人居奖",
-    //             answer:"Habitat"
-    //         },
-    //         {
-    //             english:"We rely on older ______ of Australian architecture",
-    //             china:"我们依赖澳大利亚建筑的古老概念",
-    //             answer:"concepts"
-    //         },
-    //         {
-    //             english:"allow them to ______ outdoors",
-    //             china:"允许他们在户外社交",
-    //             answer:"socialize"
-    //         },
-    //         {
-    //             english:"We use a lot of ______ and soft materials",
-    //             china:"我们使用了很多天然和柔软的材料",
-    //             answer:"natural"
-    //         },
-    //     ]
-    // },
-    // {
-    //     index: 45,
-    //     title:'Sunflowers by Van Gogh',
-    //     titleDescription:'梵高的向日葵',
-    //     array:[
-    //         {
-    //             english:"the finest of several ______",
-    //             china:"几种描绘中最好的",
-    //             answer:"depictions"
-    //         },
-    //         {
-    //             english:"Van Gogh referred to this work as a ______ of the London painting.",
-    //             china:"梵高称这幅作品是对伦敦画作的“重复”",
-    //             answer:"repetition"
-    //         },
-    //         {
-    //             english:"art historians and curators have long been ______ to know",
-    //             china:"长期以来，艺术历史学家和策展人一直很想知道",
-    //             answer:"curious"
-    //         },
-    //         {
-    //             english:"An ______ research project conducted over the past three years",
-    //             china:"在过去三年中进行的一个广泛的研究项目",
-    //             answer:"extensive"
-    //         },
-    //         {
-    //             english:"not intended as an exact copy of the ______ example",
-    //             china:"并非作为原始示例的精确副本",
-    //             answer:"original"
-    //         },
-    //     ]
-    // },
+    {
+        index: 31,
+        title:'Privacy',
+        titleDescription:'隐私',
+        china:'隐私和隐私权正日益成为媒体的热门【话题】，这有点【讽刺】，因为侵犯隐私的往往是媒体。这不仅仅是那些职业生涯使他们成为公众关注的人，而是那些非因自身过错而因一些引起媒体关注的事件而引起公众注意的普通人。这可能是因为他们的家庭成员因某种罪行而【被监禁】，无论是【正当的】还是错误的，也可能是他们是某种自然灾害的受害者。一些人认为，那些选择进入公共领域，并拥有公共【关系】团队以确保尽可能多地获得公众关注的人——演员、摇滚明星。政客和诸如此类的人已经放弃了他们的隐私权，得到了他们应得的一切。',
+        english:'Privacy and the right to privacy are increasingly becoming hot ______ in the media, which is a touch ______, given that it is often the media that is responsible for invasion of privacy. This is not just about those whose careers put them in the public eye, but ordinary people who through no fault of their own have come to public notice because of some event that has attracted the attention of the media. It might be that a member of their family has been ________ for some crime, ________ or wrongfully, or perhaps they are the _______ of some natural disaster. Some people argue that those who have chosen to be in the public sphere, and have teams of public _______ people to make sure they get as much public attention as possible - actors, rock stars. politicians and the like - have given up their right to privacy and get everything they deserve.',
+        array:['topics','ironic','imprisoned','rightfully','victims','relations']
+    },
+    {
+        index: 32,
+        title:'Information Overload',
+        titleDescription:'信息过载',
+        china:'这就是信息【过载】。现在有太多的信息，我们无法【应对】或完全吸收，甚至无法决定我们想把其中的哪些部分留在脑海中，或者【丢弃】哪些。作为【消费者】，我们的选择范围也有类似的情况。有太多的东西，太多的选择，根据一些专家的说法，这种情况让我们很【痛苦】。我们大多数人认为，我们必须从中选择的越多越好，但显然，我们对这种丰富的选择的不满，或者更确切地说，它所产生的焦虑，是一个更大【趋势】的一部分。似乎，随着社会变得更加【富裕】，人们变得更自由地做他们想做的事，他们就变得越不快乐。',
+        english:'There is such a thing as information _______. There is just so much information out there now that we can_t _______ with it or fully absorb it, or even decide which bits of it we want to keep in our minds, or which to ________. There is a similar thing going on with the range of choices we have as ________. There is so much stuff out there, so much to choose from, that, according to some experts, this situation is making us _______. Most of us believe that the more we have to choose from the better, yet apparently ourdissatisfaction with this wealth of choice, or rather the anxiety it produces, is part of a larger _______. It seems that, as society grows more _______ and people become freer to do what they want, the unhappier they become.',
+        array:['overload','cope','discard','consumers','miserable','trend','affluent']
+    },
+    {
+        index: 33,
+        title:'Post-modernism',
+        titleDescription:'后现代主义',
+        china:'广义上讲，后现代主义是对现代主义运动或时代的【反应】，或者可能只是对现代主义的价值观和信仰的反应。大多数人，即使是那些似乎知道它是什么或是关于什么的人，也倾向于用【负面】的术语来定义它，告诉我们它不是什么或不做什么。【最初】，这个词的应用相当有限，指的是一种新的反现代主义建筑风格。但它像病毒一样传播，几乎涵盖了【当代】文化的所有方面。我们可以肯定的一件事是，它想摆脱所谓的宏大叙事，我们通过这些叙事来解释世界和历史是如何让我们从过去走到现在的。后现代主义的另一个特点是相信真理和现实是以人为中心和【内在的】。也就是说，在当今时代，真理的主要【来源】是自我。我相信，这一切现在都过去了，被扔进了嗨故事的垃圾桶。然而，很难知道信息技术时代是证实了后现代主义的过去，还是它的结果。',
+        english:'Post-modernism is broadly speaking a _______ against the movement or the period, or perhaps simply the values and beliefs of, modernism. Most people, even those who seem to know what it is or was about, tend to define it in ______ terms by telling us what it isn_t, or doesn_t do. _______ the term had a fairly limited application and referred to a new anti-modernist style of architecture. But it spread like a virus to include almost all aspects of _______ culture. One thing we can be sure about is that it wanted to get rid of what were called the grand narratives by which we explained how the world - and history - got us from the past to the present. Another feature of post-modernism is its belief that truth and reality are human-centered and _______. That is, the primary _______ of truth in the present age is the self. This, I believe, has now all passed and been thrown in the rubbish bin of hi story. Yet it is difficult to know whether the age of information technology confirms the passing of post-modernism or is a consequence of it.',
+        array:['reaction','negative','Initially','contemporary','internal','source']
+    },
+    {
+        index: 34,
+        title:'Learning a Language',
+        titleDescription:'学习一门语言',
+        china:'在课堂上学习一门语言从来都不是一件容易的事，【坦率地说】，如果有其他【选择】，大多数人也不会选择这种方式。话虽如此，将语言保留在学校课程中有很多理由。首先，相当多的学生继续从事商业和商业工作，这些工作需要掌握第二语言的【基本】知识。当你与顶级公司的年轻【员工】交谈时，他们似乎从一开始就有职业规划；他们被激励去寻找更多的东西来写在简历上——当然，语言也是其中之一，但也是【重要】的额外内容。',
+        english:'Learning a language in the classroom is never easy and, quite _______ it_s not the way that most people would choose to learn if they had other ______. Having said that, there are plenty of reasons for keeping languages on the school curriculum. For one thing, a fair number of students go on to take jobs in business and commerce that require a _______ knowledge of a second language. When you talk to young _______ in top companies, it seems that they had a career plan from the start; they were motivated to find additional things to put on their CVs - and of course language is one of those added, but _______ extras.',
+        array:['frankly','options','basic','employees','significant']
+    },
+    {
+        index: 35,
+        title:'Assignment for the Holiday Period',
+        titleDescription:'假期分配',
+        china:'我要为假期安排的作业是我们多年来一直给学生的。它非常【实用】，可以让你出去走动——一直被关在房间里是没有好处的！它也有书面【元素】。嗯，基本上这是一个数据收集练习，关于如何【收集】数据有两种选择。我们一会儿再看一遍。我还将给你一个链接到一个互联网网站，这个网站是——在你做任何事情之前，你都必须仔细【审查】它，因为它在数据展示方面提供了很多指导，无论是在你如何绘制数据方面——它的图表形式还是【描述】，都必须清晰。',
+        english:"The assignment that I_m going to set for the holiday period is one that we_ve given students for a number of years. It's quite _______ and will allow you to get out and about - it's no good being shut up in your rooms all the time! It does have a written _______, too. Um, basically it's a data gathering exercise and there are two choices with regard to how you ________ the data. We'll go through those in a moment. I'm also going to give you a link to an internet site that is - well it's critical that you ________ this before you do anything, as it provides a lot of guidance on data presentation, both in terms of how you plot it - its diagrammatic form and also its _________, which has to be clear.",
+        array:['practical','element','collect','review','description']
+    },
+    {
+        index: 36,
+        title:'Barred Owls',
+        titleDescription:'被禁止的猫头鹰',
+        china:'北美各地茂密的森林中都可以找到枯死猫头鹰。它们以小型【哺乳动物】、鱼类、鸟类和小型爬行动物为食——几乎所有它们遇到的东西。斑猫头鹰长到半米高，已经成为一种【适应性】很强的夜间捕食者。尽管人们长期以来一直认为它们生活在古老的森林中，但现在它们正在积累相当多的【城市】人口。在北卡罗来纳州的夏洛特市，斑猫头鹰倾向于在城市街道两旁众多的柳树橡树的洞穴中筑巢。猫头鹰非但没有濒临灭绝，反而扩大了它们的活动范围；现在，在一些地方，环保主义者担心它们可能会对其他【本土】物种产生影响。',
+        english:'Barred owls can be found in dense forests right across North America. They feed on small _______, fish, birds and small reptiles - pretty much anything that comes their way. The barred owl grows up to half a metre tall and has emerged as a very ________ nocturnal predator. Whereas they have been long-thought to live in old-growth forests, they are now building up quite an ______ population. In Charlotte, North Carolina, barred owls tend to nest in the cavities of the numerous willow oak trees that line the city_s streets. Far from being endangered, the owls have expanded their range; and now, in some places, conservationists are worried about the effects they might have on other _______ species.',
+        array:['mammals','adaptable','urban','native']
+    },
+    {
+        index: 37,
+        title:'Obtain Pearls',
+        titleDescription:'获取珍珠',
+        china:'在20世纪初之前，获得珍珠的唯一方法是手工从海底收集大量的珍珠牡蛎。牡蛎——有时是贻贝——被带到水面，打开并【搜查】。为了只找到三四颗优质珍珠，必须对其中的一吨以上进行检查。潜水员往往一口气就下降到100英尺以上的深度。当然，这让它们暴露在【敌对】生物和危险的海浪中，更不用说溺水了。在一些地区，潜水员在身上涂上油脂以保存热量，他们拿着一个像岩石一样的大【物体】下降，这样他们就不必在下降时用力了。如今，珍珠养殖【场】已经取代了珍珠潜水。颗粒被植入牡蛎中，以促进珍珠的形成，这使得生产更加可预测。仍在工作的潜水员主要是为了【旅游】业。',
+        english:'Before the beginning of the 1900s, the only way to obtain pearls was by collecting very large numbers of pearl oysters from the ocean floor by hand. The oysters - or sometimes mussels - were brought to the surface, opened, and _______. More than a ton of these had to be checked in order to find just three or four quality pearls. Divers often descended to depths of over 100 feet on just one single breath. Now, of course this exposed them to _______ creatures and dangerous waves, not to mention drowning. In some areas, divers put grease on their bodies to conserve heat and they held a large _______, like a rock, to descend so they didn_t have to exert effort going down. Today, pearl diving has pretty much been supplanted by cultured pearl _______. Particles are implanted in the oyster to encourage the formation of pearls, and this allows for more predictable production. The divers who still work, do so mainly for the ________ industry.',
+        array:['searched','hostile','object','farms','tourist']
+    },
+    {
+        index: 38,
+        title:'Problem for Undergraduate students',
+        titleDescription:'本科生的问题',
+        china:'老实说，就学术写作而言，大多数本科生面临的最大问题不仅是适应更【结构化】、更正式的风格，还包括如何确定重要、【有效的】信息与不必要甚至无关的【材料】之间的区别。根据我的经验，我想说，学生们需要第一年的时间，如果不是更长的话，才能【理解】所需的内容，并开始在写作中实施这些要求。如果他们在书面【作业】中遇到困难，他们真正应该做的是向大学提供的【优秀】支持服务寻求帮助。',
+        english:'To be honest, the biggest problem for most undergraduate students, in terms of academic writing, is not only adapting to a far more ________ and formal style, but also learning how to ascertain the difference between important, _______ information and unnecessary, or even irrelevant ________. In my experience, I would say it takes students their first year, if not longer, to _______ what is required and to start to implement those requirements in their writing. What they really should be doing, if they are struggling with written _________ is to seek help from the ________ support services which are available at the University.',
+        array:['structured','valid','material','appreciate','assignments','excellent']
+    },
+    {
+        index: 39,
+        title:'Question about Education',
+        titleDescription:'关于教育的问题',
+        china:'那么，关于教育的一个重要问题是，为什么有些类型的学生很容易取得成功，而另一些学生却很难取得好成绩？嗯，有一种理论认为学术成就是有【遗传】原因的。我的意思是，某种天生的、可衡量的【智力】水平。另一个经常被讨论的理论是环境因素，如家庭和家庭教养的影响。最后一个原因与教育机构内的教学【过程】以及组织、管理和【评估方式】有关。',
+        english:'An important question about education is, then, why do some types of students achieve success easily and others struggle to do well? Well, one theory is that there is a _______ reason for academic achievement. What I mean by that is, a certain innate, measurable level of ________. Another frequently discussed theory is environmental factors, such as the effect of home and family upbringing. A final reason is related to the teaching and learning ________ within educational institutions, and the way it is organized, administered and ________.',
+        array:['genetic','intelligence','process','assessed']
+    },
+    {
+        index: 40,
+        title:'Overview of the English Module',
+        titleDescription:'英语模块概述',
+        china:'我建议你们都试着掌握诺兰和瓦茨的《南半球的英语》，因为这为我们将在本模块中涵盖的主题提供了一个极好的【概述】。这确实是我们的【主要】文本。它有关于澳大利亚和新西兰英语历史的特别重要的章节，深入研究了英语在这些国家的【发展】情况。当你做书面作业时，关于音韵学和词汇的部分将是非常【宝贵】的，一旦我给了你一些其他重要参考资料的【细节】，我马上就会告诉你。',
+        english:"I'd recommend that you all try to get hold of English in the Southern Hemisphere by Nolan and Watts, as this provides an excellent ________ of the topics that we're going to be covering in this module. It's really our ________ text. It has particularly strong sections on the history of English in Australia and New Zealand, examining in some depth how the language has ________ in these countries. The sections on phonology and on vocabulary will be _______ when you're doing the written assignment, which I'm going to be telling you about in a moment once I've given you the _______ of a couple of other essential references.",
+        array:['overview','primary','developed','invaluable','details']
+    },
+    {
+        index: 41,
+        title:'Women in Society',
+        titleDescription:'社会中的妇女',
+        china:'本周我们将继续讨论社会中的女性问题。上周，我们研究了一些与妇女受教育有关的【问题】。如果你还记得的话，我们在学校和大学都讨论过女性。今天，我们将考虑女性在工作场所扮演的【角色】。同样，我们将从历史的角度出发，不可避免地，你会发现许多影响女性教育的【事件】也对她们的工作生活产生了重大影响。在讲座的后半部分，我将集中讨论当今【欧洲】的形势，并邀请您提出您认为未来【十年】情况可能会如何发展的建议。好的，让我们开始吧。',
+        english:"This week we're going to be continuing our discussion of women in society. Last week we looked at a number of ______ relating to women in education. If you remember, we discussed women both at school and at university. Today we're going to be considering the _____ that women play in the workplace. Again, we'll start by taking a historical perspective, and inevitably you'll find that many of the same ______ that impacted on women in education also had a major influence on their working lives. In the second half of the lecture, I'll concentrate on the situation in _______ today, and I’ll invite you to suggest how you think things are likely to develop over the next _______. OK, so let's get started.",
+        array:['issues','roles','events','Europe','decade']
+    },
+    {
+        index: 42,
+        title:'Laurence Stephen lowy',
+        titleDescription:'劳伦斯·斯蒂芬·洛伊',
+        china:'劳伦斯·斯蒂芬·洛瑞是一位英国艺术家。他的许多绘画作品都描绘了他生活和工作了40多年的兰开夏郡彭德伯里、索尔福德及其附近地区。洛瑞因在20世纪中期绘制英格兰西北部【工业】区的生活场景而闻名。他发展了一种【独特的】绘画风格，最著名的是他的【城市】景观中的人物，通常被称为“【火柴棍】人”。他画了神秘的无人居住的风景画、沉思的【肖像画】和未出版的“提线木偶”作品，这些作品是在他死后才被发现的。',
+        english:'Laurence Stephen Lowry was an English artist. Many of his drawings and paintings depict Pendlebury, Lancashire, where he lived and worked for more than 40 years, Salford and its vicinity.Lowry is famous for painting scenes of life in the ________ districts of North West England in the mid-20th century. He developed a ________ style of painting and is best known for his ______ landscapes peopled with human figures, often referred to as ""________ men"". He painted mysterious unpopulated landscapes, brooding _________ and the unpublished ""marionette"" works, which were only found after his death.',
+        array:['industrial','distinctive','city','matchstick','portraits']
+    },
+    {
+        index: 43,
+        title:'South Australia',
+        titleDescription:'南澳大利亚',
+        china:'现在这个故事已经被改写了，这只是应急计划的一部分。但这是南澳大利亚州事态急剧转变的一个症状，它引发了水资源【学者】和蒂姆·弗兰纳里等人士的其他言论，表明情况真的比今年早些时候【预测的】要糟糕得多。那么，阿德莱德，更不用说南澳大利亚的一些【地区】了，是否陷入了严重的麻烦？考虑到它的大量饮用水来自【陷入困境】的默里，我们州外的许多人可能还没有完全意识到这一点。他们的【困境】是我们作为一个国家必须面对的吗？',
+        english:"Now that the story's been scratched, it is only part of contingency planning. But it was a symptom of the dramatic turn of events in South Australia, and it flushed out other remarks from water _______ and people like Tim Flannery, indicating that things were really much worse than had been ________, even earlier this year. So is Adelaide, let alone some whole _______ of South Australia, in serious bother? Considering that the vast amount of its drinking water comes from the __________ Murray, something many of us outside the state may not have quite realized. Is their ________ something we have to face up to as a nation?",
+        array:['academics','foreshadowed','regions','beleaguered','predicament']
+    },
+    {
+        index: 44,
+        title:'Beautiful Buildings',
+        titleDescription:'美丽的建筑',
+        china:'一路走来，我们建造了【厚颜无耻的】美丽建筑，其中两座获得了著名的联合国世界【人居】奖，另一座获得了亚军：这是澳大利亚建筑首次获得这一国际荣誉。我们依赖澳大利亚建筑的古老【概念】，这些概念深受丛林的影响。所有居民都有私人阳台，可以在户外【社交】，也可以在卧室和公共区域之间创造一些“防御空间”。我们使用大量的【天然】和柔软的材料来建造美丽的景观花园。',
+        english:'Along the way we have built ________ beautiful buildings, two of which have won and another was runner-up in the prestigious United Nations World _______ Award: the first time an Australian building has received that international honour. We rely on older _______ of Australian architecture that are heavily influenced by the bush. All residents have private verandhas which allow them to _______ outdoors and also creates some "defensible space" between their bedrooms and public areas. We use a lot of _______ and soft materials to build beautiful landscape gardens.',
+        array:['unashamedly','Habitat','concepts','socialize','natural']
+    },
+    {
+        index: 45,
+        title:'Sunflowers by Van Gogh',
+        titleDescription:'梵高的向日葵',
+        china:'这两幅画都被称为“向日葵”，通常被认为是梵高1888年和1889年在阿尔勒创作的几幅【描述】厚茎、点头的花朵中最好的一幅。第一幅现藏于伦敦国家美术馆，第二幅藏于阿姆斯特丹梵高博物馆。梵高称这幅作品是对伦敦画作的“【重复】”。但艺术历史学家和策展人长期以来一直【好奇】，想知道这种“重复”与第一次有多大不同。它应该被视为复制品、独立的艺术品还是介于两者之间的东西？阿姆斯特丹大学保护与修复教授埃拉·亨德里克斯是该项目的首席研究员，她在过去三年里，国家美术馆和梵高博物馆的保护专家进行了一项【广泛的】研究项目，得出的结论是，第二幅画“并不是【原作的】精确复制品”。',
+        english:'These two paintings, both called “Sunflowers,” are generally accepted as the finest of several _______ of the thick-stemmed, nodding blooms that Van Gogh made in 1888 and 1889 during his time in Arles. The first is now in the collection of the National Gallery in London, and the second is in the Van Gogh Museum in Amsterdam. Van Gogh referred to this work as a _______ of the London painting. But art historians and curators have long been _______ to know how different this “repetition” is from the first. Should it be considered a copy, an independent artwork or something in between? An _______ research project conducted over the past three years by conservation experts at both the National Gallery and the Van Gogh Museum has concluded that the second painting was “not intended as an exact copy of the _______ example,” said Ella Hendriks, a professor of conservation and restoration at the University of Amsterdam, who was the lead researcher on the project.',
+        array:['depictions','repetition','curious','extensive','original']
+    },
     // {
     //     index: 46,
     //     title:'Nanotechnology',
