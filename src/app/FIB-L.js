@@ -359,518 +359,148 @@ export let data= [
         english:'These two paintings, both called “Sunflowers,” are generally accepted as the finest of several _______ of the thick-stemmed, nodding blooms that Van Gogh made in 1888 and 1889 during his time in Arles. The first is now in the collection of the National Gallery in London, and the second is in the Van Gogh Museum in Amsterdam. Van Gogh referred to this work as a _______ of the London painting. But art historians and curators have long been _______ to know how different this “repetition” is from the first. Should it be considered a copy, an independent artwork or something in between? An _______ research project conducted over the past three years by conservation experts at both the National Gallery and the Van Gogh Museum has concluded that the second painting was “not intended as an exact copy of the _______ example,” said Ella Hendriks, a professor of conservation and restoration at the University of Amsterdam, who was the lead researcher on the project.',
         array:['depictions','repetition','curious','extensive','original']
     },
-    // {
-    //     index: 46,
-    //     title:'Nanotechnology',
-    //     titleDescription:'纳米技术',
-    //     array:[
-    //         {
-    //             english:"a report that was put together by a ______ of the Royal Society",
-    //             china:"由英国皇家学会联合编写的一份报告",
-    //             answer:"combination"
-    //         },
-    //         {
-    //             english:"______ two topics",
-    //             china:"确定了两个主题",
-    //             answer:"identified"
-    //         },
-    //         {
-    //             english:"Nano-science is the study of ______ and the manipulation of materials at atomic",
-    //             china:"纳米科学是研究原子上的现象和材料的操纵",
-    //             answer:"phenomena"
-    //         },
-    //         {
-    //             english:"production and application of ______",
-    //             china:"结构的生产与应用",
-    //             answer:"structures"
-    //         },
-    //         {
-    //             english:"______ speaking people think of nanotechnologies",
-    //             china:"粗略地说，人们认为纳米技术",
-    //             answer:"loosely"
-    //         },
-    //     ]
-    // },
-    // {
-    //     index: 47,
-    //     title:'Carbon-rich soils',
-    //     titleDescription:'富含碳的土壤',
-    //     array:[
-    //         {
-    //             english:"the only real productive ______ solution",
-    //             china:"唯一真正有效的永久解决方案",
-    //             answer:"permanent"
-    //         },
-    //         {
-    //             english:"She's ______ that",
-    //             china:"她很沮丧",
-    //             answer:"frustrated"
-    //         },
-    //         {
-    //             english:"Australia will ______ just over 600 million tonnes of carbon",
-    //             china:"澳大利亚的碳排放量将略高于6亿吨",
-    //             answer:"emit"
-    //         },
-    //         {
-    //             english:"sequester 685 million tonnes of carbon by ______ soil carbon",
-    //             china:"通过增加土壤碳来封存6.85亿吨碳",
-    //             answer:"increasing"
-    //         },
-    //         {
-    //             english:"we could sequester the ______ world's emissions of carbon",
-    //             china:"我们可以封存全世界的碳排放",
-    //             answer:"whole"
-    //         },
-    //     ]
-    // },
-    // {
-    //     index: 48,
-    //     title:'Cars in America',
-    //     titleDescription:'美国的汽车',
-    //     array:[
-    //         {
-    //             english:"most of those vehicles, of course, are gas ______",
-    //             china:"当然，这些车辆大多是汽油动力的",
-    //             answer:"powered"
-    //         },
-    //         {
-    //             english:"the limited supplies of oil and the growing ______",
-    //             china:"石油供应有限和日益紧迫",
-    //             answer:"urgency"
-    //         },
-    //         {
-    //             english:"the technology to build ______, fast automobiles",
-    //             china:"制造时尚、快速汽车的技术",
-    //             answer:"sleek"
-    //         },
-    //         {
-    //             english:"These vehicles of tomorrow are powered by ______, electricity, bio-fuels",
-    //             china:"这些未来的汽车由氢、电和生物燃料提供动力",
-    //             answer:"hydrogen"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 49,
-    //     title:'Beekeeper',
-    //     titleDescription:'养蜂人',
-    //     array:[
-    //         {
-    //             english:"If they're lying on the ______ in front of a hive",
-    //             china:"如果它们躺在蜂巢前的地上",
-    //             answer:"ground"
-    //         },
-    //         {
-    //             english:"the bees are ______ and wingless",
-    //             china:"蜜蜂变形了，没有翅膀",
-    //             answer:"deformed"
-    //         },
-    //         {
-    //             english:"it's probably ______ mites",
-    //             china:"可能是吸血螨",
-    //             answer:"vampire"
-    //         },
-    //         {
-    //             english:"Thousands of his bee colonies simply ______",
-    //             china:"他的数千个蜂群消失了",
-    //             answer:"disappeared"
-    //         },
-    //         {
-    //             english:"To his ______, they were all empty",
-    //             china:"令他恐怖的是，他们都是空的",
-    //             answer:"horror"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 50,
-    //     title:'Dogs and Hygiene Hypothesis',
-    //     titleDescription:'狗与卫生假说',
-    //     array:[
-    //         {
-    //             english:"what’s called the ______ hypothesis",
-    //             china:"什么叫卫生假说",
-    //             answer:"hygiene"
-    //         },
-    //         {
-    //             english:"They then infected the mice with a ______ childhood infection",
-    //             china:"然后，他们用一种常见的儿童感染病毒感染小鼠",
-    //             answer:"common"
-    //         },
-    //         {
-    //             english:"called ______ syncytial virus",
-    //             china:"称为呼吸道合胞病毒",
-    //             answer:"respiratory"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 51,
-    //     title:'Locomotion',
-    //     titleDescription:'移动',
-    //     array:[
-    //         {
-    //             english:"understand the locomotion of one of our closest living ______",
-    //             china:"了解我们在世的最亲密的亲属之一的运动",
-    //             answer:"relatives"
-    //         },
-    //         {
-    //             english:"we have had a big problem ______",
-    //             china:"传统上我们遇到了一个大问题",
-    //             answer:"traditionally"
-    //         },
-    //         {
-    //             english:"spent a year recording the ______ types of locomotion",
-    //             china:"花了一年时间记录不同类型的运动",
-    //             answer:"different"
-    //         },
-    //         {
-    //             english:"the ______ cost of how they move around the forest ",
-    //             china:"它们在森林中移动的能量成本",
-    //             answer:"energetic"
-    //         },
-    //         {
-    //             english:"a large bodied ape moving around a complex ______",
-    //             china:"在复杂环境中移动的大型类人猿",
-    //             answer:"environment"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 52,
-    //     title:'Productivity in Industrial Revolution',
-    //     titleDescription:'工业革命中的生产力',
-    //     array:[
-    //         {
-    //             english:"the ______ increases in productivity",
-    //             china:"生产力的巨大提高",
-    //             answer:"tremendous"
-    //         },
-    //         {
-    //             english:"we ______ with the industrial revolution originate",
-    //             china:"我们联想到工业革命的起源",
-    //             answer:"associate"
-    //         },
-    //         {
-    //             english:"______ or new inventions",
-    //             china:"技术或新发明",
-    //             answer:"technology"
-    //         },
-    //         {
-    //             english:"on the _______",
-    //             china:"在大陆上",
-    //             answer:"continent"
-    //         },
-    //         {
-    //             english:"And ______",
-    //             china:"一起",
-    //             answer:"together"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 53,
-    //     title:'Lead-in time',
-    //     titleDescription:'提前期',
-    //     array:[
-    //         {
-    //             english:"more stock or raw ______",
-    //             china:"更多库存或原材料",
-    //             answer:"materials"
-    //         },
-    //         {
-    //             english:"meet their customer orders and ______ the time",
-    //             china:"满足客户订单并最大限度地缩短时间",
-    //             answer:"minimize"
-    //         },
-    //         {
-    //             english:"receiving the ______ from the customer",
-    //             china:"从客户那里获得收入",
-    //             answer:"revenue"
-    //         },
-    //         {
-    //             english:"his may not happen due to a number of ______",
-    //             china:"由于多种因素，他的情况可能不会发生",
-    //             answer:"factors"
-    //         },
-    //         {
-    //             english:"_______ the stock to the business",
-    //             china:"将库存交付给企业",
-    //             answer:"delivering"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 54,
-    //     title:'Malaria',
-    //     titleDescription:'疟疾',
-    //     array:[
-    //         {
-    //             english:"you're going to ______ it",
-    //             china:"你要消除它",
-    //             answer:"eliminate"
-    //         },
-    //         {
-    //             english:"mosquito ______",
-    //             china:"蚊子种群",
-    //             answer:"population"
-    //         },
-    //         {
-    //             english:"a health system across all these different ______",
-    //             china:"一个跨越所有这些不同层次的卫生系统",
-    //             answer:"levels"
-    //         },
-    //         {
-    //             english:"educational ______",
-    //             china:"教育基础设施",
-    //             answer:"infrastructure"
-    //         },
-    //         {
-    //             english:"the economic resources you need for that are quite a ______",
-    //             china:"你所需要的经济资源是一个相当大的挑战",
-    //             answer:"challenge"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 55,
-    //     title:'Corporate culture',
-    //     titleDescription:'企业文化',
-    //     array:[
-    //         {
-    //             english:"accepted and ______ questioned belief",
-    //             china:"公认且很少受到质疑的信仰",
-    //             answer:"rarely"
-    //         },
-    //         {
-    //             english:"a recent study has ______ some doubt on this principle",
-    //             china:"最近的一项研究对这一原则提出了一些质疑",
-    //             answer:"cast"
-    //         },
-    //         {
-    //             english:"the ______ of the report argue for culture",
-    //             china:"报告的作者主张文化",
-    //             answer:"authors"
-    //         },
-    //         {
-    //             english:"There is little point in every ______ marching",
-    //             china:"每个员工游行都没有什么意义",
-    //             answer:"employee"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 56,
-    //     title:'Library Catalog',
-    //     titleDescription:'库目录',
-    //     array:[
-    //         {
-    //             english:"The university ______ to over 18,000 journals across a variety of subjects",
-    //             china:"该大学订阅了18000多种学科的期刊",
-    //             answer:"subscribes"
-    //         },
-    //         {
-    //             english:"most of which are available _______",
-    //             china:"其中大部分以电子方式提供",
-    //             answer:"electronically"
-    //         },
-    //         {
-    //             english:"We need to ______ by the journal",
-    //             china:"我们需要按期刊搜索",
-    //             answer:"search"
-    //         },
-    //         {
-    //             english:"article titles are not ______ in the catalog",
-    //             china:"目录中没有列出文章标题",
-    //             answer:"listed"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 57,
-    //     title:'Belief',
-    //     titleDescription:'相信',
-    //     array:[
-    //         {
-    //             english:"The university ______ to over 18,000 journals across a variety of subjects",
-    //             china:"该大学订阅了18000多种学科的期刊",
-    //             answer:"subscribes"
-    //         },
-    //         {
-    //             english:"to ______ the world with meanings",
-    //             china:"给世界注入意义",
-    //             answer:"infuse"
-    //         },
-    //         {
-    //             english:"cast our _______ far and wide",
-    //             china:"把我们的志向广泛地投射出去",
-    //             answer:"aspirations"
-    //         },
-    //         {
-    //             english:"Believing is a _______",
-    //             china:"相信是一种承诺",
-    //             answer:"commitment"
-    //         },
-    //         {
-    //             english:"Beliefs _______ neurobiologies, bodies and ecologies acting",
-    //             china:"信仰渗透到神经生物学、身体和生态学中",
-    //             answer:"permeate"
-    //         },
-    //         {
-    //             english:"The human capacity for belief, the ______ of belief",
-    //             china:"人的信仰能力，信仰的细节",
-    //             answer:"specifics"
-    //         },
-    //     ]
-    // },
-    // {
-    //     index: 58,
-    //     title:'Life on Mars',
-    //     titleDescription:'火星上的生命',
-    //     array:[
-    //         {
-    //             english:"we use Earth as a ______",
-    //             china:"我们以地球为参考",
-    //             answer:"reference"
-    //         },
-    //         {
-    //             english:"exploring for _______ environments",
-    //             china:"探索宜居环境",
-    //             answer:"habitable"
-    //         },
-    //         {
-    //             english:"a ______ of energy",
-    //             china:"能量的来源",
-    //             answer:"source"
-    //         },
-    //         {
-    //             english:"chemical energy, and then ______ carbon",
-    //             china:"化学能，然后是有机碳",
-    //             answer:"organic"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 59,
-    //     title:'Green chemistry',
-    //     titleDescription:'绿色化学',
-    //     array:[
-    //         {
-    //             english:"a concept designed to develop _______",
-    //             china:"设计用于开发技术的概念",
-    //             answer:"technologies"
-    //         },
-    //         {
-    //             english:"an environmentally ______ way",
-    //             china:"一种与环境兼容的方式",
-    //             answer:"compatible"
-    //         },
-    //         {
-    //             english:"chemical ______",
-    //             china:"化工产品",
-    //             answer:"products"
-    //         },
-    //         {
-    //             english:"covered ______ research work",
-    //             china:"涵盖基础研究工作",
-    //             answer:"fundamental"
-    //         },
-    //         {
-    //             english:"we work with schools and on public ______ projects",
-    //             china:"我们与学校和公众了解项目合作",
-    //             answer:"understanding"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 60,
-    //     title:'Dr Google vs ChatGPT',
-    //     titleDescription:'谷歌博士与ChatGPT',
-    //     array:[
-    //         {
-    //             english:"which is really frustrating to a lot of ______",
-    //             china:"这对很多医生来说真的很沮丧",
-    //             answer:"physicians"
-    //         },
-    //         {
-    //             english:"having the actual ______ or context",
-    //             china:"具有实际的专业知识或背景",
-    //             answer:"expertise"
-    //         },
-    //         {
-    //             english:"being accurate in ______ what patients have",
-    //             china:"准确地确定患者的病情",
-    //             answer:"determining"
-    //         },
-    //         {
-    //             english:"______ research",
-    //             china:"初步研究",
-    //             answer:"preliminary"
-    //         },
-    //         {
-    //             english:"some _______ humans",
-    //             china:"一些未经训练的人",
-    //             answer:"untrained"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 61,
-    //     title:'Marie Curie',
-    //     titleDescription:'玛丽·居里',
-    //     array:[
-    //         {
-    //             english:"she did ______ pioneering research on radioactivity",
-    //             china:"她确实对放射性进行了开创性的研究",
-    //             answer:"conduct"
-    //         },
-    //         {
-    //             english:"she showed a lot of ______",
-    //             china:"她表现出了很大的决心",
-    //             answer:"determination"
-    //         },
-    //         {
-    //             english:"her career path and her ______",
-    //             china:"她的职业道路和激情",
-    //             answer:"passions"
-    //         },
-    //         {
-    //             english:"She also showed a lot of ______ in working",
-    //             china:"她在工作中也表现出了很大的耐心",
-    //             answer:"patience"
-    //         },
-    //         {
-    //             english:"built the first ______ X-Ray machines",
-    //             china:"制造了第一台移动式X光机",
-    //             answer:"mobile"
-    //         }
-    //     ]
-    // },
-    // {
-    //     index: 62,
-    //     title:'Entrepreneurs',
-    //     titleDescription:'企业家',
-    //     array:[
-    //         {
-    //             english:"who play by the rules are in fact critical to our ______ as a nation",
-    //             china:"事实上，遵守规则的人对我们国家的成功至关重要",
-    //             answer:"success"
-    //         },
-    //         {
-    //             english:"end this ______",
-    //             china:"结束这场衰退",
-    //             answer:"recession"
-    //         },
-    //         {
-    //             english:"______ monetary policy",
-    //             china:"稳健的货币政策",
-    //             answer:"sound"
-    //         },
-    //         {
-    //             english:"push us to ______ of innovation",
-    //             china:"将我们推向创新的前沿",
-    //             answer:"frontiers"
-    //         }
-    //     ]
-    // },
+    {
+        index: 46,
+        title:'Nanotechnology',
+        titleDescription:'纳米技术',
+        china:'什么是纳米技术？去年夏天，英国皇家学会和英国皇家工程院【联合】发布的一份报告【确定】了两个主题。纳米科学是在原子、分子和大分子尺度上研究材料的【现象】和操纵，其中的性质与更大尺度的性质有很大不同。纳米技术是通过在纳米尺度上控制形状和尺寸来设计、表征、生产和应用【结构】、器件和系统。因此，我稍后将进一步讨论什么是纳米，但【粗略地】说，人们认为纳米技术是一百纳米或更小。',
+        english:"What is nanotechnology? Well, a report that was put together by a ______ of the Royal Society and the Royal Academy of Engineering that came out last summer, _______ two topics. Nano-science is the study of _______ and the manipulation of materials at atomic, molecular and macromolecular scales, where properties differ significantly from those as a larger scale. Nanotechnologies are the design characterization, production and application of _______, devices and systems by controlling shape and size at the nanometer scale. So I'll talk a little bit more in a moment about what a nanometer is, but _______ speaking people think of nanotechnologies as being a sort of a hundred nanometers or less.",
+        array:['combination','identified','phenomena','structures','loosely']
+    },
+    {
+        index: 47,
+        title:'Carbon-rich soils',
+        titleDescription:'富含碳的土壤',
+        china:'重建富含碳的农业土壤是从大气中吸收过量二氧化碳的唯一真正有效的【永久】解决方案。她【感到沮丧】的是，科学家和政治家没有看到她所看到的同样的机会。今年，澳大利亚的碳【排放】量将略高于6亿吨。我们可以通过仅在2%的农场将土壤碳【增加】0.5%来封存6.85亿吨碳。如果我们在所有农场增加碳排放，我们就可以封存【全】世界的碳排放。',
+        english:'Rebuilding carbon-rich agricultural soils is the only real productive _______ solution to taking excess carbon dioxide from the atmosphere. She_s ________ that scientists and politicians don_t see the same opportunities she sees. This year Australia will _____ just over 600 million tonnes of carbon. We can sequester 685 million tonnes of carbon by ________ soil carbon by half a per cent on only two per cent of the farms. If we increased it on all of the farms, we could sequester the _______ world_s emissions of carbon.',
+        array:['permanent','frustrated','emit','increasing','whole']
+    },
+    {
+        index: 48,
+        title:'Cars in America',
+        titleDescription:'美国的汽车',
+        china:'美国有大约2.5亿辆汽车，在这个人口刚刚超过3亿的国家有2.5亿辆。当然，这些车辆中的大多数都是汽油【动力】的。鉴于石油供应有限和全球变暖危机日益【紧迫】，这是一个巨大的挑战。但据我们今天的客人说，有个好消息。也就是说，我们拥有制造不使用汽油的【时尚】、快速汽车的专业知识和技术。这些未来的汽车由【氢】、电、生物燃料和数字技术提供动力。而且它们已经存在了。那么，是什么阻止我们把它们放在路上呢？我们今天的客人将帮助回答这个问题。',
+        english:"There are some 250 million cars in America, 250 million cars in the country with just over 300 million people. And most of those vehicles, of course, are gas _______. This poses a huge challenge given the limited supplies of oil and the growing _______ of the global warming crisis.But there is good news, according to our guests today. And that is we have the know-how and the technology to build ____, fast automobiles that don't use gasoline. These vehicles of tomorrow are powered by _______, electricity, bio-fuels, and digital technology. And they already exist. So what's stopping us from putting them on the roads? Our guests today will help answer that.",
+        array:['powered','urgency','sleek','hydrogen']
+    },
+    {
+        index: 49,
+        title:'Beekeeper',
+        titleDescription:'养蜂人',
+        china:'Dave Hackenberg自1962年起担任养蜂人，通常只需看一眼就能知道是什么杀死了他的蜜蜂。他说，如果它们躺在蜂巢前的【地上】，很可能是杀虫剂。如果蜜蜂【变形了】，没有翅膀，那很可能是【吸血】螨。但去年秋天，哈肯伯格看到了他从未见过的东西。他的数千个蜂群【消失了】。他当时在佛罗里达州，正在揭开一些商业蜂箱的盖子。令他【恐惧】的是，他们都是空的。',
+        english:"Dave Hackenberg, a beekeeper since 1962, can usually tell what killed his bees just by looking at them. If they're lying on the ______ in front of a hive, it's probably pesticides, he says. If the bees are _______ and wingless, it's probably _______ mites. But last fall, Hackenberg saw something he had never seen before. Thousands of his bee colonies simply _______. He was in Florida at the time, pulling the lids off some of his commercial hives. To his _______, they were all empty.",
+        array:['ground','deformed','vampire','disappeared','horror']
+    },
+    {
+        index: 50,
+        title:'Dogs and Hygiene Hypothesis',
+        titleDescription:'狗与卫生假说',
+        china:'狗不仅仅是人类最好的朋友。先前的研究表明，养狗的孩子患哮喘的可能性较小。现在，一项新的研究可能会表明，如果小鼠的研究结果适用于我们，这项工作将在美国微生物学会的一次会议上发表。这项研究检验了所谓的【卫生】假说。研究人员从养狗的家中收集了灰尘。他们把房子里的灰尘喂给老鼠。然后，他们用一种名为【呼吸】道合胞病毒的【常见】儿童感染小鼠。',
+        english:"Dogs aren't just man's best friend. Previous studies have shown that kids with dogs are less likely to develop asthma. Now a new study may show how—if results from mice apply to us. The work was presented at a meeting of the American Society for Microbiology. The study tests what’s called the _______ hypothesis. The idea is that extreme cleanliness may actually promote disease later on. Researchers collected dust from homes that had a dog. They fed that house dust to mice. They then infected the mice with a _______ childhood infection called ________ syncytial virus—or RSV.",
+        array:['hygiene','common','respiratory']
+    },
+    {
+        index: 51,
+        title:'Locomotion',
+        titleDescription:'移动',
+        china:'我们正试图了解我们在世的近【亲】之一猩猩的运动，以及所有类人猿以及人类和其他类人猿的共同祖先的运动。在那个地区，我们【传统上】遇到了一个大问题，我们对它们如何在森林中移动了解很多。我去过森林，花了一年时间记录了它们使用的【不同】类型的运动，但我们不知道它们在森林中移动的【能量】成本，也不知道它们如何解决在树冠中移动的问题。我们在这里所做的是用公园或运动员来比喻一只体型庞大的猿在复杂的【环境】中移动，并让它们在我们所做的他们从未见过的球场上移动。我们将记录他们在运动时的能量消耗。',
+        english:"We are trying to understand the locomotion of one of our closest living _______, which is the orangutan, and also the locomotion of all of the apes and the common ancestor of humans and the other apes. And in that area, we have had a big problem _______, and that we know a lot about how they move around the forest. I've been out to the forest and spent a year recording the _______ types of locomotion they use, but we have no idea about the _______ cost of how they move around the forest and the solutions that they find to problems of moving around the canopy. And what we're doing here is using the park or athletes as an analogy for a large bodied ape moving around a complex ________ and getting them to move around in the course that we've made that they've never seen before. And we're going to record their energetic expenditure while they're doing it.",
+        array:['relatives','traditionally','different','energetic','environment']
+    },
+    {
+        index: 52,
+        title:'Productivity in Industrial Revolution',
+        titleDescription:'工业革命中的生产力',
+        china:'我要说的是，我们将生产力的【巨大】提高与工业革命【联系】在一起，与其说是源于科学、【技术】或新发明的变化，不如说源于态度的变化，对道德的态度，对构成【独特的】东西的态度。对财产的态度，早在英国成为个人之前，就已经在欧洲【大陆】成为了个人。对政府适当角色的态度。【加在一起】，这些态度构成了卢德分子抗议的大部分内容。',
+        english:"I'm going to argue that the _______ increases in productivity that we _______ with the industrial revolution originate not so much from changes in science or _______ or new inventions, where England was far from ______ as from changes in attitudes, attitudes towards morality, towards what constituted the good. Attitudes towards property, which became in England individuals long before it did on the _______. Attitudes toward the proper role of government. And _______, these attitudes constitute much of what the Luddites were protesting against.",
+        array:['tremendous','associate','technology','unique','continent','together']
+    },
+    {
+        index: 53,
+        title:'Lead-in time',
+        titleDescription:'提前期',
+        china:"提前期是指从企业向供应商订购更多库存或原【材料】到将货物交付给企业之间所经过的时间。企业希望导入时间尽可能短，这样他们就可以满足客户的订单，并【最大限度地缩短】从支付库存到从客户那里获得【收入】的时间。然而，这种情况可能不会发生，【原因】有很多，例如供应商收到订单的延迟，或者供应商向企业【交付】库存的卡车故障。",
+        english:"Lead-in time is the amount of time that elapses between a business placing an order with a supplier for more stock or raw _______ and the delivery of the goods to the business. Businesses want the lead-in time to be as short as possible, so that they can meet their customer orders and _______ the time between paying for the stock and receiving the ______ from the customer. However, this may not happen due to a number of ______, such as delays in the supplier receiving the order, or the breakdown of the suppliers’ lorries _______ the stock to the business.",
+        array:["materials",'minimize','revenue','factors','delivering']
+    },
+    {
+        index: 54,
+        title:'Malaria',
+        titleDescription:'疟疾',
+        china:'此外，疟疾是一种非常复杂的疾病，有着复杂的生命周期。这意味着，如果你要【消灭】它，你必须能够针对可爱的寄生虫和人类。你必须能够针对蚊子中的寄生虫，即蚊子【种群】。因此，这需要大量的资源。这需要真正良好的规划和跨所有这些不同【层面】的卫生系统。因此，我认为这方面所需的政治资本、教育【基础设施】、经济资源都是一个相当大的【挑战】。',
+        english:"Also, malaria is something that is a very complex disease with this complex life cycle. That means that if you're going to _______ it, you have to be able to target cute parasites and humans. You have to be able to target parasites in the mosquitoes, that mosquito _______. And so that requires a lot of resources. It requires really good planning and a health system across all these different _______. And so I think the political capital that you need for that, the educational _________ you need for that, the economic resources you need for that are quite a ________.",
+        array:['eliminate','population','levels','infrastructure','challenge']
+    },
+    {
+        index: 55,
+        title:'Corporate culture',
+        titleDescription:'企业文化',
+        china:'很长一段时间以来，强大的企业文化与成功密不可分，这是一种被广泛接受但【很少】受到质疑的信念。然而，最近的一项研究对这一原则【提出】了一些质疑。毕竟，该报告的【作者】主张文化。一家公司的建立可能很强大，但却是错误的。如果每个【员工】都朝着错误的方向前进，那么他们就没有什么意义了。',
+        english:"For a long time now, it's been a widely accepted and _____ questioned belief that a strong corporate culture goes hand in hand with success. However, a recent study has _____ some doubt on this principle. After all, the _____ of the report argue for culture. A company builds up may be strong, but wrong. There is little point in every _______ marching to the same tune if they are all marching in the wrong direction.",
+        array:['rarely','cast','authors','employee']
+    },
+    {
+        index: 56,
+        title:'Library Catalog',
+        titleDescription:'库目录',
+        china:'在本教程中，我们将向您展示如何使用库目录查找特定的期刊文章。该大学【订阅】了18000多种学科的期刊，其中大多数都可以通过【电子方式】使用图书馆目录找到特定的期刊文章。我们需要按期刊名称进行【搜索】，因为没有单独的文章标题在目录中【列出】。',
+        english:"In this tutorial, we will show you how to find specific journal articles using the library catalog. The university _________ to over 18,000 journals across a variety of subjects, most of which are available __________ to find a specific journal article using a library catalog. We need to _____ by the journal name as individual article titles are not ______ in the catalog.",
+        array:['subscribes','electronically','search','listed']
+    },
+    {
+        index: 57,
+        title:'Belief',
+        titleDescription:'相信',
+        china:'信仰是人类想象、创造、希望和梦想的能力，给世界【注入】意义，并将我们的【愿望】投射到四面八方。既不受个人经验的限制，也不受物质现实的限制。相信是一种【承诺】，一种投资，一种对可能性的投入。信仰【渗透到】神经生物学、身体和生态学中，在进化过程中起着动态的作用。人类的信仰能力、信仰的【细节】和我，以及我们不同的信仰体系，塑造、结构和改变了我们的日常生活、社会和周围的世界。',
+        english:"Belief is the human capacity to imagine, to be creative, to hope and dream, to _____ the world with meanings, and to cast our ________ far and wide. Limited neither by personal experience nor material reality. Believing is a ________, an investment, a devotion to possibilities. Beliefs _______ neurobiologies, bodies and ecologies acting as dynamic agents in evolutionary processes. The human capacity for belief, the ________ of belief, and I, and our diverse belief systems shape, structure and alter our daily lives, our societies, and the world around us.",
+        array:['infuse','aspirations','commitment','permeate','specifics']
+    },
+    {
+        index: 58,
+        title:'Life on Mars',
+        titleDescription:'火星上的生命',
+        china:'让它变得困难的是，即使生命在火星上进化，被保存下来的机会也很小。如果我们以地球为【参考】，我们的星球上充满了生命，但它很少保存化石记录中的生命证据。现在的重点是探索【适合居住的】环境。如果你在寻找水，一种能【源】，太阳能、热能或化学能，然后是【有机】碳，假设我们所知的地球上的生命是基于碳的。所以这就是我们在执行任务过程中要寻找的三件事。',
+        english:"The thing that makes it difficult is because even if life had evolved on Mars, the chances of being preserved are very small. If we use Earth as a _______ and our planet is teeming with life, yet it rarely preserves evidence of life of the fossil record. And the focus now is on exploring for _______ environments. If you're looking for water, a ______ of energy, either solar energy or thermal energy or chemical energy, and then ______ carbon, assuming life as we know it on Earth based on carbon. So those are sort of the three things that we're looking for in the course of our mission.",
+        array:['reference','habitable','source','organic']
+    },
+    {
+        index: 59,
+        title:'Green chemistry',
+        titleDescription:'绿色化学',
+        china:'绿色化学是一个概念，旨在开发【技术】，使化学实践对环境的损害最小或以环境【兼容】的方式进行。它涵盖了化学过程和化学【产品】。如果你愿意的话，该中心成立于大约七、八年前，其理念是提供一个涵盖【基础研究】工作、产业合作以及教育发展的活动中心。因此，我们与学校、公众【理解】项目以及网络合作。因此，我们与全球1000多人建立了联系。',
+        english:"Green chemistry is a is a concept designed to develop _______ which allow chemistry to be practiced with minimal damage to the environment or in an environmentally ________ way. And it's meant to cover both chemical processes and chemical _______. The center, if you would, set up about seven or eight years ago, and the idea was to provide a hub of activities that covered _________ research work, industrial collaboration, but also educational developments. So we work with schools and on public ________ projects as well, and also networking. So we network out to well over 1000 people around the globe.",
+        array:['technologies','compatible','products','fundamental','understanding']
+    },
+    {
+        index: 60,
+        title:'Dr Google vs ChatGPT',
+        titleDescription:'谷歌博士与ChatGPT',
+        china:'长期以来，【医生们】一直担心人们在谷歌上搜索他们的症状。有一个术语“谷歌医生”，这对很多医生来说真的很令人沮丧，因为人们在没有实际【专业知识】或背景的情况下进来，认为他们知道自己拥有什么，只需抬头一看，“我头疼。这是什么意思？”GPT软件更善于准确地【确定】患者的病情，有时还会问一些后续问题，这将有助于它进一步完善正确的诊断。公司开始对此进行研究。【初步】研究表明，人工智能的准确性令人惊讶。研究表明，它们比在线症状检查器更有效，在线症状检查器是一种让你输入症状并给出诊断的网站。它们也比一些【未经训练的】人类好。',
+        english:"Doctors have been concerned for a long time about people googling their symptoms. There's this term “Dr. Google,” which is really frustrating to a lot of _______, because people come in and think that they know what they have without having the actual ________ or context, just by having looked up, “I have a headache. What does it mean?”GPT software is much better at actually being accurate in ________ what patients have and asking sometimes follow-up questions that will help it further hone in on the correct diagnosis.Companies are starting to study this. And _________ research suggests the AIs are surprisingly accurate. Studies have shown that they work better than online symptom checkers—which are websites that let you input your symptoms and spit out a diagnosis. They’re also better than some _______ humans.",
+        array:['physicians','expertise','determining','preliminary','untrained']
+    },
+    {
+        index: 61,
+        title:'Marie Curie',
+        titleDescription:'玛丽·居里',
+        china:'我的英雄是玛丽·居里。她是一位在法国工作的波兰物理学家和化学家，她在放射性方面【进行了】开创性的研究。她也是第一位获得诺贝尔奖的女性。玛丽·居里是我心目中的英雄，因为她在追随自己的职业道路和【激情】时表现出了很大的【决心】。多年来，她也表现出了极大的【耐心】来接受实验结果。还有玛丽·居里，她设计并制造了第一台【移动】X光机。她和女儿一起在第一次世界大战的前线工作，拯救士兵。',
+        english:"My hero is Marie Curie. She was a Polish physicist and chemist working in France, and she did ______ pioneering research on radioactivity. She was also the first woman who won a Nobel prize. Marie Curie is my hero because she showed a lot of _________ in following her career path and her _______. She also showed a lot of _______ in working for years to receive results from her experiments. And Marie Curie, she designed and built the first ______ X-Ray machines. She worked on the front lines of the first World War along with her daughter saving soldiers.",
+        array:['conduct','determination','passions','patience','mobile']
+    },
+    {
+        index: 62,
+        title:'Entrepreneurs',
+        titleDescription:'企业家',
+        china:'为什么我们现在需要更多的企业家？事实上，那些创造和经营我们企业、遵守规则的企业家对我们国家的【成功】至关重要。我们需要他们，尤其是今天。企业而非政府将结束这场【衰退】。政府必须通过制定公平的规则、【健全的】货币政策以及在失业期间保护我们的同胞来提供帮助。我们必须为新的创业公司让路，这些公司将把我们推向创新的【前沿】。',
+        english:"Why do we need more entrepreneurs right now? The entrepreneurs who create and run our businesses, who play by the rules are in fact critical to our _______ as a nation. We need them especially today. Business not government, will end this _______.Government must help by creating fair rules, _______ monetary policy, and by protecting our fellow citizens in periods when they are jobless. We have to make way for the new entrepreneurialfirms that will push us to _______ of innovation.",
+        array:['success','recession','sound','frontiers']
+    },
+    {
+        index: 63,
+        title:'Entrepreneurs',
+        titleDescription:'企业家',
+        china:'以前的巧克力很难吃。他们过去常常在巧克力中添加一些东西，使其更可口，所以对于早期的巧克力来说，他们不知道如何从中提取所有的【可可脂】，所以它确实很油腻，或者可能很【油腻】，如果你把它作为饮料来做，你会在上面有这种渣滓。所以他们过去常常尝试在其中添加一些东西，比如【淀粉】和其他东西，使其成为一种更可口的产品。因此，在19世纪，他们在巧克力中添加的东西有很多【丑闻】。因此，到了19世纪70年代、19世纪80年代，有人像吉百利那样说，“我们的巧克力绝对纯净”。我们有了这个新工艺，Van Houten工艺，它现在提取了所有这些【可怕的】脂肪，我们可以用来制作吃巧克力。现在我们有了纯产品。',
+        english:"The earlier chocolate was quite unpalatable. They used to add things to it to make it more palatable, so for the early chocolate, they didn't know how to extract all the ______ fat from it, so it was, or could be quite ______ and if you made it as a drink you'd have this sort of scum on the top. So they used to try and add things to it, like ______ and things, to make it a more palatable product. So there were a lot of _______ around the kind of things they were adding to chocolate in the nineteenth century. So by the sort of 1870s, 1880s, there are people like Cadbury's saying, 'Our chocolate is absolutely pure'. We have this new process, the Van Houten process which now extracts all this ________ fat that we can use to make eating chocolate. Now we have a pure product.",
+        array:['cocoa','greasy','starch','scandals','horrible']
+    }
 ]
