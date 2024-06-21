@@ -14,6 +14,7 @@ import { WeComponent } from './kword/we/we.component';
 import { RsComponent } from './kword/rs/rs.component';
 import { SstComponent } from './kword/sst/sst.component';
 import { FibLComponent } from './kword/fib-l/fib-l.component';
+import { FibComponent } from './kword/fib/fib.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FibLComponent } from './kword/fib-l/fib-l.component';
     WeComponent,
     RsComponent,
     SstComponent,
-    FibLComponent
+    FibLComponent,
+    FibComponent
   ],
   imports: [
     BrowserModule,

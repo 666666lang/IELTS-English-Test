@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppServiseService } from 'src/app/app-servise.service';
 
 @Component({
   selector: 'app-fib-l',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FibLComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public appservise: AppServiseService
+  ) { }
   step = 0;
   score = 0;
   title = ''
@@ -37,7 +40,17 @@ export class FibLComponent implements OnInit {
     if(this.step > 5){
       alert("你的成绩为" + this.score + '分')
     }
-    let n = Math.floor(Math.random()*Object.keys(this.utily.data).length)
+    let l = Object.keys(this.utily.data).length;
+    if(this.appservise.level == 1){
+      l = 63
+    }else if (this.appservise.level == 2){
+      l = 163
+    }
+    else if (this.appservise.level == 3){
+      l = 363
+    }
+    let n = Math.floor(Math.random()*l)
+    debugger
     this.title = this.utily.data[n].title
     this.titleDescription = this.utily.data[n].titleDescription
     this.Array = this.utily.data[n].array;

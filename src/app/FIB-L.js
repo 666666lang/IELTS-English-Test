@@ -502,5 +502,45 @@ export let data= [
         china:'以前的巧克力很难吃。他们过去常常在巧克力中添加一些东西，使其更可口，所以对于早期的巧克力来说，他们不知道如何从中提取所有的【可可脂】，所以它确实很油腻，或者可能很【油腻】，如果你把它作为饮料来做，你会在上面有这种渣滓。所以他们过去常常尝试在其中添加一些东西，比如【淀粉】和其他东西，使其成为一种更可口的产品。因此，在19世纪，他们在巧克力中添加的东西有很多【丑闻】。因此，到了19世纪70年代、19世纪80年代，有人像吉百利那样说，“我们的巧克力绝对纯净”。我们有了这个新工艺，Van Houten工艺，它现在提取了所有这些【可怕的】脂肪，我们可以用来制作吃巧克力。现在我们有了纯产品。',
         english:"The earlier chocolate was quite unpalatable. They used to add things to it to make it more palatable, so for the early chocolate, they didn't know how to extract all the ______ fat from it, so it was, or could be quite ______ and if you made it as a drink you'd have this sort of scum on the top. So they used to try and add things to it, like ______ and things, to make it a more palatable product. So there were a lot of _______ around the kind of things they were adding to chocolate in the nineteenth century. So by the sort of 1870s, 1880s, there are people like Cadbury's saying, 'Our chocolate is absolutely pure'. We have this new process, the Van Houten process which now extracts all this ________ fat that we can use to make eating chocolate. Now we have a pure product.",
         array:['cocoa','greasy','starch','scandals','horrible']
+    },
+    {
+        index: 1,
+        title:'Honorary Degree',
+        titleDescription:'荣誉学位',
+        china:'惠灵顿维多利亚大学在最近的毕业典礼上授予一位杰出的天体物理学家荣誉学位。Warrick Couch教授因其对我们了解星系和暗能量的卓越贡献而【获得】了科学博士荣誉学位。Couch教授是一位杰出的天体物理学家，他在发现宇宙正在以加速的速度膨胀方面【发挥了】至关重要的作用，这一发现使顶尖科学家于2011年获得了诺贝尔物理学奖，他出席了该奖项以表彰他的贡献。在他的研究中，库奇教授使用大型地基和天基望远镜观测星系团，【这些星系团】是宇宙中最大的结构。他还参与了监督这些望远镜管理的一些国家和国际委员会。【除了】自己的研究活动外，Couch教授还致力于支持年轻的研究人员，并在国际上对天文学发表公众评论。',
+        english:"Victoria University of Wellington has conferred an honorary degree on a distinguished astrophysicist in a recent graduation ceremony. Professor Warrick Couch ______ the honorary degree of Doctor of Science for his remarkable contribution to our knowledge of galaxies and dark energy. Professor Couch is a distinguished astrophysicist who has _____ a crucial role in the discovery that the Universe is expanding at an accelerating rate, a finding which led to the lead scientists being awarded a Nobel Prize in Physics in 2011, which he attended in recognition of his contribution. In his research, Professor Couch uses large ground-based and space-based telescopes to observe galaxy clusters, _____ are the largest Structures in the Universe. He is also involved in a number of national and international committees overseeing the management of these telescopes. ___________ his own research activities, Professor Couch has worked to support young researchers and provide public comment on astronomy internationally.",
+        array:['received','played','which','In addition to']
+    },
+    {
+        index: 2,
+        title:'Keith Haring',
+        titleDescription:'Keith Haring',
+        china:'Keith Haring最初是一名地下艺术家。他的第一个著名项目是在纽约地铁站【绘制的】风格化涂鸦。哈林从一个车站走到另一个车站，用粉笔画画，并与通勤者谈论他的工作。这些涂鸦帮助他发展了自己的经典风格，他变得如此【多产】，每天画40幅画，没过多久，名声和财富就随之而来了。很快，画廊和艺术机构的收藏家都想购买哈林的全尺寸作品。这些画的价格飙升，但这与哈林的哲学不符。他相信艺术，或者【至少】他的艺术，是为每个人准备的。很快，哈林开了一家名为Pop Shop的商店，他希望这家商店能吸引更多的人。虽然在街头艺术家中有些争议，其中【一些人】指责哈林“卖光了”，但Pop Shop改变了人们对艺术与商业关系的看法。',
+        english:"Keith Haring began as an underground artist, literally. His first famous projects were pieces of stylized graffiti _____ in New York subway stations. Haring travelled from station to station, drawing with chalk and chatting with commuters about his work. These doodles helped him develop his classic style and he grew so _______, doing up to 40 drawings a day, that it was not long before fame and a measure of fortune followed. Soon, galleries and collectors from the art establishment wanted to buy full-sized pieces by Haring. The paintings skyrocketed in price but this did not sit well with Haring's philosophy. He believed that art, or ________ his art, was for everyone. Soon, Haring opened a store which he called the Pop Shop, which he hoped would attract a broad range of people. While somewhat controversial among street artists, some of _____ accused Haring of 'selling out', the Pop Shop changed the way people thought about the relationship between art and business.",
+        array:['drawn','prolific','at least','whom']
+    },
+    {
+        index: 3,
+        title:'Intelligence Comparison',
+        titleDescription:'智力比较',
+        china:"比较不同物种动物的智力是很困难的，你如何比较海豚和马？心理学家有一种观察智力的技术，这种技术不需要相关动物的合作。一个人大脑的相对大小是智力的合理指标。【跨】物种的比较并不像人们普遍预期的那样简单。大象的大脑会比人类的大，因为它是一种大型动物。【相反】，我们使用造头指数，它将动物大脑的大小与其身体的大小进行比较。根据造骨指数，地球上最亮的动物是人类，【其次是】类人猿、鼠海豚和大象。【一般来说】，以狩猎为生的动物（如犬科动物）比严格的素食主义者更聪明（你不需要太多的智慧就能胜过一片生菜）。生活在社会群体中的动物总是比孤独的动物更聪明，情商也更高。",
+        english:"Comparing the intelligence of animals of different species is difficult, how do you compare a dolphin and a horse? Psychologists have a technique for looking at intelligence that ____ not require the cooperation of the animal involved. The relative size of an individual's brain is a reasonable indication of intelligence. Comparing _____ species is not as simple as generally expected. An elephant will have a larger brain than a human has simply because it is a large beast. _______, we use the Cephalization index, which compares the size of an animal's brain with the size of its body. Based on the Cephalization index, the brightest animals on the planet are humans, ________ by great apes, porpoises and elephants. As a general _____, animals that hunt for a living (like canines) are smarter than strict vegetarians (you don't need much intelligence to outsmart a leaf of lettuce). Animals that live in social groups are always smarter and have larger EQ's than solitary animals.",
+        array:['does','across','Instead','followed','rule']
+    },
+    {
+        index: 4,
+        title:'Longevity',
+        titleDescription:'长寿',
+        china:"人们的寿命越来越长，这种长寿对销售团队来说是个好消息。这为他们的工作提供了一个更加【精确的】客户基础。对于任何【参与】制定产品营销计划的人来说，我们为什么活得更长都不是问题。他们关注的是，现在有更多的年龄组需要瞄准，这意味着销售宣传可以重复多次，以更准确地适应每一个年龄组。例如，【现在不是】【简单地】指“成年人”，而是指“刚起步的成年人”、“年轻人”和“成熟的成年人”。同样，市场不再谈论“儿童”，而是倾向于指更全面的类别，包括“儿童”、“青少年”、“青春期前”和“青少年”。就年龄而言，我们现在的人口非常多样化，这对商业来说只能是一种【奖励】。",
+        english:"People are living longer and this longevity is good news for sales teams. It results in a much more _______ customer base for them to work from. Why we are living longer is not the issue for anyone _______ in drawing up plans to market a product. What they focus on is the fact that there are now more age groups to target, which means that a sales pitch can be re-worked a number of times to more exactly fit each one. For example, ___________ referring simply to 'adults', there are now 'starting adults', 'young adults' and 'established adults'. ________, markets no longer talk about 'children', but tend to refer to a fuller range of categories that includes 'kids', 'tweens', 'pre-teens' and 'teenagers'. We now have a very diverse population in terms of age, and that can only be a ______ for business.",
+        array:['precise','involved','rather than','Similarly','bonus']
+    },
+    {
+        index: 5,
+        title:'Push and Pull',
+        titleDescription:'推拉',
+        china:"人们迁移到一个新的地区有许多不同的原因。搬家的【动机】可能来自研究人员有时所说的“推动和拉动【因素】”的组合——那些鼓励人们离开一个地区的因素，以及那些吸引人们到一个地区来的因素。激励人们搬家的一些因素【包括】寻求更好的气候、寻找更经济实惠的住房、找工作或退休、摆脱城市生活的【拥堵】、想要一个更舒适的环境以及想要靠近家人和朋友。事实上，许多复杂的因素和个人原因可能会相互作用，【促使】一个人或家人搬家。",
+        english:"People move to a new region for many different reasons. The _________ for moving can come from a combination of what researchers sometimes call 'push and pull _______' — those that encourage people to leave a region, and those that attract people to a region. Some of the factors that motivate people to move _______ seeking a better climate, finding more affordable housing, looking for work or retiring from work, leaving the _________ of city living, wanting a more pleasant environment, and wanting to be near to family and friends. In reality, many complex factors and personal reasons may _______ to motivate a person or family to move.",
+        array:['motivation','factors','include','congestion','interact']
     }
 ]
